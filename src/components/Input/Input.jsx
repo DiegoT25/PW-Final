@@ -1,4 +1,4 @@
-import "../css/Input.css"
+import "/Input.css"
 
 const Input =({props}) => {
     return (

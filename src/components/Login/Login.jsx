@@ -1,8 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-/*import Col from 'react-bootstrap/Col';*/
 import "./Login.css"
-/*import Input from "./Input";*/
+/*import Input from "../Input";*/ 
 
 const Login = () => {
 return (
@@ -12,6 +11,7 @@ return (
                 <div className="title_login">
                     <p>CREATE ACCOUNT</p>
                 </div>
+
            </div>
            
         </Row>

@@ -1,4 +1,4 @@
-import { LoginPage, Historia2 } from './components/pages'
+import { LoginPage, Historia2Page } from './components/pages'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css'
 
@@ -8,7 +8,7 @@ function App() {
       <BrowserRouter>
         <Routes>
             <Route path="/" element={<LoginPage />}/>
-            <Route path="/historia2" element={<Historia2 />}/>
+            <Route path="/historia2" element={<Historia2Page />}/>
         </Routes>
       </BrowserRouter>
     </>

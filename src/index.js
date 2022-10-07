@@ -5,17 +5,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-/*export default function App(){
-  return(
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<LoginPage />}/>
-   
-      </Routes>
-    </BrowserRouter>
-
-  )
-}*/
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

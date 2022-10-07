@@ -8,7 +8,8 @@ const LoginPage = () => {
             main={<Login />}>
                 
             </Layout>
-        </>)
+        </>
+    )
 
 }
 

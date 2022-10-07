@@ -21,7 +21,7 @@
     background-color: rgb(36, 20, 69);
     text-align: center;
     width: 600px;
-    height: 400px;
+    height: 450px;
     flex: 1;
     padding-top: 15px;
     margin-left: 450px;
@@ -68,5 +68,5 @@
     font-size: 11px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(39, 39, 39);
-    margin-top: 28px;
+    margin-top: 25px;
 }

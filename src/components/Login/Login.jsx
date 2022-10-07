@@ -1,24 +1,20 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+/*import Col from 'react-bootstrap/Col';*/
 import "./Login.css"
-/*import Title from "./Title";
-import Input from "./Input";*/
+/*import Input from "./Input";*/
 
 const Login = () => {
 return (
     <Container className="Login">
-        <Row xs="auto">
-            <Col>
-                <h1>HOLA</h1>
-            </Col>
+        <Row>
+           <div className="create_login">
+                <div className="title_login">
+                    <p>CREATE ACCOUNT</p>
+                </div>
+           </div>
+           
         </Row>
-        <Row xs="auto">
-            <Col>
-
-            </Col>
-        </Row>
-     
     </Container>
 )
 }

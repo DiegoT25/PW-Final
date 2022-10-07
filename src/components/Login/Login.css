@@ -4,3 +4,27 @@
     flex-direction: column;
     height: 100vh;
 }
+.title_login{
+    color:white;
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+    margin-left: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.create_login {
+    border: 1px;
+    border-style: solid;
+    background-color: rgb(36, 20, 69);
+    text-align: center;
+    width: 600px;
+    height: 400px;
+    flex: 1;
+    padding-top: 15px;
+    margin-left: 560px;
+    margin-right: 560px;
+    margin-top: 130px;
+ 
+}

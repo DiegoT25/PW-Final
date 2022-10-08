@@ -19,7 +19,7 @@ const Historia2 =() =>{
                     <input type="email" class="form-control" id="login" placeholder="Email" />
                     <input type="password" class="form-control" id="login" placeholder="Password" />
                 </div>
-                <Link to="/"><button type="submit" id="create_boton" aria-describedby="forgotPassword">LOGIN</button></Link>
+                <Link to="/historia3"><button type="submit" id="create_boton" aria-describedby="forgotPassword">LOGIN</button></Link>
                 <div className="text-help1">
                     <small id="text">Forgot your password?</small>
                 </div>

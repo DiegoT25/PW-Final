@@ -1,0 +1,57 @@
+.Container{
+    background-color: rgb(52, 63, 75);
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+#logo{
+    height: 200px;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.Title{
+    margin-left: 80px;
+}
+
+.Subtitle{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+h1{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;   
+    font-size: 40px;
+}
+
+h2{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.Buttons{
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+#Boton{
+    color: white;
+    background-color:  rgb(194, 91, 233);
+    text-decoration: none;
+    padding: 5px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    border-radius: 5px;
+    border-color: transparent;
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    margin-left: 20px;
+
+}

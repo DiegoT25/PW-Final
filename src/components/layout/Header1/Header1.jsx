@@ -3,7 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Nav from 'react-bootstrap/Nav';
 import Image from "react-bootstrap/Image";
-import logo from "./Imagen_menu.png";
+import logo from "../Images_header/Imagen_menu.png";
 import "./Header.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faMagnifyingGlass} from "@fortawesome/free-solid-svg-icons"
@@ -15,7 +15,7 @@ return (
     <Container className='header'>
         <Row xs={1}>
             <Col xs={3} className="justify-content-start">
-                <Image src={logo} id="logo"/>
+                <Image src={logo} id="logo_header"/>
             </Col >
             <Col xs={6} className="justify-content-center">
             <Nav>

@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import {Link} from "react-router-dom";
+import Button from "react-bootstrap/Button"
 import "./Login.css";
 
 const Login = () => {
@@ -17,7 +18,7 @@ return (
                     <input type="email" class="form-control" id="login" placeholder="Email" />
                     <input type="password" class="form-control" id="login" placeholder="Password" />
                 </div>
-                <Link to="/historia2"><button type="submit" id="create_boton">CREATE</button></Link>
+                <Link to="/historia2"><Button type="submit" id="create_boton">CREATE</Button></Link>
            </div>
            
         </Row>

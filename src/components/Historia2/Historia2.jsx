@@ -26,7 +26,7 @@ const Historia2 =() =>{
                 <div className="text-help2">
                     <small id="noAccount"><strong>Don't have an account?</strong></small>
                 </div>
-                <Link to="/historia2"><button type="submit" id="create_boton">SIGN UP</button></Link>
+                <Link to="/"><button type="submit" id="create_boton">SIGN UP</button></Link>
            </div>
            
         </Row>

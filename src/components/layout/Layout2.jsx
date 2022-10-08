@@ -2,14 +2,14 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import Header from './Header'
+import Header2 from './Header2'
 
-const Layout = (props) => {
+const Layout2 = (props) => {
 
     return (<Container fluid className="w-80">
         <Row xs={1} className="justify-content-md-center w-80">
             <Col >
-                <Header></Header>
+                <Header2></Header2>
             </Col>
         </Row>
         <Row className="justify-content-md-center w-80">
@@ -20,4 +20,4 @@ const Layout = (props) => {
     </Container>)
 }
 
-export default Layout
+export default Layout2

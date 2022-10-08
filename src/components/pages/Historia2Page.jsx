@@ -1,13 +1,13 @@
-import Layout from '../layout/Layout';
+import Layout1 from '../layout/Layout1';
 import Historia2 from '../Historia2';
 
 const Historia2Page =() =>{
     return(
         <>
-        <Layout
+        <Layout1
             main={<Historia2 />}>
                 
-            </Layout>
+            </Layout1>
         </>
     )
 }

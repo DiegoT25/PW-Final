@@ -1,4 +1,4 @@
-import { LoginPage, Historia2Page } from './components/pages'
+import { LoginPage, Historia2Page, Historia3Page } from './components/pages'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css'
 

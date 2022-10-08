@@ -10,7 +10,7 @@ import {faMagnifyingGlass} from "@fortawesome/free-solid-svg-icons"
 import {faUser} from "@fortawesome/free-solid-svg-icons"
 import {faCartShopping} from "@fortawesome/free-solid-svg-icons"
 
-const Header = () => {
+const Header1 = () => {
 return (
     <Container className='header'>
         <Row xs={1}>
@@ -49,4 +49,4 @@ return (
 
 }
 
-export default Header;
+export default Header1;

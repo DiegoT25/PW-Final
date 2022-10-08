@@ -1,13 +1,13 @@
-import Layout from '../layout/Layout';
+import Layout1 from '../layout/Layout1';
 import Login from '../Login';
 
 const LoginPage = () => {
     return (
         <>
-        <Layout
+        <Layout1
             main={<Login />}>
                 
-            </Layout>
+            </Layout1>
         </>
     )
 

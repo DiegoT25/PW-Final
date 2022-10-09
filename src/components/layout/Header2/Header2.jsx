@@ -37,7 +37,7 @@ return (
             <Col xs={3} className="justify-content-end">
                 <div className="icons_menu">
                     <Nav.Link href="" id="icons"><FontAwesomeIcon icon={faMagnifyingGlass} /></Nav.Link>
-                    <Nav.Link href="" id="icons"><FontAwesomeIcon icon={faUser} /></Nav.Link>
+                    <Nav.Link href="/historia5" id="icons"><FontAwesomeIcon icon={faUser} /></Nav.Link>
                     <Nav.Link href="" id="icons"><FontAwesomeIcon icon={faCartShopping} /></Nav.Link>
                 </div>
             </Col >

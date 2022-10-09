@@ -18,7 +18,7 @@ return (
             <Col xs={6} className="justify-content-center">
             <Nav>
                 <Nav.Item>
-                    <Nav.Link href="/" id="menu">Home</Nav.Link>
+                    <Nav.Link href="/historia3" id="menu">Home</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link href="" id="menu">About</Nav.Link>

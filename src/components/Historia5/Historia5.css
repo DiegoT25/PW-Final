@@ -31,11 +31,14 @@
     margin-top: 15px;
 }
 
+.p1 p{
+    color: rgb(52, 63, 75);
+}
+
 .p2{
     margin-top:-15px;
 }
-
-h10,p{
+.p2 p{
     color:rgb(52, 63, 75);
 }
 

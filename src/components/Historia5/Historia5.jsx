@@ -18,7 +18,37 @@ const Historia5 =() =>{
                         </div>
                     </div>
                     <div className="columna2">
-                        <h1>Hola</h1>
+                        <div className="formulario">
+                            <div className="doble">
+                                <label>First name</label>
+                                <input type="text" class="form-control" id="form_profile2_1" placeholder="" />
+                                <label>Last name</label>
+                                <input type="text" class="form-control" id="form_profile2_2" placeholder="" />
+                            </div>
+                            <div className="simple">
+                                <label>Email</label>
+                                <input type="email" class="form-control" id="form_profile1" placeholder="" />
+                                <label>Address</label>
+                                <input type="text" class="form-control" id="form_profile1" placeholder="" />
+                            </div>
+                            <div className="doble">
+                                <label>Aparmaent, suit, etc</label>
+                                <input type="text" class="form-control" id="form_profile2" placeholder="" />
+                                <label>City</label>
+                                <input type="text" class="form-control" id="form_profile2" placeholder="" />
+                            </div>
+                            <div className="doble">
+                                <label>Country/Region</label>
+                                <select class="form-control" id="form_profile2" placeholder="" />
+                                <label>Postal/zip code</label>
+                                <input type="text" class="form-control" id="form_profile2" placeholder="" />
+                            </div>
+                            <div className="simple">
+                                <label>Phone</label>
+                                <input type="text" class="form-control" id="form_profile1" placeholder="" />
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
             </Col>

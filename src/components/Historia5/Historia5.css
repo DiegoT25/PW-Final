@@ -18,11 +18,9 @@
     margin-left: 0px;
     padding-top: 15px;
     border:solid;
-    border-color: rgb(52, 63, 75);
+    border-color: transparent;
     width: 200px;
-    height: 600px;
     border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
     padding-left:20px;
     display: inline-block;
 }
@@ -46,11 +44,22 @@
     border:solid;
     border-color: rgb(52, 63, 75);
     display: inline-block;
-    border-left: transparent;
-    height: 600px;
-    margin-left: 0px;
+    height: 605px;
+    margin-left: 200px;
+    margin-top: -120px;
+    padding-left: 35px;
     width: 746px;
-    padding-top: 54px;
     border-bottom-right-radius: 8px;
     border-top-right-radius: 8px;
+
+}
+.doble{
+    display: inline-block;
+    width: 200px;
+}
+.simple{
+    width: 660px;
+}
+.formulario{
+    margin-top: 50px;
 }

@@ -42,6 +42,10 @@ h2{
     margin-top: -60px;
 }
 
+.button{
+    display: inline-block;
+}
+
 #Boton{
     color: white;
     background-color:  rgb(194, 91, 233);
@@ -52,11 +56,9 @@ h2{
     text-align: left;
     border-radius: 5px;
     border-color: transparent;
-    display: inline-block;
     width: 200px;
     height: 40px;
     margin-left: 20px;
-
 }
 
 .Footer{
@@ -94,12 +96,15 @@ h5{
     text-align: center;
     border-radius: 5px;
     border-color: transparent;
-    display: inline-block;
     width: 130px;
 }
 
 .subscribe{
     margin-top: 30px;
+}
+
+.subscribes{
+    display: inline-block;
 }
 
 p{

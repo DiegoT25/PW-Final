@@ -23,8 +23,8 @@ const Historia3 =() =>{
                     <h2>Just for what you need</h2>
                 </div>
                 <div className="Buttons">
-                    <Nav.Link href=""><Button id="Boton">Build for begginers</Button></Nav.Link>
-                    <Nav.Link href=""><Button id="Boton">Advanced building</Button></Nav.Link>
+                    <Nav.Link><Button id="Boton">Build for begginers</Button></Nav.Link>
+                    <Nav.Link><Button id="Boton">Advanced building</Button></Nav.Link>
                 </div>
             </Row>
             <Row className="Footer">
@@ -33,7 +33,7 @@ const Historia3 =() =>{
                         <h5><strong>Sign up to our newsletter for the latest PC news.</strong></h5>
                         <div className="subscribe">
                             <input type="email" class="form-control" id="footer_subscribe" placeholder="Email" />
-                            <Nav.Link href=""><Button type="submit" id="subscribe_button">SUBSCRIBE</Button></Nav.Link>
+                            <Nav.Link><Button type="submit" id="subscribe_button">SUBSCRIBE</Button></Nav.Link>
                         </div>
                     </Col>
 

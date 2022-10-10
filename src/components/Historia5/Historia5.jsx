@@ -70,7 +70,7 @@ const Historia5 =() =>{
                             <Nav.Link href=""><Button type="submit" id="update_button">Update Info</Button></Nav.Link>
                         </div>
                         <div className="cancel_button">
-                            <Nav.Link href=""><Button type="reset" id="cancel_button">Cancel</Button></Nav.Link>
+                            <Button type="reset" id="cancel_button">Cancel</Button>
                         </div>
                     </div>
                 </div>

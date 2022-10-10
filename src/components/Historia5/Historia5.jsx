@@ -20,11 +20,16 @@ const Historia5 =() =>{
                     <div className="columna2">
                         <div className="formulario">
                             <div className="doble">
-                                <label>First name</label>
-                                <input type="text" class="form-control" id="form_profile2_1" placeholder="" />
-                                <label>Last name</label>
-                                <input type="text" class="form-control" id="form_profile2_2" placeholder="" />
+                                <div className="label1">
+                                    <label>First name</label>
+                                    <input type="text" class="form-control" id="form_profile2_1" placeholder="" />
+                                </div>
+                                <div className="label2">
+                                    <label>Last name</label>
+                                    <input type="text" class="form-control" id="form_profile2_2" placeholder="" />
+                                </div>
                             </div>
+                            
                             <div className="simple">
                                 <label>Email</label>
                                 <input type="email" class="form-control" id="form_profile1" placeholder="" />

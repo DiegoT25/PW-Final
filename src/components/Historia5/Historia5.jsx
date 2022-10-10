@@ -2,6 +2,7 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import Nav from "react-bootstrap/Nav";
+import Countries from "./Country-list";
 import "./Historia5.css";
 
 const Historia5 =() =>{
@@ -53,7 +54,7 @@ const Historia5 =() =>{
                             <div className="doble">
                                 <div className="label1">
                                     <label>Country/Region</label>
-                                    <select class="form-control" id="form_profile2" placeholder="" />
+                                    <Countries></Countries>
                                 </div>
                                 <div className="label2">
                                     <label>Postal/zip code</label>

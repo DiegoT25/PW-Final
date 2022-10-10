@@ -62,7 +62,7 @@
     margin-top: -25px;
 }
 .formulario{
-    margin-top: 50px;
+    margin-top: 35px;
 }
 
 .label1, .label2{
@@ -111,4 +111,8 @@
     text-align: left;
     border-radius: 5px;
     border-color: transparent;
+}
+.form-control{
+    height: 40px;
+    font-size: 15px;
 }

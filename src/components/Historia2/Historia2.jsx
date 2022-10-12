@@ -7,7 +7,7 @@ import "./Historia2.css";
 const Historia2 =() =>{
 
     return(
-        <Container className="Login">
+        <Container fluid className="Login">
         <Row>
            <div className="create_login">
                 <div className="title_login">
@@ -17,8 +17,8 @@ const Historia2 =() =>{
                     <small id="text">Log in with your details below to view your order.</small>
                 </div>
                 <div className= "inputs">
-                    <input type="email" class="form-control" id="login" placeholder="Email" />
-                    <input type="password" class="form-control" id="login" placeholder="Password" />
+                    <input type="email" className="form-control" id="login" placeholder="Email" />
+                    <input type="password" className="form-control" id="login" placeholder="Password" />
                 </div>
                 <Link to="/historia3"><Button type="submit" id="create_boton" aria-describedby="forgotPassword">LOGIN</Button></Link>
                 <div className="text-help1">

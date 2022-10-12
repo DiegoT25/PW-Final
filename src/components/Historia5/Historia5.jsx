@@ -12,7 +12,7 @@ const Historia5 =() =>{
             <Col>
                 <div className="data_profile">
                     <div className="columna1">
-                        <h10><strong>Default</strong></h10>
+                        <h6><strong>Default</strong></h6>
                         <div className="p1">
                             <p>Ed Va</p>
                         </div>
@@ -25,30 +25,30 @@ const Historia5 =() =>{
                             <div className="doble">
                                 <div className="label1">
                                     <label>First name</label>
-                                    <input type="text" class="form-control" id="form_profile2_1" placeholder="" />
+                                    <input type="text" className="form-control" id="form_profile2_1" placeholder="" />
                                 </div>
                                 <div className="label2">
                                     <label>Last name</label>
-                                    <input type="text" class="form-control" id="form_profile2_2" placeholder="" />
+                                    <input type="text" className="form-control" id="form_profile2_2" placeholder="" />
                                 </div>
                             </div>
                             
                             <div className="simple">
                                 <label>Email</label>
-                                <input type="email" class="form-control" id="form_profile1" placeholder="" />
+                                <input type="email" className="form-control" id="form_profile1" placeholder="" />
                                 <div className="address">
                                     <label>Address</label>
-                                    <input type="text" class="form-control" id="form_profile1" placeholder="" />
+                                    <input type="text" className="form-control" id="form_profile1" placeholder="" />
                                 </div>
                             </div>
                             <div className="doble">
                                 <div className="label3">
                                     <label>Aparmaent, suit, etc</label>
-                                    <input type="text" class="form-control" id="form_profile2" placeholder="" />
+                                    <input type="text" className="form-control" id="form_profile2" placeholder="" />
                                 </div>
                                 <div className="label4">
                                     <label>City</label>
-                                    <input type="text" class="form-control" id="form_profile2" placeholder="" />
+                                    <input type="text" className="form-control" id="form_profile2" placeholder="" />
                                 </div>
                             </div>
                             <div className="doble">
@@ -58,12 +58,12 @@ const Historia5 =() =>{
                                 </div>
                                 <div className="label2">
                                     <label>Postal/zip code</label>
-                                    <input type="text" class="form-control" id="form_profile2" placeholder="" />
+                                    <input type="text" className="form-control" id="form_profile2" placeholder="" />
                                 </div>
                             </div>
                             <div className="simple">
                                 <label>Phone</label>
-                                <input type="text" class="form-control" id="form_profile1" placeholder="" />
+                                <input type="text" className="form-control" id="form_profile1" placeholder="" />
                             </div>
                         </div>
                         <div className="update_info">

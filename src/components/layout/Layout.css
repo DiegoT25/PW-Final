@@ -1,4 +1,6 @@
-.cont_layout{
-    width: 100vw;
-    height: 100vh;
+.container{
+    margin-right : 0 !important;
+    margin-left : 0 !important;
+    padding-right : 0 !important;
+    padding-left : 0 !important;
 }

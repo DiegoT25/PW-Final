@@ -7,7 +7,7 @@ import Header1 from './Header1'
 
 const Layout1 = (props) => {
 
-    return (<Container className="cont_layout">
+    return (<Container fluid>
         <Row xs={1} className="justify-content-md-center w-80">
             <Col >
                 <Header1></Header1>

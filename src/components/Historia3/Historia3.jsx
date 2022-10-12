@@ -13,7 +13,7 @@ import "./Historia3.css";
 
 const Historia3 =() =>{
     return(
-        <Container className="Container">
+        <Container fluid className="Container">
             <Row className="Contenedor">
                 <Image src={logo} id="logo"/>
                 <div className="Title">
@@ -37,7 +37,7 @@ const Historia3 =() =>{
                         <h5><strong>Sign up to our newsletter for the latest PC news.</strong></h5>
                         <div className="subscribe">
                             <div className="subscribes">
-                                <input type="email" class="form-control" id="footer_subscribe" placeholder="Email" />
+                                <input type="email" className="form-control" id="footer_subscribe" placeholder="Email" />
                             </div>
                             <div className="subscribes">
                                 <Nav.Link href=""><Button type="submit" id="subscribe_button">SUBSCRIBE</Button></Nav.Link>

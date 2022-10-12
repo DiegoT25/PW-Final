@@ -6,20 +6,20 @@ import "./Login.css";
 
 const Login = () => {
 return (
-    <Container className="Login">
+    <Container fluid className="Login">
         <Row>
-           <div className="create_login">
+           <Row className="create_login">
                 <div className="title_login">
                     <p>CREATE ACCOUNT</p>
                 </div>
                 <div className= "inputs">
-                    <input type="text" class="form-control" id="login" placeholder="First name" />
-                    <input type="text" class="form-control" id="login" placeholder="Last name" />
-                    <input type="email" class="form-control" id="login" placeholder="Email" />
-                    <input type="password" class="form-control" id="login" placeholder="Password" />
+                    <input type="text" className="form-control" id="login" placeholder="First name" />
+                    <input type="text" className="form-control" id="login" placeholder="Last name" />
+                    <input type="email" className="form-control" id="login" placeholder="Email" />
+                    <input type="password" className="form-control" id="login" placeholder="Password" />
                 </div>
                 <Link to="/historia2"><Button type="submit" id="create_boton">CREATE</Button></Link>
-           </div>
+           </Row>
            
         </Row>
     </Container>

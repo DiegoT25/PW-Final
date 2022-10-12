@@ -10,7 +10,7 @@ import {faCartShopping} from "@fortawesome/free-solid-svg-icons"
 
 const Header1 = () => {
 return (
-    <Container className='header'>
+    <Container fluid className='header'>
         <Row xs={1}>
             <Col xs={3} className="justify-content-start">
 

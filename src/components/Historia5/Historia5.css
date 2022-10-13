@@ -3,8 +3,8 @@
     display:flex;
     flex-direction: column;
     height: 100vh;
-    width: 1200px;
-    margin-left: 220px;
+    width: 1191px;
+    margin-left: 200px;
 }
 
 .data_profile{
@@ -12,8 +12,6 @@
     height: 600px;
     margin-top: 75px;
     border-radius: 8px;
-    border: solid;
-    border-color: black;
 }
 
 .columna1{
@@ -45,11 +43,13 @@
 .columna2{
     border:solid;
     border-color: rgb(52, 63, 75);
+    border-right-color: transparent;
+    border-bottom-color: transparent;
     height: 605px;
     margin-left: 200px;
     margin-top: -120px;
     padding-left: 35px;
-    width: 746px;
+    width: 900px;
     border-bottom-right-radius: 8px;
     border-top-right-radius: 8px;
 
@@ -65,6 +65,7 @@
 }
 .formulario{
     margin-top: 35px;
+    margin-left: 90px;
 }
 
 .label1, .label2{
@@ -74,7 +75,13 @@
 }
 .address{
     margin-top: 15px;
+    margin-left: 0px;
 }
+
+.phone{
+    margin-left: 0px;
+}
+
 .label3, .label4{
     width: 300px;
     display: inline-block;
@@ -84,7 +91,7 @@
 
 .update_info{
     margin-top:30px;
-    margin-left: 20px;
+    margin-left: 110px;
     display:inline-block;
 }
 

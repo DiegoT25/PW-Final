@@ -9,7 +9,7 @@ const Layout1 = (props) => {
 
     return (<Container fluid className="cont_layout">
         <Row fluid xs={1}>
-            <Col>
+            <Col fluid>
                 <Header1></Header1>
             </Col>
         </Row>

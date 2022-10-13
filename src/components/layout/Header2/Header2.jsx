@@ -10,12 +10,11 @@ import {faCartShopping} from "@fortawesome/free-solid-svg-icons"
 
 const Header1 = () => {
 return (
-    <Container className='header'>
-        <Row xs={1}>
-            <Col xs={3} className="justify-content-start">
-
+    <Container fluid className='header'>
+        <Row fluid xs={1}>
+            <Col fluid xs={1} md={3} className="justify-content-start">
             </Col >
-            <Col xs={6} className="justify-content-center">
+            <Col fluid xs={1} md={6} className="justify-content-center">
             <Nav>
                 <Nav.Item>
                     <Nav.Link href="/historia3" id="menu">Home</Nav.Link>
@@ -38,7 +37,7 @@ return (
                 <div className="icons_menu">
                     <Nav.Link href="/historia7" id="icons"><FontAwesomeIcon icon={faMagnifyingGlass} /></Nav.Link>
                     <Nav.Link href="/historia5" id="icons"><FontAwesomeIcon icon={faUser} /></Nav.Link>
-                    <Nav.Link href="/historia8" id="icons"><FontAwesomeIcon icon={faCartShopping} /></Nav.Link>
+                    <Nav.Link href="" id="icons"><FontAwesomeIcon icon={faCartShopping} /></Nav.Link>
                 </div>
             </Col >
         </Row>

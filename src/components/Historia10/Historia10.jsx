@@ -6,22 +6,22 @@ const Historia10 = () => {
     return (
     <Container className="container">
         <div class="grid-container">
-            <div class="grid-item">
-                <Button class="btn btn-primary" type="button" ><BsController class="icon"/>Gaming</Button>
+            <div className="grid-item">
+                <Button class="btn btn-primary" type="button" ><BsController class="icon1"/>Gaming</Button>
             </div>
-            <div class="grid-item">
+            <div class="grid-item1">
                 <Button class="btn btn-primary" type="button" >Design</Button>
             </div>
-            <div class="grid-item">
+            <div class="grid-item1">
                 <Button class="btn btn-primary" type="button" >Coding</Button>
             </div>
-            <div class="grid-item">
+            <div class="grid-item1">
                 <Button class="btn btn-primary" type="button" >Rendering</Button>
             </div>
-            <div class="grid-item">
+            <div class="grid-item1">
                 <Button class="btn btn-primary" type="button" >Office</Button>
             </div>
-            <div class="grid-item">
+            <div class="grid-item1">
                 <Button class="btn btn-primary" type="button" >Other</Button>
             </div>
 

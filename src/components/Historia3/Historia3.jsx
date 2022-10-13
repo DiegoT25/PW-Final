@@ -16,33 +16,33 @@ const Historia3 =() =>{
         <Container fluid className="Container">
             <Row className="Contenedor">
                 <Image src={logo} id="logo"/>
-                <div className="Title">
+                <Row className="Title">
                     <h1>Build your PC!</h1>
-                </div>
-                <div className="Subtitle">
+                </Row>
+                <Row className="Subtitle">
                     <h2>Just for what you need</h2>
-                </div>
-                <div className="Buttons">
-                    <div className="button">
+                </Row>
+                <Row className="Buttons">
+                    <Row className="button">
                         <Nav.Link href=""><Button id="Boton">Build for begginers</Button></Nav.Link>
-                    </div>
-                    <div className="button">
+                    </Row>
+                    <Row className="button">
                         <Nav.Link href=""><Button id="Boton">Advanced building</Button></Nav.Link>
-                    </div>
-                </div>
+                    </Row>
+                </Row>
             </Row>
             <Row className="Footer">
                 <Row>
                     <Col xs={5}>
                         <h5><strong>Sign up to our newsletter for the latest PC news.</strong></h5>
-                        <div className="subscribe">
-                            <div className="subscribes">
+                        <Row className="subscribe">
+                            <Row className="subscribes">
                                 <input type="email" className="form-control" id="footer_subscribe" placeholder="Email" />
-                            </div>
-                            <div className="subscribes">
+                            </Row>
+                            <Row className="subscribes">
                                 <Nav.Link href=""><Button type="submit" id="subscribe_button">SUBSCRIBE</Button></Nav.Link>
-                            </div>
-                        </div>
+                            </Row>
+                        </Row>
                     </Col>
 
                     <Col>

@@ -1,5 +1,10 @@
 .header{
     background-color: rgb(52, 63, 75);
+    margin-right : 0 !important;
+    margin-left : 0 !important;
+    padding-right : 0 !important;
+    padding-left : 0 !important;
+    padding-bottom: 0 !important;
 }
 
 .justify-content-center{

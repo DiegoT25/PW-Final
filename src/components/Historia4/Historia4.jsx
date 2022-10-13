@@ -8,16 +8,16 @@ const Historia4 = (props) => {
 
     return (
     <Container fluid className="cont_layout">
-        <Row fluid xs={1}>
-            <Col fluid>
+        <Row  xs={1}>
+            <Col>
                 <Header1></Header1>            
             </Col>
         </Row>
-        <Row fluid xs={1} md={2}>
-            <Col fluid xs={1} md={1}>
+        <Row xs={1} md={2}>
+            <Col xs={1} md={1}>
                 <MenuLateral></MenuLateral>
             </Col>
-            <Col fluid xs={1} md={1}>
+            <Col xs={1} md={1}>
                 {props.main}
             </Col>
         </Row>

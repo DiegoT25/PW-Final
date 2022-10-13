@@ -3,13 +3,14 @@
     display:flex;
     flex-direction: column;
     height: 100vh;
-    width: 1206px;
+    width: 1191px;
     margin-left: 13vw;
 }
 
 .data_profile{
     background-color: white;
     height: 600px;
+    width: 100%;
     margin-top: 75px;
     border-radius: 8px;
 }
@@ -49,7 +50,6 @@
     margin-left: 200px;
     margin-top: -120px;
     padding-left: 35px;
-    width: 900px;
     border-bottom-right-radius: 8px;
     border-top-right-radius: 8px;
 

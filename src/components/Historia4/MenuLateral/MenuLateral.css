@@ -3,7 +3,7 @@
     display:flex;
     flex-direction: column;
     height: 100vh;
-    width: 350px;
+    width: 22vw;
     margin-right : 0 !important;
     margin-left : 0 !important;
     padding-right : 0 !important;
@@ -19,7 +19,7 @@
 #option{
     color:rgb(52, 63, 75);
     font-size: 20px;
-    width: 320px;
+    width: 20vw;
     height: 50px;
     background-color: white;
     margin: 6px;

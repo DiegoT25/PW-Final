@@ -14,65 +14,65 @@ import "./Historia3.css";
 const Historia3 =() =>{
     return(
         <Container fluid className="Container">
-            <Row fluid className="Contenedor">
+            <Row className="Contenedor">
                 <Image src={logo} id="logo"/>
-                <Row fluid className="Title">
+                <Row  className="Title">
                     <h1>Build your PC!</h1>
                 </Row>
-                <Row fluid className="Subtitle">
+                <Row className="Subtitle">
                     <h2>Just for what you need</h2>
                 </Row>
-                <Col fluid className="Buttons">
-                    <Col fluid className="button">
+                <Col  className="Buttons">
+                    <Col  className="button">
                         <Nav.Link href=""><Button id="Boton">Build for begginers</Button></Nav.Link>
                     </Col>
-                    <Col fluid className="button">
+                    <Col  className="button">
                         <Nav.Link href=""><Button id="Boton">Advanced building</Button></Nav.Link>
                     </Col>
                 </Col>
             </Row>
-            <Row fluid className="Footer">
+            <Row  className="Footer">
                 <Row>
-                    <Col fluid xs={5}>
+                    <Col  xs={5}>
                         <h5><strong>Sign up to our newsletter for the latest PC news.</strong></h5>
-                        <Col fluid className="subscribe">
-                            <Col fluid className="subscribes">
+                        <Col  className="subscribe">
+                            <Col  className="subscribes">
                                 <input type="email" className="form-control" id="footer_subscribe" placeholder="Email" />
                             </Col>
-                            <Col fluid className="subscribes">
+                            <Col  className="subscribes">
                                 <Nav.Link href=""><Button type="submit" id="subscribe_button">SUBSCRIBE</Button></Nav.Link>
                             </Col>
                         </Col>
                     </Col>
 
-                    <Col fluid>
-                        <Col fluid className="col_footer">
+                    <Col >
+                        <Col  className="col_footer">
                             <Row><p>Build your PC</p></Row>
                             <Row><p>Why Redux</p></Row>
                             <Row><p>Support</p></Row>
                         </Col>
                     </Col>
-                    <Col fluid>
-                        <Col fluid className="col_footer">
+                    <Col >
+                        <Col  className="col_footer">
                             <Row><p>Good.</p></Row>
                             <Row><p>Better.</p></Row>
                             <Row><p>Best.</p></Row>
                         </Col>  
                     </Col>
                     <Col>
-                        <Col fluid className="col_footer">
+                        <Col  className="col_footer">
                             <Row><p>Terms & Conditions</p></Row>
                             <Row><p>Privacy Policy</p></Row>
                             <Row><p>Refund Policy</p></Row>
                         </Col>
                     </Col>
                     <Row>
-                        <Col fluid className="networks">
+                        <Col  className="networks">
                             <Nav.Link href="https://www.facebook.com" target="_blank" id="iconos"><FontAwesomeIcon icon={faFacebook}  /></Nav.Link>
                             <Nav.Link href="https://www.twitter.com" target="_blank" id="iconos"><FontAwesomeIcon icon={faTwitter} /></Nav.Link>
                             <Nav.Link href="https://www.instagram.com" target="_blank" id="iconos"><FontAwesomeIcon icon={faInstagram} /></Nav.Link>    
                         </Col>
-                        <Col fluid className="copyright">
+                        <Col  className="copyright">
                             Copyright © 2020 Build Redux. All Rights Reserved.
                         </Col>
                     </Row>    

@@ -24,7 +24,7 @@ const Historia3 =() =>{
                 </div>
                 <div className="Buttons">
                     <div className="button">
-                        <Nav.Link href=""><Button id="Boton">Build for begginers</Button></Nav.Link>
+                        <Nav.Link href="/historia10"><Button id="Boton">Build for begginers</Button></Nav.Link>
                     </div>
                     <div className="button">
                         <Nav.Link href=""><Button id="Boton">Advanced building</Button></Nav.Link>

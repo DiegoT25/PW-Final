@@ -5,6 +5,11 @@
     height: 100vh;
     margin-left: -322px;
     width: 970px;
+    margin-right : 0 !important;
+    margin-left : 0 !important;
+    padding-right : 0 !important;
+    padding-left : 0 !important;
+    padding-bottom: 0 !important;
 }
 
 .data_profile{

@@ -1,4 +1,8 @@
-import { LoginPage, Historia2Page, Historia3Page, Historia5Page, Historia10Page, Historia14Page } from './components/pages'
+<<<<<<< HEAD
+import { LoginPage, Historia2Page, Historia3Page, Historia5Page, Historia10Page, Historia14Page, Historia15Page } from './components/pages'
+=======
+
+>>>>>>> c69c852bc417a083809d406dae52dba9f734413e
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css'
 

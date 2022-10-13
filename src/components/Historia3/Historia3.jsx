@@ -14,67 +14,67 @@ import "./Historia3.css";
 const Historia3 =() =>{
     return(
         <Container fluid className="Container">
-            <Row className="Contenedor">
+            <Row fluid className="Contenedor">
                 <Image src={logo} id="logo"/>
-                <Row className="Title">
+                <Row fluid className="Title">
                     <h1>Build your PC!</h1>
                 </Row>
-                <Row className="Subtitle">
+                <Row fluid className="Subtitle">
                     <h2>Just for what you need</h2>
                 </Row>
-                <Row className="Buttons">
-                    <Row className="button">
+                <Col fluid className="Buttons">
+                    <Col fluid className="button">
                         <Nav.Link href=""><Button id="Boton">Build for begginers</Button></Nav.Link>
-                    </Row>
-                    <Row className="button">
+                    </Col>
+                    <Col fluid className="button">
                         <Nav.Link href=""><Button id="Boton">Advanced building</Button></Nav.Link>
-                    </Row>
-                </Row>
+                    </Col>
+                </Col>
             </Row>
-            <Row className="Footer">
+            <Row fluid className="Footer">
                 <Row>
-                    <Col xs={5}>
+                    <Col fluid xs={5}>
                         <h5><strong>Sign up to our newsletter for the latest PC news.</strong></h5>
-                        <Row className="subscribe">
-                            <Row className="subscribes">
+                        <Col fluid className="subscribe">
+                            <Col fluid className="subscribes">
                                 <input type="email" className="form-control" id="footer_subscribe" placeholder="Email" />
-                            </Row>
-                            <Row className="subscribes">
+                            </Col>
+                            <Col fluid className="subscribes">
                                 <Nav.Link href=""><Button type="submit" id="subscribe_button">SUBSCRIBE</Button></Nav.Link>
-                            </Row>
-                        </Row>
+                            </Col>
+                        </Col>
                     </Col>
 
-                    <Col>
-                        <div className="col_footer">
-                            <p>Build your PC</p>
-                            <p>Why Redux</p>
-                            <p>Support</p>
-                        </div>
+                    <Col fluid>
+                        <Col fluid className="col_footer">
+                            <Row><p>Build your PC</p></Row>
+                            <Row><p>Why Redux</p></Row>
+                            <Row><p>Support</p></Row>
+                        </Col>
+                    </Col>
+                    <Col fluid>
+                        <Col fluid className="col_footer">
+                            <Row><p>Good.</p></Row>
+                            <Row><p>Better.</p></Row>
+                            <Row><p>Best.</p></Row>
+                        </Col>  
                     </Col>
                     <Col>
-                        <div className="col_footer">
-                            <p>Good.</p>
-                            <p>Better.</p>
-                            <p>Best.</p>
-                        </div>  
-                    </Col>
-                    <Col>
-                        <div className="col_footer">
-                            <p>Terms & Conditions</p>
-                            <p>Privacy Policy</p>
-                            <p>Refund Policy</p>
-                        </div>
+                        <Col fluid className="col_footer">
+                            <Row><p>Terms & Conditions</p></Row>
+                            <Row><p>Privacy Policy</p></Row>
+                            <Row><p>Refund Policy</p></Row>
+                        </Col>
                     </Col>
                     <Row>
-                        <div className="networks">
+                        <Col fluid className="networks">
                             <Nav.Link href="https://www.facebook.com" target="_blank" id="iconos"><FontAwesomeIcon icon={faFacebook}  /></Nav.Link>
                             <Nav.Link href="https://www.twitter.com" target="_blank" id="iconos"><FontAwesomeIcon icon={faTwitter} /></Nav.Link>
                             <Nav.Link href="https://www.instagram.com" target="_blank" id="iconos"><FontAwesomeIcon icon={faInstagram} /></Nav.Link>    
-                        </div>
-                        <div className="copyright">
+                        </Col>
+                        <Col fluid className="copyright">
                             Copyright © 2020 Build Redux. All Rights Reserved.
-                        </div>
+                        </Col>
                     </Row>    
                 </Row>
             </Row>

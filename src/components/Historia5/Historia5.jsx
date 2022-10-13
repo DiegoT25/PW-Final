@@ -24,33 +24,33 @@ const Historia5 =() =>{
                     <Col fluid className="columna2">
                         <Col className="formulario">
                             <Col className="doble">
-                                <div className="label1">
+                                <Row className="label1">
                                     <label>First name</label>
                                     <input type="text" className="form-control" id="form_profile2_1" placeholder="" />
-                                </div>
-                                <div className="label2">
+                                </Row>
+                                <Row className="label2">
                                     <label>Last name</label>
                                     <input type="text" className="form-control" id="form_profile2_2" placeholder="" />
-                                </div>
+                                </Row>
                             </Col>
                             
                             <Col className="simple">
                                 <label>Email</label>
                                 <input type="email" className="form-control" id="form_profile1" placeholder="" />
-                                <div className="address">
+                                <Row className="address">
                                     <label>Address</label>
                                     <input type="text" className="form-control" id="form_profile1" placeholder="" />
-                                </div>
+                                </Row>
                             </Col>
                             <Col className="doble">
-                                <div className="label3">
+                                <Row className="label3">
                                     <label>Aparmaent, suit, etc</label>
                                     <input type="text" className="form-control" id="form_profile2" placeholder="" />
-                                </div>
-                                <div className="label4">
+                                </Row>
+                                <Row className="label4">
                                     <label>City</label>
                                     <input type="text" className="form-control" id="form_profile2" placeholder="" />
-                                </div>
+                                </Row>
                             </Col>
                             <Col className="doble">
                                 <Col className="label1">
@@ -63,8 +63,10 @@ const Historia5 =() =>{
                                 </Col>
                             </Col>
                             <Col className="simple">
-                                <Row><label>Phone</label></Row>
-                                <Row><input type="text" className="form-control" id="form_profile1" placeholder="" /></Row>
+                                <Row className="phone">
+                                    <label>Phone</label>
+                                    <input type="text" className="form-control" id="form_profile1" placeholder="" />
+                                </Row>
                             </Col>
                         </Col>
                         <Col fluid className="update_info">

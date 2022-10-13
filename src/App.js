@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 import { LoginPage, Historia2Page, Historia3Page, Historia5Page, Historia10Page, Historia14Page, Historia15Page } from './components/pages'
-=======
-
->>>>>>> c69c852bc417a083809d406dae52dba9f734413e
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css'
 
@@ -17,6 +13,7 @@ function App() {
             <Route path="/historia5" element={<Historia5Page />}/>
             <Route path="/historia10" element={<Historia10Page />}/>
             <Route path="/historia14" element={<Historia14Page />}/>
+            <Route path="/historia15" element={<Historia15Page />}/>
         </Routes>
       </BrowserRouter>
     </>

@@ -1,31 +1,23 @@
 import  Container from "react-bootstrap/Container"
 import Button from 'react-bootstrap/Button'
+import Col from "react-bootstrap/Col"
+import Row from "react-bootstrap/Row"
 import './Historia10.css';
 import { BsController } from "react-icons/bs";
 const Historia10 = () => {
     return (
     <Container className="container">
-        <div class="grid-container">
-            <div className="grid-item">
-                <Button class="btn btn-primary" type="button" ><BsController class="icon1"/>Gaming</Button>
-            </div>
-            <div class="grid-item1">
-                <Button class="btn btn-primary" type="button" >Design</Button>
-            </div>
-            <div class="grid-item1">
-                <Button class="btn btn-primary" type="button" >Coding</Button>
-            </div>
-            <div class="grid-item1">
-                <Button class="btn btn-primary" type="button" >Rendering</Button>
-            </div>
-            <div class="grid-item1">
-                <Button class="btn btn-primary" type="button" >Office</Button>
-            </div>
-            <div class="grid-item1">
-                <Button class="btn btn-primary" type="button" >Other</Button>
-            </div>
+        <Row className="fila">
+            <Col className="columnas"><Button className="boton">Gaming</Button></Col>
+            <Col className="columnas"><Button className="boton">Gaming</Button></Col>
+            <Col className="columnas"><Button className="boton">Gaming</Button></Col>
+        </Row>
 
-            </div>
+        <Row className="fila">
+            <Col className="columnas"><Button className="boton">Gaming</Button></Col>
+            <Col className="columnas"><Button className="boton">Gaming</Button></Col>
+            <Col className="columnas"><Button className="boton">Gaming</Button></Col>
+            </Row>
     </Container>
     )
 }

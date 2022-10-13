@@ -1,7 +1,24 @@
+.cont{
+    background-color: rgb(52, 63, 75);
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100wh;
+    margin-right : 0 !important;
+    margin-left : 0 !important;
+    margin-bottom: 0 !important;
+    padding-right : 0 !important;
+    padding-left : 0 !important;
+    padding-bottom: 0 !important;
+    
+}
 
 .fila{
+    display: flex;
     background-color: rgb(52, 63, 75);
+    width: 100vw;
     height: 30vh;
+    margin-top: 10vh;
 }
 .boton{
     background-color: rgb(92, 94, 96);
@@ -13,4 +30,13 @@
     margin-right: auto;
     display: block;
     margin-top: 50px;
+    
+}
+.icono{
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: auto;
 }

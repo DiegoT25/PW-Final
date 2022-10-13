@@ -9,7 +9,7 @@ import "./Historia5.css";
 const Historia5 =() =>{
     return(
 
-        <Container fluid className="profile">
+        <Container xs={1} md={1}fluid className="profile">
             <Col fluid>
                 <Col fluid className="data_profile">
                     <Col fluid className="columna1">
@@ -22,7 +22,7 @@ const Historia5 =() =>{
                         </Row>
                     </Col>
                     <Col fluid className="columna2">
-                        <Col className="formulario">
+                        <Col fluid className="formulario">
                             <Col className="doble">
                                 <Row className="label1">
                                     <label>First name</label>

@@ -13,11 +13,11 @@ const Historia4 = (props) => {
                 <Header1></Header1>            
             </Col>
         </Row>
-        <Row fluid xs={1}>
-            <Col fluid>
+        <Row fluid xs={1} md={2}>
+            <Col fluid xs={1} md={1}>
                 <MenuLateral></MenuLateral>
             </Col>
-            <Col fluid>
+            <Col fluid xs={1} md={1}>
                 {props.main}
             </Col>
         </Row>

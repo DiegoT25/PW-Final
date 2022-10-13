@@ -3,13 +3,8 @@
     display:flex;
     flex-direction: column;
     height: 100vh;
-    margin-left: -322px;
-    width: 970px;
-    margin-right : 0 !important;
-    margin-left : 0 !important;
-    padding-right : 0 !important;
-    padding-left : 0 !important;
-    padding-bottom: 0 !important;
+    width: 1200px;
+    margin-left: 220px;
 }
 
 .data_profile{
@@ -17,6 +12,8 @@
     height: 600px;
     margin-top: 75px;
     border-radius: 8px;
+    border: solid;
+    border-color: black;
 }
 
 .columna1{

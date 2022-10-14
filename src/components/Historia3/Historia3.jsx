@@ -24,10 +24,10 @@ const Historia3 =() =>{
                 </Row>
                 <Col fluid className="Buttons">
                     <Col fluid className="button">
-                        <Nav.Link href="/historia10"><Button id="Boton">Build for begginers</Button></Nav.Link>
+                        <Nav.Link href="/historia10"><Button id="Boton_h3">Build for begginers</Button></Nav.Link>
                     </Col>
                     <Col  className="button">
-                        <Nav.Link href=""><Button id="Boton">Advanced building</Button></Nav.Link>
+                        <Nav.Link href=""><Button id="Boton_h3">Advanced building</Button></Nav.Link>
                     </Col>
                 </Col>
             </Row>

@@ -11,18 +11,19 @@ import "./Historia7.css";
 const Historia7 =() => {
     return (
         <Container fluid className="contenedor1">
-            <Row fluid>
-                <Col fluid className="cuerpo">
-                    <Row fluid className="left">
-                        <Col fluid className="foto">
+            <Row >
+                <Col className="cuerpo">
+                    <Row  className="left">
+                        <Col  className="foto">
                             <Image src={producto1} id="producto1"/>
                         </Col>
-                        <Col fluid className="botoncito">
-                        <Nav.Link href="/historia8"><Button id="Botone">Add to the car</Button></Nav.Link>
+                        <Col  className="botoncito">
+                            <Nav.Link href="/historia8"><Button id="Botone1">Add to the car</Button></Nav.Link>
+                            <Nav.Link href="/historiaExtra"><Button id="Botone2">Check the price tend</Button></Nav.Link>
                         </Col>
                     </Row>
-                    <Row fluid className="right">
-                    <Image src={producto2} id="producto2"/>
+                    <Row  className="right">
+                        <Image src={producto2} id="producto2"/>
                     </Row>
                 </Col>
             </Row>

@@ -13,25 +13,18 @@
 }
 #letra{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
+    color: rgb(52, 63, 75);
     font-size: 40px;
     text-align: center;
     font-weight: 700;
     margin-bottom: -20px;
 }
-#letra2{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
-    font-size: 40px;
-    text-align: center;
-    font-weight: 700;
-}
+
 #imagen15{
     margin-top: -150px;
     margin-left: 10px;
     width: 600px;
     height: 390px;
-    box-shadow: 5px 5px;
     position: absolute;
 }
 .flexi{
@@ -40,7 +33,7 @@
 }
 #letra3{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
+    color: rgb(52, 63, 75);
     font-size: 25px;
     padding-left: 650px;
     font-weight: 700;
@@ -55,13 +48,13 @@
     padding-top: 30px;
 }
 
-#Boton{
+#Boton_h15{
     color: white;
     background-color:  rgb(194, 91, 233);
     text-decoration: none;
     padding: 5px 15px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     text-align: left;
     border-radius: 5px;
     border-color: transparent;
@@ -69,4 +62,5 @@
     height: 40px;
     margin-left: 670px;
     margin-top: 10px;
+    text-align: center;
 }

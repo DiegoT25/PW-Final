@@ -5,21 +5,28 @@ import Col from "react-bootstrap/Col";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Image from "react-bootstrap/Image";
-import imagen18shop from "../Images/grafica.png";
 import "./Historia12.css";
+import {useCart} from 'react-use-cart';
 
-const ItemCard = () =>{
+const ItemCard = (props) =>{
+    const {addItem} = useCart();
     return (
-        
+            
             <Card>
                 <div className="card-logo">
-                <Image src={imagen18shop} ></Image>
-                  <div>  
-                  <h1 className="card-content">Titulo</h1>  
-                  <p className="card-content">Descripcion</p>
-                  </div>
+                <Image src={props.img} className='historia12a'></Image>
+                    
+                   <Row>
+                  <h2 className="card-content">{props.title}</h2>  
+                  <p id ='formato12k'>${props.price}</p>
+                  </Row> 
+                  
+                  <Button id='Botonj' onclick={() => addItem(props.item)}></Button>
                   </div>
             </Card>
+            
+            
+           
        
     )
 }

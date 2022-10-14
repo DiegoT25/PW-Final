@@ -8,10 +8,12 @@ import imagen17shop from "../Images/pcgamer.png";
 import Select from 'react-select';
 import ItemCard from "./ItemCard";
 import data from "./data"
+import Cart from './Cart';
+import {CartProvider} from 'react-use-cart';
 
 const Historia12 =() =>{
     return(
-       <Container>
+       <Container fluid className="cont_layout">
         
         <Row xs={1} className="justify-content-md-center w-80">
         <div className="general12" >
@@ -26,6 +28,7 @@ const Historia12 =() =>{
                 <p id='formato12a3'>$99</p>
             </div>
             </Col>
+            
             <Col >
                 <Row>
                     <Button id="Botona" >Graphics</Button>
@@ -38,16 +41,28 @@ const Historia12 =() =>{
                     <Button id="Botonf">Windows</Button>
                     <Button id="Botong">Power Supply</Button>
                 </Row>
-                <ItemCard></ItemCard>
-                
-                
+                <Col>
+                {data.productData.map((item,index)=>{
+                    return(
+                        <ItemCard 
+                        img={item.img} 
+                        title={item.title} 
+                        price={item.price}
+                        item={item} 
+                        key={index}>
+                        </ItemCard>
+                    )
+                })}
+                </Col>
             </Col>
             <Col>
                 <Row>
                     <Button id="Botonh">{'<'}Back</Button>
                     <Button id="Botoni">Checkout</Button>
                 </Row>
+                
             </Col>
+            
             </Row>
             </div>
             

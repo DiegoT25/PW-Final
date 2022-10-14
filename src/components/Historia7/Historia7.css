@@ -46,17 +46,46 @@
 .right {
     flex: 1;
     margin-top: 120px;
+    background-color: rgb(39, 39, 110);
+    height: 400px;
     
 }
+.izquierdon {
+    flex: 0.5;
+}
+
+table,td {
+	border: 1px solid white;
+    color: white;
+    height: 35px;
+    
+}
+table {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
 #producto1 {
     width: 300px;
     height: 300px;
 }
 
-#producto2 {
-    width: 300px;
-    height: 400px;
+h3 {
+    margin-left: 2px;
+    color: white;
+    font-size: 50px;
 }
+.precio{
+    font-size: 20px;
+}
+ h4 {
+    margin-left: 2px;
+    color: white;
+ }  
+ .mini{
+    color: rgb(187, 31, 187);
+ }
+ 
 
 
 

@@ -22,7 +22,7 @@ const Countries = [
   ];
 const Historia13 =() =>{
     return(
-        <Container className='inicialA'>
+        <Container fluid className="cont_layout">
             <Row>
                 <Col>
                 <Row>

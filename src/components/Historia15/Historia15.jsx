@@ -8,7 +8,7 @@ import imagen15 from "../Images/historia15imagen.png";
 const Historia15 =() =>{
 
     return(
-        <Container>
+        <Container fluid className="cont_layout">
         <Row xs={1} className="justify-content-md-center w-80">
             <div className="alcance" ></div>
         </Row>
@@ -17,7 +17,7 @@ const Historia15 =() =>{
             <div className="format">
             <p id="letra"><i>CHECKOUT OUR LATEST BUILD AND MAKE IT YOUR</i></p>
             </div>
-            <p id="letra2"><i>OWN!</i></p>
+            <p id="letra"><i>OWN!</i></p>
             <div className="flexi">
             <Image src={imagen15} id="imagen15"/>
             <div className="alinearl">

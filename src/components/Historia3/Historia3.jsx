@@ -22,9 +22,9 @@ const Historia3 =() =>{
                 <Row className="Subtitle">
                     <h2>Just for what you need</h2>
                 </Row>
-                <Col  className="Buttons">
-                    <Col  className="button">
-                        <Nav.Link href=""><Button id="Boton">Build for begginers</Button></Nav.Link>
+                <Col fluid className="Buttons">
+                    <Col fluid className="button">
+                        <Nav.Link href="/historia10"><Button id="Boton">Build for begginers</Button></Nav.Link>
                     </Col>
                     <Col  className="button">
                         <Nav.Link href=""><Button id="Boton">Advanced building</Button></Nav.Link>

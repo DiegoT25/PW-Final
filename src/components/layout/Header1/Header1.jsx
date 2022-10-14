@@ -36,11 +36,12 @@ return (
                 </Nav.Item>
                 </Nav>
             </Col >
-            <Col xs={1} md={3} className="justify-content-end">
+            
+            <Col fluid xs={1} md={3} className="justify-content-end">
                 <Col className="icons_menu">
-                    <Nav.Link href="" id="icons"><FontAwesomeIcon icon={faMagnifyingGlass} /></Nav.Link>
+                    <Nav.Link href="/historia7" id="icons"><FontAwesomeIcon icon={faMagnifyingGlass} /></Nav.Link>
                     <Nav.Link href="/historia5" id="icons"><FontAwesomeIcon icon={faUser} /></Nav.Link>
-                    <Nav.Link href="" id="icons"><FontAwesomeIcon icon={faCartShopping} /></Nav.Link>
+                    <Nav.Link href="/historia8" id="icons"><FontAwesomeIcon icon={faCartShopping} /></Nav.Link>
                 </Col>
             </Col >
         </Row>

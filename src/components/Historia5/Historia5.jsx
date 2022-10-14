@@ -12,7 +12,7 @@ const Historia5 =() =>{
         <Container xs={1} md={1}fluid className="profile">
             <Col>
                 <Col className="data_profile">
-                    <Col  className="columna1">
+                    <Col className="columna1">
                         <h6><strong>Default</strong></h6>
                         <Row className="p1">
                             <p>Ed Va</p>

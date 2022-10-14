@@ -14,15 +14,33 @@
 }
 
 .Image_Col{
-    margin-left: 300px;
-    
+    margin-left: 100px;    
+}
+
+.Title_Column{
+    margin-left: 100px;
+}
+
+#title_historiaExtra{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#icono_historiaExtra{
+    color:white;
+    padding-left: 80px;
+    padding-top: 10px;
+    height: 60px;
 }
 
 #Grafico{
     width: 1000px;
     height: 600px;
 }
-.hola{
+.Row_grafico{
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;

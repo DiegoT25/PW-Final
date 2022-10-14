@@ -10,31 +10,27 @@ import imagen14shop from "../Images/paypal.png";
 import imagen15shop from "../Images/shopay.png";
 import imagen16shop from "../Images/loginimagen.png";
 import Select from 'react-select';
+import Countries from "./Country-list";
 
-const Countries = [
-    { label: "Albania", value: 355 },
-    { label: "Argentina", value: 54 },
-    { label: "Austria", value: 43 },
-    { label: "Cocos Islands", value: 61 },
-    { label: "Kuwait", value: 965 },
-    { label: "Sweden", value: 46 },
-    { label: "Venezuela", value: 58 }
-  ];
+
 const Historia13 =() =>{
     return(
         <Container fluid className="cont_layout">
             <Row>
-                <Col>
+                <Col >
                 <Row>
                     <p id="letra1">Cart {'>'}Information {'>'}Shipping {'>'}Payment</p>
                 </Row>
+                <Row>
                     <div ><fieldset><legend >
-                        <Image src={imagen15shop} id='tamaño'></Image>
-                        <Image src={imagen14shop} id='tamaño'></Image>
-                        <Image src={imagen13shop} id='tamaño'></Image>
+                        <Image src={imagen15shop} id='tamaño13a'></Image>
+                        <Image src={imagen14shop} id='tamaño13a'></Image>
+                        <Image src={imagen13shop} id='tamaño13a'></Image>
                         </legend></fieldset></div>
+                        </Row>
                         <p></p>
                         <div>
+                        
                         <fieldset id='arriba'><legend></legend></fieldset>
                         </div>
                         <h2 id="letra1">Contact Information</h2>
@@ -50,23 +46,71 @@ const Historia13 =() =>{
                             <p id="letra2">Email me with news and offers</p>
                             </div>
                         </Row>
+                        
                         <p></p>
                         <h2 id='letra3A'>Shipping address</h2>
                         <p id='letra5A'>Save addresses:</p>
-                            <div className="col-md-3"></div>
-                             <div className="col-md-6">
-                            <Select options={Countries} />
-                            </div>
-                            <div className="col-md-4"></div>
+                            <Countries></Countries>
+                            
                         <p id='letra5A'>Country Region:  </p>
-                            <div className="col-md-3"></div>
-                             <div className="col-md-6">
-                            <Select options={Countries} />
-                            </div>
-                            <div className="col-md-4"></div>
+                            <Countries></Countries>
+                        <Row>
+                            <Col>
+                                <p id='letra5A'>First name:  </p>
+                                <input className='ingreso13a'></input>
+                            </Col>   
+                            <Col>
+                                <p id='letra5A'>Last name:  </p>
+                                <input className='ingreso13a'></input>
+                            </Col>
+                        </Row>
+                        <p id='letra5A'>Company:  </p>
+                        <input className='ingreso13a'></input>
+                        <p id='letra5A'>Address:  </p>
+                        <input className='ingreso13a'></input>
+                        <p id='letra5A'>Apartment:  </p>
+                        <input className='ingreso13a'></input>
+                        <Row>
+                            <Col>
+                                <p id='letra5A'>City:  </p>
+                                <input className='ingreso13a'></input>
+                            </Col>   
+                            <Col>
+                                <p id='letra5A'>State:  </p>
+                                <Countries></Countries>
+                            </Col>
+                            <Col>
+                                <p id='letra5A'>Zip Code:  </p>
+                                <input className='ingreso13a'></input>
+                            </Col>
+                        </Row>
+                        <p id='letra5A'>Phone:  </p>
+                        <input className='ingreso13a'></input>
+                        <p></p>
+                        <Row>
+                            <Col>
+                                <p id="letra1" >{'<'}Return to cart</p>
+                            </Col>
+                            <Col>
+                                <Button id='boton13x'>Continue to shipping</Button>
+                            </Col>
+                        </Row>
+                        
+
                 </Col>
                 
-                <Col className='derecha'><div className="alcance"></div></Col>
+                <Col  className='derecha'>
+                    <p></p>
+                    <Row>
+                        <Col>
+                        <input className='ingreso13b'></input>
+                        </Col>
+                        <Col>
+                        <Button id='boton13y'>Apply</Button>
+                        </Col>
+                    </Row>
+
+                </Col>
             </Row>
         </Container>
 

@@ -222,7 +222,13 @@
     margin-top: -1px;
 }
 .texto12a{
-    position: fixed;
     margin-top: 150px;  
     font-size: 25px;
+}
+
+#Carrito13a{
+    margin-top: 200px;
+    margin-right: 200px;
+    width: 100%;
+    
 }

@@ -5,8 +5,6 @@ import './Historia14.css';
 const Historia14 = () => {
     return (
         <Container fluid className="contenedor">
-            
-         
                 <Row Fluid className="productos">
                     <Col fluid className="lista">
                         
@@ -57,7 +55,6 @@ const Historia14 = () => {
                         
                     </Col>
                 </Row>
-            
         </Container>
     )
 }

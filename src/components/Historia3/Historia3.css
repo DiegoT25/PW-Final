@@ -33,12 +33,12 @@
 
 .Title{
     margin-left: 80px;
-    margin-top: -70px;
+    margin-top: 0px;
 }
 
 .Subtitle{
     margin-left: 80px;
-    margin-top: -60px;
+    margin-top: 30px;
 }
 
 h1{
@@ -55,7 +55,7 @@ h2{
 
 .Buttons{
     margin-left: 60px;
-    margin-top: -60px;
+    margin-top: 35px;
 }
 
 .button{

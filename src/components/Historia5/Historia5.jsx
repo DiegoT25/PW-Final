@@ -35,8 +35,10 @@ const Historia5 =() =>{
                             </Col>
                             
                             <Col className="simple">
-                                <label>Email</label>
-                                <input type="email" className="form-control" id="form_profile1" placeholder="" />
+                                <Row className="email">
+                                    <label>Email</label>
+                                    <input type="email" className="form-control" id="form_profile1" placeholder="" />
+                                </Row>
                                 <Row className="address">
                                     <label>Address</label>
                                     <input type="text" className="form-control" id="form_profile1" placeholder="" />

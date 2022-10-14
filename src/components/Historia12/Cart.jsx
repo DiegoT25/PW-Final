@@ -15,7 +15,7 @@ const Cart = () => {
         emptyCart
     } = useCart();
 
-    if (isEmpty) return <h1 className='text center'>Tu carrito está vacío amiguin</h1>
+    if (isEmpty) return <h1 className='texto12a'>Tu carrito está vacío amiguin</h1>
     return (
         <Container>
             <table className='table table-light table-hover m-0'>

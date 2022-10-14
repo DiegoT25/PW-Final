@@ -21,7 +21,7 @@ const ItemCard = (props) =>{
                   <p id ='formato12k'>${props.price}</p>
                   </Row> 
                   
-                  <Button id='Botonj' onclick={() => addItem(props.item)}></Button>
+                  <Button id='Botonj' onClick={() => addItem(props.item)}></Button>
                   </div>
             </Card>
             

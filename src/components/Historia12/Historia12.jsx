@@ -26,6 +26,7 @@ const Historia12 =() =>{
                 <p id='formato12a3'>$100</p>
                 <p id='formato12a2'>Build fee</p>
                 <p id='formato12a3'>$99</p>
+                
             </div>
             </Col>
             
@@ -60,6 +61,10 @@ const Historia12 =() =>{
                     <Button id="Botonh">{'<'}Back</Button>
                     <Button id="Botoni">Checkout</Button>
                 </Row>
+                <CartProvider>
+                <Cart ></Cart>
+                </CartProvider>
+                
                 
             </Col>
             

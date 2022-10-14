@@ -11,32 +11,20 @@
     padding-left : 0 !important;
     padding-bottom: 0 !important;
 }
-#Botoni{
-    color: white;
-    background-color:  rgb(194, 91, 233);
-    text-decoration: none;
-    padding: 5px 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    text-align:center;
-    border-radius: 5px;
-    border-color: transparent;
-    width: 200px;
-    height: 40px;
-    margin-right: 480px;
-}
+
 .encabezados{
     display: flex;
     margin-top: 50px;
 }
 .encabezadol{
     flex: 1;
-    margin-left: 80px;
+    margin-left: 90px;
+    width: 200px;
 }
-.encabeador{
-    flex: 1;
+.boton_checkout{
     display: inline-block;
 }
+
 .productos {
     display: flex;
     margin-top: 10px;
@@ -70,42 +58,164 @@
 .lista {
     display: flex;
     background-color: white;
-    margin-left: 85px;
+    margin-left: 105px;
     width: 730px;
-   padding-top: 1%;
-   height: 70px;
-   margin-right: 470px;
+    padding-top: 4px;
+    height: 70px;
 }
-
 
 .foto2 {
     margin-left: 30px;
-    margin-top: 9PX;
 }
+
 .texto{
     flex: 3;
-    margin-top: 9PX;
-   
 }
+
 .precio{
     flex: 1;
     margin-left: 20PX;
-    margin-top: 9PX;
 }
+
 .basurita {
     flex: 1;
      text-align: center;
-     margin-top: 0PX;
 }
+
 #iconolo{
     width: 30px;
     height: 30px;
 }
-
 
 #botono {
     margin-bottom: 30px;
     background-color: white;
     color: black;
     border-color: white;
+}
+#botoni{
+    color: white;
+    background-color:  rgb(194, 91, 233);
+    text-decoration: none;
+    padding: 5px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align:center;
+    border-radius: 5px;
+    border-color: transparent;
+    width: 170px;
+    height: 40px;
+    margin-left: -168px;
+}
+
+@media (max-width: 512px){
+    .encabezados{
+        display: flex;
+        margin-top: 50px;
+    }
+    .encabezadol{
+        margin-left: 16px;
+    }
+
+    .encabezadol h1{
+        font-size: 30px;
+    }
+    .boton_checkout{
+        display: inline-block;
+    }
+    
+    .productos {
+        display: flex;
+        margin-top: 10px;
+        height: 70px;
+        margin-left: -90px;
+
+    }
+    .productos2 {
+        display: flex;
+        margin-top: 10px;
+        height: 70px;
+        margin-left: -90px;
+    }
+    .productos3 {
+        display: flex;
+        margin-top: 10px;
+        height: 70px;
+        margin-left: -90px;
+    }
+    .productos4 {
+        display: flex;
+        margin-top: 10px;
+        height: 70px;
+        margin-left: -90px;
+    }
+    .productos5 {
+        display: flex;
+        margin-top: 10px;
+        height: 70px;
+        margin-left: -90px;
+    }
+    .productos6 {
+        display: flex;
+        margin-top: 10px;
+        height: 70px;
+        margin-left: -90px;
+    }
+    .lista {
+        display: flex;
+        background-color: white;
+        margin-left: 105px;
+        width: 450px;
+        padding-top: 4px;
+        height: 70px;
+    }
+    
+    .foto2 {
+        margin-left: 30px;
+    }
+    
+    .texto{
+        flex: 3;
+    }
+    .texto h4{
+        flex: 3;
+        font-size: 15px;
+    }
+    
+    .precio{
+        flex: 1;
+        margin-left: 20PX;
+    }
+    
+    .basurita {
+        flex: 1;
+         text-align: center;
+    }
+    
+    #iconolo{
+        width: 30px;
+        height: 30px;
+    }
+    
+    #botono {
+        margin-bottom: 30px;
+        background-color: white;
+        color: black;
+        border-color: white;
+    }
+    #botoni{
+        color: white;
+        background-color:  rgb(194, 91, 233);
+        text-decoration: none;
+        padding: 5px 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        text-align:center;
+        border-radius: 5px;
+        border-color: transparent;
+        width: 170px;
+        height: 40px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
 }

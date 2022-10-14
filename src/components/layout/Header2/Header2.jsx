@@ -20,7 +20,7 @@ return (
                     <Nav.Link href="/historia3" id="menu">Home</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="" id="menu">About</Nav.Link>
+                    <Nav.Link href="/historia15" id="menu">About</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link href="" id="menu">Support</Nav.Link>

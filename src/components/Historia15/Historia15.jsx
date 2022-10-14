@@ -18,7 +18,9 @@ const Historia15 =() =>{
                 <Row className="format">
                     <p id="letra"><i>CHECKOUT OUR LATEST BUILD AND MAKE IT YOUR</i></p>
                 </Row>
+               <Row className="own">
                     <p id="letra"><i>OWN!</i></p>
+                </Row> 
                 <Row className="flexi">
                     <Image src={imagen15} id="imagen15"/>
                     <Row className="alinearl">

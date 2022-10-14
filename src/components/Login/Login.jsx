@@ -10,7 +10,7 @@ return (
     <Container fluid className="Login">
         <Row >
            <Col md={{ span: 4, offset: 4 }} className="create_login" >
-                <Col fluid className="title_login">
+                <Col className="title_login">
                     <p>CREATE ACCOUNT</p>
                 </Col>
                 <Col md={{ span: 0, offset: 0 }}>

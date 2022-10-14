@@ -9,19 +9,19 @@ import "./Historia5.css";
 const Historia5 =() =>{
     return(
 
-        <Container fluid className="profile">
-            <Col fluid>
-                <Col fluid className="data_profile">
-                    <Col fluid className="columna1">
+        <Container xs={1} md={1}fluid className="profile">
+            <Col>
+                <Col className="data_profile">
+                    <Col  className="columna1">
                         <h6><strong>Default</strong></h6>
-                        <Row fluid className="p1">
+                        <Row className="p1">
                             <p>Ed Va</p>
                         </Row>
-                        <Row fluid className="p2">
+                        <Row className="p2">
                             <p>United States</p>    
                         </Row>
                     </Col>
-                    <Col fluid className="columna2">
+                    <Col className="columna2">
                         <Col className="formulario">
                             <Col className="doble">
                                 <Row className="label1">
@@ -69,10 +69,10 @@ const Historia5 =() =>{
                                 </Row>
                             </Col>
                         </Col>
-                        <Col fluid className="update_info">
+                        <Col className="update_info">
                             <Nav.Link href=""><Button type="submit" id="update_button">Update Info</Button></Nav.Link>
                         </Col>
-                        <Col fluid className="cancel_button">
+                        <Col className="cancel_button">
                             <Button type="reset" id="cancel_button">Cancel</Button>
                         </Col>
                     </Col>

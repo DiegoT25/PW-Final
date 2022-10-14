@@ -13,68 +13,68 @@ import "./Historia3.css";
 
 const Historia3 =() =>{
     return(
-        <Container className="Container">
+        <Container fluid className="Container">
             <Row className="Contenedor">
                 <Image src={logo} id="logo"/>
-                <div className="Title">
+                <Row  className="Title">
                     <h1>Build your PC!</h1>
-                </div>
-                <div className="Subtitle">
+                </Row>
+                <Row className="Subtitle">
                     <h2>Just for what you need</h2>
-                </div>
-                <div className="Buttons">
-                    <div className="button">
+                </Row>
+                <Col  className="Buttons">
+                    <Col  className="button">
                         <Nav.Link href=""><Button id="Boton">Build for begginers</Button></Nav.Link>
-                    </div>
-                    <div className="button">
+                    </Col>
+                    <Col  className="button">
                         <Nav.Link href=""><Button id="Boton">Advanced building</Button></Nav.Link>
-                    </div>
-                </div>
+                    </Col>
+                </Col>
             </Row>
-            <Row className="Footer">
+            <Row  className="Footer">
                 <Row>
-                    <Col xs={5}>
+                    <Col  xs={5}>
                         <h5><strong>Sign up to our newsletter for the latest PC news.</strong></h5>
-                        <div className="subscribe">
-                            <div className="subscribes">
-                                <input type="email" class="form-control" id="footer_subscribe" placeholder="Email" />
-                            </div>
-                            <div className="subscribes">
+                        <Col  className="subscribe">
+                            <Col  className="subscribes">
+                                <input type="email" className="form-control" id="footer_subscribe" placeholder="Email" />
+                            </Col>
+                            <Col  className="subscribes">
                                 <Nav.Link href=""><Button type="submit" id="subscribe_button">SUBSCRIBE</Button></Nav.Link>
-                            </div>
-                        </div>
+                            </Col>
+                        </Col>
                     </Col>
 
-                    <Col>
-                        <div className="col_footer">
-                            <p>Build your PC</p>
-                            <p>Why Redux</p>
-                            <p>Support</p>
-                        </div>
+                    <Col >
+                        <Col  className="col_footer">
+                            <Row><p>Build your PC</p></Row>
+                            <Row><p>Why Redux</p></Row>
+                            <Row><p>Support</p></Row>
+                        </Col>
+                    </Col>
+                    <Col >
+                        <Col  className="col_footer">
+                            <Row><p>Good.</p></Row>
+                            <Row><p>Better.</p></Row>
+                            <Row><p>Best.</p></Row>
+                        </Col>  
                     </Col>
                     <Col>
-                        <div className="col_footer">
-                            <p>Good.</p>
-                            <p>Better.</p>
-                            <p>Best.</p>
-                        </div>  
-                    </Col>
-                    <Col>
-                        <div className="col_footer">
-                            <p>Terms & Conditions</p>
-                            <p>Privacy Policy</p>
-                            <p>Refund Policy</p>
-                        </div>
+                        <Col  className="col_footer">
+                            <Row><p>Terms & Conditions</p></Row>
+                            <Row><p>Privacy Policy</p></Row>
+                            <Row><p>Refund Policy</p></Row>
+                        </Col>
                     </Col>
                     <Row>
-                        <div className="networks">
+                        <Col  className="networks">
                             <Nav.Link href="https://www.facebook.com" target="_blank" id="iconos"><FontAwesomeIcon icon={faFacebook}  /></Nav.Link>
                             <Nav.Link href="https://www.twitter.com" target="_blank" id="iconos"><FontAwesomeIcon icon={faTwitter} /></Nav.Link>
                             <Nav.Link href="https://www.instagram.com" target="_blank" id="iconos"><FontAwesomeIcon icon={faInstagram} /></Nav.Link>    
-                        </div>
-                        <div className="copyright">
+                        </Col>
+                        <Col  className="copyright">
                             Copyright © 2020 Build Redux. All Rights Reserved.
-                        </div>
+                        </Col>
                     </Row>    
                 </Row>
             </Row>

@@ -7,17 +7,17 @@ import Header1 from '../layout/Header1';
 const Historia4 = (props) => {
 
     return (
-    <Container fluid className="w-80">
-        <Row xs={1} className="justify-content-md-center w-80">
+    <Container fluid className="cont_layout">
+        <Row  xs={1}>
             <Col>
                 <Header1></Header1>            
             </Col>
         </Row>
-        <Row>
-            <Col>
+        <Row xs={1} md={2}>
+            <Col xs={1} md={1}>
                 <MenuLateral></MenuLateral>
             </Col>
-            <Col >
+            <Col xs={1} md={1}>
                 {props.main}
             </Col>
         </Row>

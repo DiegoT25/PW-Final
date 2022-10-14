@@ -3,13 +3,14 @@
     display:flex;
     flex-direction: column;
     height: 100vh;
-    margin-left: -322px;
-    width: 970px;
+    width: 1191px;
+    margin-left: 13vw;
 }
 
 .data_profile{
     background-color: white;
     height: 600px;
+    width: 100%;
     margin-top: 75px;
     border-radius: 8px;
 }
@@ -43,11 +44,12 @@
 .columna2{
     border:solid;
     border-color: rgb(52, 63, 75);
+    border-right-color: transparent;
+    border-bottom-color: transparent;
     height: 605px;
     margin-left: 200px;
     margin-top: -120px;
     padding-left: 35px;
-    width: 746px;
     border-bottom-right-radius: 8px;
     border-top-right-radius: 8px;
 
@@ -55,24 +57,72 @@
 .doble{
     width: 700px;
     height: 100px;
-    border: solid;
-    border-color: black;
 }
 .simple{
     width: 660px;
+    margin-left: 20px;
+    margin-top: -25px;
 }
 .formulario{
-    margin-top: 50px;
+    margin-top: 35px;
+    margin-left: 90px;
 }
 
 .label1, .label2{
     width: 300px;
     display: inline-block;
-    border: solid;
-    border-color: black;
+    margin-left: 20px;
+}
+.address{
+    margin-top: 15px;
+    margin-left: 0px;
 }
 
-.label2{
-    margin-left: 330px;
-    margin-top: -80px;
+.phone{
+    margin-left: 0px;
+}
+
+.label3, .label4{
+    width: 300px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.update_info{
+    margin-top:30px;
+    margin-left: 110px;
+    display:inline-block;
+}
+
+.cancel_button{
+    display:inline-block;
+}
+
+#update_button{
+    color: white;
+    background-color:  rgb(194, 91, 233);
+    text-decoration: none;
+    padding: 5px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    border-radius: 5px;
+    border-color: transparent;
+}
+#cancel_button{
+    color: gray;
+    background-color:  white;
+    text-decoration: none;
+    padding-top: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: left;
+    border-radius: 5px;
+    border-color: transparent;
+}
+.form-control{
+    height: 40px;
+    font-size: 15px;
+    color:black;
 }

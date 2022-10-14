@@ -11,8 +11,8 @@ const Historia15 =() =>{
 
     return(
         <Container fluid className="HistoriaExtra">
-            <Row> 
-                <Col md={{ span: 2, offset: 2 }} className="Image_Col">
+            <Row fluid className='hola'> 
+                <Col md={{ span: 2}} className="Image_Col">
                     <Image src={Grafico} id="Grafico"/>
                 </Col>
             </Row>

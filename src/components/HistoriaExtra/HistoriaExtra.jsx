@@ -14,12 +14,12 @@ const Historia15 =() =>{
 
     return(
         <Container fluid className="HistoriaExtra">
-            <Row className='Row_grafico'> 
-                <Col md={{ span: 2}} className="Title_Column">
-                    <h1 id="title_historiaExtra">¡CHECK OUR PRICE TEND!</h1>
+            <Row> 
+                <Col xs={1} md={{ span: 2, offset: 0}} className="Title_Column">
+                    <h1 id="title_historiaExtra">¡CHECK OUR PRICE TREND!</h1>
                     <FontAwesomeIcon id="icono_historiaExtra" icon={faSackDollar} />
                 </Col>
-                <Col md={{ span: 2}} className="Image_Col">
+                <Col xs={1} md={{ span: 2, offset: 1}}>
                     <Image src={Grafico} id="Grafico"/>
                 </Col>
             </Row>

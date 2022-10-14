@@ -19,7 +19,7 @@ const Historia7 =() => {
                         </Col>
                         <Col  className="botoncito">
                             <Nav.Link href="/historia8"><Button id="Botone1">Add to the car</Button></Nav.Link>
-                            <Nav.Link href="/historiaExtra"><Button id="Botone2">Check the price tend</Button></Nav.Link>
+                            <Nav.Link href="/historiaExtra"><Button id="Botone2">Check the price trend</Button></Nav.Link>
                         </Col>
                     </Row>
                     <Row  className="right">

@@ -13,10 +13,6 @@
     margin-bottom: 0 !important;
 }
 
-.Image_Col{
-    margin-left: 100px;    
-}
-
 .Title_Column{
     margin-left: 100px;
 }
@@ -40,8 +36,4 @@
     width: 1000px;
     height: 600px;
 }
-.Row_grafico{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-}
+

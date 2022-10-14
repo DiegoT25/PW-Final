@@ -5,7 +5,6 @@ import "./Historia12.css";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import imagen17shop from "../Images/pcgamer.png";
-import Select from 'react-select';
 import ItemCard from "./ItemCard";
 import data from "./data"
 import Cart from './Cart';

@@ -29,10 +29,10 @@ return (
                     <Nav.Link href="" id="menu">Support</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="" id="menu">Reviews</Nav.Link>
+                    <Nav.Link href="/historia23" id="menu">Reviews</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="" id="menu">Ranking</Nav.Link>
+                    <Nav.Link href="/historia24" id="menu">Ranking</Nav.Link>
                 </Nav.Item>
                 </Nav>
             </Col >

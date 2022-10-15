@@ -110,3 +110,118 @@
     height: 40px;
     margin-left: 0;
 }
+@media (max-width: 512px){
+    #Grafico{
+        width: 50%;
+        height: 60%;
+    }
+    
+    .cont_layout1{
+        background-color: rgb(52, 63, 75);
+        display:flex;
+        margin-right : 0 !important;
+        margin-left : 0 !important;
+        margin-bottom: 0 !important;
+        padding-right : 0 !important;
+        padding-left : 0 !important;
+        padding-bottom: 0 !important;
+        width: 100vw;
+        height: fit-content;
+        flex-direction: column;
+        
+        
+    }
+    
+    .lista11{
+        background-color: rgb(24, 24, 86);
+        color: white;
+        border-color: black;
+        border-width: 1px;
+        border-style: solid;
+        width: 99%;
+        padding: 0px;
+        margin-left: 25px;
+        
+    }
+    
+    
+    #botoni{
+        color: white;
+        background-color:  rgb(194, 91, 233);
+        text-decoration: none;
+        padding: 5px 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        text-align:center;
+        border-radius: 5px;
+        border-color: transparent;
+        width: 170px;
+        height: 40px;
+        margin-left: -168px;
+    }
+    .products11a{
+        margin-left: 0px;
+        margin-right: 40px;
+        justify-content: center;
+    }
+    .products11b{
+        margin-right: 40px;
+        justify-content: center;
+    }
+    .fila11a1{
+        height: 150px;
+    }
+    .justify-content-end{
+        margin-right: 0px;
+    }
+    #icono11{
+        width: 40px;
+        height: 40px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 2px;
+    }
+    .encabezado11{
+        flex: 1;
+        margin-left: 90px;
+        width: 200px;
+        height: 70px;
+    }
+    .encabezado11 h1{
+        color:white;
+        text-decoration: none;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .boton_checkout_h11{
+        display: inline-block;
+    }
+    #botoni_h11{
+        color: white;
+        background-color:  rgb(194, 91, 233);
+        text-decoration: none;
+        padding: 5px 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        text-align:center;
+        border-radius: 5px;
+        border-color: transparent;
+        width: 170px;
+        height: 40px;
+        margin-left: 0;
+    }
+    #boton_back{
+        color: white;
+        background-color:  gray;
+        text-decoration: none;
+        padding: 5px 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        text-align:center;
+        border-radius: 5px;
+        border-color: transparent;
+        width: 170px;
+        height: 40px;
+        margin-left: 0;
+    }
+}

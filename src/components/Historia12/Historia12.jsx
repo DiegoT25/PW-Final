@@ -9,9 +9,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faCartShopping} from "@fortawesome/free-solid-svg-icons"
 import Nav from "react-bootstrap/Nav";  
 import ItemCard from "./ItemCard";
-import data from "./data"
+import data from "./data";
 import Cart from './Cart';
-import {useCart} from 'react-use-cart';
 
 const Historia12 =() =>{
     return(

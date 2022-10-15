@@ -1,4 +1,4 @@
-import { LoginPage, Historia2Page, Historia3Page, Historia5Page, Historia7Page, Historia8Page, Historia10Page, Historia14Page, HistoriaExtraPage,Historia15Page,Historia16Page, Historia17Page, Historia18Page, Historia20Page, Historia19Page, Historia13Page,Historia12Page, GamePage } from './components/pages'
+import { LoginPage, Historia2Page, Historia3Page, Historia5Page, Historia7Page, Historia8Page, Historia10Page, Historia14Page, HistoriaExtraPage,Historia15Page,Historia16Page, Historia17Page, Historia18Page, Historia20Page, Historia19Page, Historia13Page,Historia12Page, GamePage, Historia21Page, Historia23Page } from './components/pages'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css'
 
@@ -25,6 +25,8 @@ function App() {
             <Route path="/historia11" element={<GamePage />}/>
             <Route path="/historia13" element={<Historia13Page />}/>
             <Route path="/historia12" element={<Historia12Page />}/>
+            <Route path='/historia21' element={<Historia21Page />}/>
+            <Route path='/historia23' element={<Historia23Page />}/>
         </Routes>
       </BrowserRouter>
     </>

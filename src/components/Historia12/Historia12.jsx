@@ -19,7 +19,7 @@ const Historia12 =() =>{
         <Row xs={1} className="justify-content-md-center w-80">
         <div className="general12" >
             <Row>
-            <Col >
+            <Col>
             <p id='fuente12'>Build your own PC!</p>
             <Image src={imagen17shop} id='imagen12a1'></Image>
             <div id='formato12a1'>

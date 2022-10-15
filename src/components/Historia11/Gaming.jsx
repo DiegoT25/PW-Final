@@ -22,18 +22,19 @@ import windows from "./imagenes/windows.png";
 const Game = () => {
     return (
         <Container fluid className="cont_layout1">
-            <Row className='fila11a1'>
-                <Col>
-                <p>Your optimized build!</p>
+           <Row> 
+            <Row>
+            <Col className="encabezado11">
+                    <h1>What do you need?</h1>
                 </Col>
-                <Col>
-                <Col className="boton_checkout">
-                    <Nav.Link href="/historia13"><Button id="botoni"><FontAwesomeIcon icon={faCartShopping} /> &nbsp;&nbsp;Checkout</Button></Nav.Link>
+                <Col className="boton_back">
+                    <Nav.Link href="/historia10"><Button id="boton_back">{'<'}Back</Button></Nav.Link>
                 </Col>
-
+                <Col className="boton_checkout_h11">
+                    <Nav.Link href="/historia13"><Button id="botoni_h11"><FontAwesomeIcon icon={faCartShopping} /> &nbsp;&nbsp;Checkout</Button></Nav.Link>
                 </Col>
             </Row>
-            <Row>
+        
             <Col sm={4} >
                 <Image src={pcGamer} id="Grafico"/>
             </Col>

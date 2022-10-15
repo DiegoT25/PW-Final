@@ -34,11 +34,14 @@ return (
                 </Nav>
             </Col >
             <Col xs={3} className="justify-content-end">
-                <div className="icons_menu">
-                    <Nav.Link href="/historia7" id="icons"><FontAwesomeIcon icon={faMagnifyingGlass} /></Nav.Link>
-                    <Nav.Link href="/historia5" id="icons"><FontAwesomeIcon icon={faUser} /></Nav.Link>
-                    <Nav.Link href="/historia8" id="icons"><FontAwesomeIcon icon={faCartShopping} /></Nav.Link>
-                </div>
+                <Col fluid className="icons_menu">
+                    <Col className='madre'>
+                        <input type="text" placeholder='Buscar' required></input>
+                        <Nav.Link href="/historia7" id="icons"><FontAwesomeIcon icon={faMagnifyingGlass} color="white"/></Nav.Link>
+                        <Nav.Link href="/historia5" id="icons"><FontAwesomeIcon icon={faUser} /></Nav.Link>
+                        <Nav.Link href="/historia8" id="icons"><FontAwesomeIcon icon={faCartShopping} /></Nav.Link>
+                    </Col>
+                </Col>
             </Col >
         </Row>
     </Container>

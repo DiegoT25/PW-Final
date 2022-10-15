@@ -14,9 +14,9 @@ import Cart from '../Historia12/Cart';
 
 const Historia13 =() =>{
     return(
-        <Container fluid className="cont_layout">
+        <Container fluid className="cont_layoutax">
             <Row>
-                <Col >
+                <Col>
                 <Row>
                     <p id="letra1">Cart {'>'}Information {'>'}Shipping {'>'}Payment</p>
                 </Row>

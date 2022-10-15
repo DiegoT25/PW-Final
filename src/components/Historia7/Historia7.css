@@ -68,13 +68,13 @@
     flex: 0.5;
 }
 
-table,td {
+.tablita,td {
 	border: 1px solid white;
     color: white;
     height: 35px;
     
 }
-table {
+.tablita {
     margin-left: 10px;
     margin-bottom: 10px;
 }
@@ -84,7 +84,7 @@ table {
     height: 300px;
 }
 
-h3 {
+.nvidiagtx {
     margin-left: 2px;
     color: white;
     font-size: 50px;
@@ -92,10 +92,7 @@ h3 {
 .precio{
     font-size: 20px;
 }
- h4 {
-    margin-left: 2px;
-    color: white;
- }  
+
  .mini{
     color: rgb(187, 31, 187);
  }

@@ -23,12 +23,12 @@ const Historia7 =() => {
                     </Row>
                     <Row fluid className="right">
                         <Row>
-                            <h3><b>NVIDIA GEFORCE GTX 1650 4GB</b></h3>
+                            <h3 className="nvidiagtx"><b>NVIDIA GEFORCE GTX 1650 4GB</b></h3>
                             <h3 className="precio"><b>$229</b></h3>
                             <h4 className="check"><b className="mini">Shipping</b> calculated at checkout</h4>
                         </Row>
                         <Row className="tableta">
-                        <table>
+                        <table className="tablita">
                             <tr>
                                 <td>
                                     Chipset

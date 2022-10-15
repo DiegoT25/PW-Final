@@ -1,4 +1,4 @@
-import { LoginPage, Historia2Page, Historia3Page, Historia5Page, Historia7Page, Historia8Page, Historia10Page, Historia14Page, Historia15Page, HistoriaExtraPage } from './components/pages'
+import { LoginPage, Historia2Page, Historia3Page, Historia5Page, Historia7Page, Historia8Page, Historia10Page, Historia14Page, Historia15Page, Historia16Page, Historia17Page, Historia18Page, Historia20Page, Historia19Page, HistoriaExtraPage } from './components/pages'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css'
 
@@ -16,6 +16,11 @@ function App() {
             <Route path="/historia7" element={<Historia7Page />}/>
             <Route path="/historia8" element={<Historia8Page />}/>
             <Route path="/historia15" element={<Historia15Page />}/>
+            <Route path="/historia16" element={<Historia16Page />}/>
+            <Route path="/historia17" element={<Historia17Page />}/>
+            <Route path="/historia18" element={<Historia18Page />}/>
+            <Route path="/historia19" element={<Historia19Page />}/>
+            <Route path="/historia20" element={<Historia20Page />}/>
             <Route path="/historiaExtra" element={<HistoriaExtraPage />}/>
         </Routes>
       </BrowserRouter>

@@ -12,7 +12,7 @@ const Historia5 =() =>{
         <Container xs={1} md={1}fluid className="profile">
             <Col>
                 <Col className="data_profile">
-                    <Col  className="columna1">
+                    <Col className="columna1">
                         <h6><strong>Default</strong></h6>
                         <Row className="p1">
                             <p>Ed Va</p>
@@ -35,8 +35,10 @@ const Historia5 =() =>{
                             </Col>
                             
                             <Col className="simple">
-                                <label>Email</label>
-                                <input type="email" className="form-control" id="form_profile1" placeholder="" />
+                                <Row className="email">
+                                    <label>Email</label>
+                                    <input type="email" className="form-control" id="form_profile1" placeholder="" />
+                                </Row>
                                 <Row className="address">
                                     <label>Address</label>
                                     <input type="text" className="form-control" id="form_profile1" placeholder="" />

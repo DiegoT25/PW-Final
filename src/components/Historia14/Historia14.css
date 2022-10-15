@@ -16,7 +16,7 @@
     
 }
 .productos2_h14 {
-    display: flex;
+    
     margin-top: 10px;
     height: 70px;
     background-color: white;
@@ -54,7 +54,6 @@
 .lista{
     display: flex;
     margin-left: 105px;
-    width: 190px;
     padding-top: 8px;
     height: 70px;
 }

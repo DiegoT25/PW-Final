@@ -14,7 +14,7 @@ const Historia14 = () => {
     return (
         <Container xs={1} md={1} fluid className="contenedor_14">
                 <Col>
-                    <Row className="productos_h14   ">
+                    <Row className="productos_h14">
                         <Row className="lista">
                             <Col className="foto2"> <Image src={produ1} id="produ1"/> </Col>
                             <Col className="text"><h4>Keyboard & mouse bundle</h4> </Col>

@@ -33,7 +33,7 @@ const Historia20 =() =>{
                 <p>Pc well builded and nice case quality</p>
             </Row>
             <Row>
-                <Nav.Link href="/Historia21"><Button className="botonInflu">Influencers</Button></Nav.Link>
+                <Nav.Link href="/Historia21"><Button className="botonInflu" id="boton_influencer">Influencers</Button></Nav.Link>
             </Row>
         </Container>
         )   

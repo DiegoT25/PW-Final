@@ -20,7 +20,7 @@ const Historia15 =() =>{
                     <FontAwesomeIcon id="icono_historiaExtra" icon={faSackDollar} />
                 </Col>
                 <Col xs={1} md={{ span: 2, offset: 1}}>
-                    <Image src={Grafico} id="Grafico"/>
+                    <Image src={Grafico} id="Grafico_hExtra"/>
                 </Col>
             </Row>
         </Container>

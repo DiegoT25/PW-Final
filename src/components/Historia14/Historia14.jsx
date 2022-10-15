@@ -42,7 +42,7 @@ const Historia14 = () => {
                         <Row className="lista">
                             <Col  className="foto2"> <Image src={produ4} id="produ4"/> </Col>
                             <Col  className="text"><h4>1TB NVME M.2</h4> </Col>
-                            <Col  className="precio" id="precio4"> <h4>$99</h4></Col>
+                            <Col  className="precio"> <h4>$99</h4></Col>
                             <Col  className="fecha">10/12/2022</Col>
                       </Row>
                     </Row>

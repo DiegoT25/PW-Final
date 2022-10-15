@@ -1,5 +1,5 @@
-import { LoginPage, Historia2Page, Historia3Page, Historia5Page, Historia7Page, Historia8Page, Historia10Page, Historia14Page, HistoriaExtraPage,Historia15Page,Historia16Page, Historia17Page, Historia18Page, Historia20Page, Historia19Page, Historia13Page,Historia12Page, GamePage, Historia21Page, Historia23Page, Historia24Page } from './components/pages'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { LoginPage, Historia2Page, Historia3Page, Historia5Page, Historia7Page, Historia8Page, Historia10Page, Historia14Page, HistoriaExtraPage,Historia15Page,Historia16Page, Historia17Page, Historia18Page, Historia20Page, Historia19Page, Historia13Page,Historia12Page, GamePage, Historia24Page } from './components/pages'
+import { HashRouter,BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css'
 import Historia24 from './components/Historia24';
 
@@ -8,6 +8,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
+          
             <Route path="/" element={<LoginPage />}/>
             <Route path="/historia2" element={<Historia2Page />}/>
             <Route path="/historia3" element={<Historia3Page />}/>
@@ -25,12 +26,10 @@ function App() {
             <Route path="/historiaExtra" element={<HistoriaExtraPage />}/>
             <Route path="/historia11" element={<GamePage />}/>
             <Route path="/historia13" element={<Historia13Page />}/>
-            <Route path="/historia12" element={<Historia12Page />}/>
-            <Route path='/historia21' element={<Historia21Page />}/>
-            <Route path='/historia23' element={<Historia23Page />}/>
+            <Route path="/historia12" element={<Historia12Page />}/>        
             <Route path="/historia24" element={<Historia24Page />}/>
         </Routes>
-      </BrowserRouter>
+        </BrowserRouter>
     </>
   );
 }

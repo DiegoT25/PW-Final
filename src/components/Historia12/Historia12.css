@@ -231,10 +231,13 @@
 }
 
 #Carrito13a{
-    margin-top: 200px;
+    margin-top: 500px;
     margin-right: 200px;
-    width: 100%;
-    
+    width: 550px;
+    top: 350px;
+    right: 190px;
+    position: absolute;
+
 }
 #boton12a10{
         color: white;
@@ -266,4 +269,8 @@
     padding-left : 0 !important;
     padding-bottom: 0 !important;
 
+}
+.h12_carta{
+    justify-content: start;
+    
 }

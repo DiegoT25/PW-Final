@@ -21,10 +21,10 @@ const Cart = () => {
 
     if (isEmpty) return <h1 className='texto12a'>Tu carrito está vacío amiguin</h1>
     return (
-        <Container>
+        <Container >
             <Row>
-            <div id='Carrito13a'>
-            <table className='table table-light table-hover m-0' >
+            <div >
+            <table className='table table-light table-hover m-0' id='Carrito13a'>
                 <tbody>
                 {items.map((item,index) =>{
                     return(

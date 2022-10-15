@@ -11,7 +11,15 @@ import imagen15shop from "../Images/shopay.png";
 import imagen16shop from "../Images/loginimagen.png";
 import Countries from "./Country-list";
 import Cart from '../Historia12/Cart';
-
+import build1 from "../Images/build1.png";
+import build2 from "../Images/build2.png";
+import build3 from "../Images/build3.png";
+import build4 from "../Images/build4.png";
+import build5 from "../Images/build5.png";
+import build6 from "../Images/build6.png";
+import build7 from "../Images/build7.png";
+import build8 from "../Images/build8.png";
+import build9 from "../Images/build9.png";
 const Historia13 =() =>{
     return(
         <Container fluid className="cont_layoutax">
@@ -100,13 +108,80 @@ const Historia13 =() =>{
                 </Col>
                 
                 <Col  className='derecha'>
-                    <Row>
-                    <Col className='text-center'>
-                    <Cart>
-                    </Cart>
+                    <Row >
+                    <Col >
+                    <div className='carrito_h13'> 
+                    <table className='table table-light table-hover m-0' id='color_tabla_h13'>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <Image src={build1}></Image>
+                                </td>
+                                <td>700W ATX 80 PLUS GOLD</td>
+                                <td>$79.00</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <Image src={build2}></Image>
+                                </td>
+                                <td>Build + Setup + Testing + Warranty </td>
+                                <td>$99.00</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <Image src={build3}></Image>
+                                </td>
+                                <td>Cm MasterLiquid ML240L</td>
+                                <td>$89.00</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <Image src={build4}></Image>
+                                </td>
+                                <td>Windows 11 Home + USB Recovery</td>
+                                <td>$120.00</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <Image src={build5}></Image>
+                                </td>
+                                <td>Wireless 802.11ac</td>
+                                <td>$29.00</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <Image src={build6}></Image>
+                                </td>
+                                <td>QTY 4x CM MasterFans RGB</td>
+                                <td>$29.00</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <Image src={build7}></Image>
+                                </td>
+                                <td>Cooler Master TD500 RGB</td>
+                                <td>$99.00</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <Image src={build8}></Image>
+                                </td>
+                                <td>NVIDIA GeForce RTX 3070 8GB (VR Ready)</td>
+                                <td>$679.00</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <Image src={build9}></Image>
+                                </td>
+                                <td>1TB NVMe M.2</td>
+                                <td>$99.00</td>
+                            </tr>
+                        </tbody>
+                    </table> 
+                    </div>   
                     </Col>
                     </Row>
-                    <Row>
+                    <Row >
                         <Col>
                         <input className='ingreso13b'></input>
                         </Col>
@@ -114,7 +189,6 @@ const Historia13 =() =>{
                         <Button id='boton13y'>Apply</Button>
                         </Col>
                     </Row>
-
                 </Col>
             </Row>
         </Container>

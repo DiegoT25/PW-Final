@@ -1,0 +1,236 @@
+.contenedor{
+    background-color: rgb(52, 63, 75);
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100wh;
+    margin-right : 0 !important;
+    margin-left : 0 !important;
+    margin-bottom: 0 !important;
+    padding-right : 0 !important;
+    padding-left : 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.encabezados{
+    display: flex;
+    margin-top: 50px;
+}
+.encabezadol{
+    flex: 1;
+    margin-left: 90px;
+    width: 200px;
+    height: 70px;
+}
+.encabezadol h1{
+    color:white;
+    text-decoration: none;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.boton_checkout_h8{
+    display: inline-block;
+}
+
+.productos {
+    display: flex;
+    margin-top: 10px;
+    height: 70px;
+}
+.productos2 {
+    display: flex;
+    margin-top: 10px;
+    height: 70px;
+}
+.productos3 {
+    display: flex;
+    margin-top: 10px;
+    height: 70px;
+}
+.productos4 {
+    display: flex;
+    margin-top: 10px;
+    height: 70px;
+}
+.productos5 {
+    display: flex;
+    margin-top: 10px;
+    height: 70px;
+}
+.productos6 {
+    display: flex;
+    margin-top: 10px;
+    height: 70px;
+}
+.lista_h8 {
+    display: flex;
+    background-color: white;
+    margin-left: 105px;
+    width: 730px;
+    padding-top: 8px;
+    height: 70px;
+}
+
+.foto2 {
+    margin-left: 30px;
+    padding-top: 8px;
+}
+
+.texto{
+    flex: 3;
+    color: black;
+}
+
+.precio{
+    flex: 1;
+    margin-left: 20PX;
+}
+
+.basurita {
+    flex: 1;
+     text-align: center;
+}
+
+#iconolo{
+    width: 30px;
+    height: 30px;
+}
+
+#botono {
+    margin-bottom: 30px;
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+#botoni_h8{
+    color: white;
+    background-color:  rgb(194, 91, 233);
+    text-decoration: none;
+    padding: 5px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align:center;
+    border-radius: 5px;
+    border-color: transparent;
+    width: 170px;
+    height: 40px;
+    margin-left: -168px;
+}
+.h4_gian{
+    color: black;
+}
+
+@media (max-width: 512px){
+    .encabezados{
+        display: flex;
+        margin-top: 50px;
+    }
+    .encabezadol{
+        margin-left: 16px;
+    }
+
+    .encabezadol h1{
+        font-size: 30px;
+        color:white;
+        text-decoration: none;
+    }
+    .boton_checkout_h8{
+        display: inline-block;
+    }
+    
+    .productos {
+        display: flex;
+        margin-top: 10px;
+        height: 70px;
+        margin-left: -90px;
+
+    }
+    .productos2 {
+        display: flex;
+        margin-top: 10px;
+        height: 70px;
+        margin-left: -90px;
+    }
+    .productos3 {
+        display: flex;
+        margin-top: 10px;
+        height: 70px;
+        margin-left: -90px;
+    }
+    .productos4 {
+        display: flex;
+        margin-top: 10px;
+        height: 70px;
+        margin-left: -90px;
+    }
+    .productos5 {
+        display: flex;
+        margin-top: 10px;
+        height: 70px;
+        margin-left: -90px;
+    }
+    .productos6 {
+        display: flex;
+        margin-top: 10px;
+        height: 70px;
+        margin-left: -90px;
+    }
+    .lista_h8 {
+        display: flex;
+        background-color: white;
+        margin-left: 105px;
+        width: 450px;
+        padding-top: 4px;
+        height: 70px;
+    }
+    
+    .foto2 {
+        margin-left: 30px;
+    }
+    
+    .texto{
+        flex: 3;
+    }
+    .texto h4{
+        flex: 3;
+        font-size: 15px;
+    }
+    
+    .precio{
+        flex: 1;
+        margin-left: 20PX;
+    }
+    
+    .basurita {
+        flex: 1;
+         text-align: center;
+    }
+    
+    #iconolo{
+        width: 30px;
+        height: 30px;
+    }
+    
+    #botono {
+        margin-bottom: 30px;
+        background-color: white;
+        color: black;
+        border-color: white;
+    }
+    #botoni_h8{
+        color: white;
+        background-color:  rgb(194, 91, 233);
+        text-decoration: none;
+        padding: 5px 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        text-align:center;
+        border-radius: 5px;
+        border-color: transparent;
+        width: 170px;
+        height: 40px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+   
+}

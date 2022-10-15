@@ -15,21 +15,26 @@ const Historia3 =() =>{
     return(
         <Container fluid className="Container">
             <Row className="Contenedor">
-                <Image src={logo} id="logo"/>
-                <Row  className="Title">
-                    <h1>Build your PC!</h1>
-                </Row>
-                <Row className="Subtitle">
-                    <h2>Just for what you need</h2>
-                </Row>
-                <Col  className="Buttons">
-                    <Col  className="button">
-                        <Nav.Link href=""><Button id="Boton">Build for begginers</Button></Nav.Link>
+                <Row>
+                    <Col xs={5}>
+                        <Image src={logo} id="logo"/>
+                        <Row  className="Title_h2">
+                            <h1>Build your PC!</h1>
+                        </Row>
+                        <Row className="Subtitle_h2">
+                            <h2>Just for what you need</h2>
+                        </Row>
+                        <Col className="Buttons_h2">
+                            <Col className="button_h2">
+                                <Nav.Link href="/historia10"><Button id="Boton_h3">Build for begginers</Button></Nav.Link>
+                            </Col>
+                            <Col  className="button_h2">
+                                <Nav.Link href="historia12"><Button id="Boton_h3">Advanced building</Button></Nav.Link>
+                            </Col>
+                        </Col>
                     </Col>
-                    <Col  className="button">
-                        <Nav.Link href=""><Button id="Boton">Advanced building</Button></Nav.Link>
-                    </Col>
-                </Col>
+                    
+                </Row>
             </Row>
             <Row  className="Footer">
                 <Row>

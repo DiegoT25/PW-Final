@@ -55,7 +55,7 @@ const Historia12 =() =>{
             <Col>
                 <Row>
                     <Button id="Botonh">{'<'}Back</Button>
-                    <Nav.Link href="/historia13"><Button id="botoni_h8"><FontAwesomeIcon icon={faCartShopping} /> &nbsp;&nbsp;Checkout</Button></Nav.Link>
+                    <Nav.Link href="/historia13"><Button id="boton12a10"><FontAwesomeIcon icon={faCartShopping} /> &nbsp;&nbsp;Checkout</Button></Nav.Link>
                 </Row>
                 
                 <Cart>

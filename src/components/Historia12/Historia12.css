@@ -8,6 +8,7 @@
     position: absolute;
     margin-top: 50px;
     margin-left: 60px;
+    color: white;
 }
 #imagen12a1{
     margin-top: 250px;
@@ -20,16 +21,17 @@
     position: absolute;
     top: 550px;
     left: 10px;
+    color: white;
     
 }
 #formato12a2{
-    font-size: 17px;
+    font-size: 19px;
     margin-left: 10px;
     padding-top: 10px;
     
 }
 #formato12a3{
-    font-size: 25px;
+    font-size: 28px;
     margin-left: 40px;
     margin-top: -13px;
 }
@@ -153,7 +155,7 @@
 #Botonh{
     width: 190px;
     color: white;
-    background-color: rgb(194, 91, 233);
+    background-color: rgb(109, 108, 109);
     text-decoration: none;
     padding: 5px 15px;
     font-family: Arial, Helvetica, sans-serif;
@@ -229,6 +231,7 @@
 .texto12a{
     margin-top: 150px;  
     font-size: 25px;
+    color: white;
 }
 
 #Carrito13a{
@@ -236,4 +239,21 @@
     margin-right: 200px;
     width: 100%;
     
+}
+#boton12a10{
+    color: white;
+        background-color:  rgb(194, 91, 233);
+        text-decoration: none;
+        padding: 5px 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        text-align:center;
+        border-radius: 5px;
+        border-color: transparent;
+        width: 240px;
+        height: 40px;
+        margin-left: 200px;
+        margin-top: 70px;
+        position: absolute;
+        
 }

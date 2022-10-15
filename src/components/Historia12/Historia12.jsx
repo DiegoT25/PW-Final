@@ -8,7 +8,7 @@ import imagen17shop from "../Images/pcgamer.png";
 import ItemCard from "./ItemCard";
 import data from "./data"
 import Cart from './Cart';
-
+import {useCart} from 'react-use-cart';
 
 const Historia12 =() =>{
     return(
@@ -21,13 +21,7 @@ const Historia12 =() =>{
             <p id='fuente12'>Build your own PC!</p>
             <Image src={imagen17shop} id='imagen12a1'></Image>
             <div id='formato12a1'>
-                <p id='formato12a2'>Components price</p>
-                <p id='formato12a3'>$100</p>
-                <p id='formato12a2'>Build fee</p>
-                <p id='formato12a3'>$99</p>
-                
-                
-            </div>
+                </div>
             </Col>
             
             <Col >
@@ -63,6 +57,7 @@ const Historia12 =() =>{
                 </Row>
                 
                 <Cart>
+                    
                 </Cart>
                 
                 

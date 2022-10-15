@@ -1,14 +1,21 @@
+.text_h20{
+    margin-left: 120px;
+    margin-top: 20px;
+}
 
-h1{
-    color:black;
+.text_h20 h1{
+    color:rgb(52, 63, 75);;
     margin-bottom: 60px;
     text-decoration: underline;
 }
-h2{
-    color: black;
+.text_h20 h2{
+    color: rgb(52, 63, 75);;
     margin-bottom: 15px;
 }
-p{
-    color: black;
+.text_h20 p{
+    color: rgb(52, 63, 75);;
     margin-left: 25px;
+}
+.text_h20 h3{
+    color: rgb(52, 63, 75);;
 }

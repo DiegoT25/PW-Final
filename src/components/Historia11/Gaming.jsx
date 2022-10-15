@@ -17,7 +17,7 @@ const Game = () => {
                 </Col>
                 <Col>
                 <Col className="boton_checkout">
-                    <Nav.Link href=""><Button id="botoni"><FontAwesomeIcon icon={faCartShopping} /> &nbsp;&nbsp;Checkout</Button></Nav.Link>
+                    <Nav.Link href="/historia13"><Button id="botoni"><FontAwesomeIcon icon={faCartShopping} /> &nbsp;&nbsp;Checkout</Button></Nav.Link>
                 </Col>
 
                 </Col>

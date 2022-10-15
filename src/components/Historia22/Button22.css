@@ -1,0 +1,13 @@
+#boton_h22{
+    color: white;
+    background-color:  rgb(194, 91, 233);
+    text-decoration: none;
+    padding: 5px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+    border-color: transparent;
+    width: 150px;
+    height: 40px;
+}

@@ -45,7 +45,7 @@ const Historia8 =() =>{
                 <Row  className="productos3">
                     <Row  className="lista_h8">
                         <Col  className="foto2"> <Image src={produ3} id="produ3"/> </Col>
-                        <Col  className="texto"><h4>NVIDI GEFORCE RTX 3070 8GB</h4> </Col>
+                        <Col  className="texto"><h4>NVIDIA GEFORCE RTX 3070 8GB</h4> </Col>
                         <Col  className="precio"> <h4>$679</h4></Col>
                         <Col  className ="basurita"> <Button id="botono"><FontAwesomeIcon id="iconolo" icon={faTrashCan} /></Button> </Col>
                     </Row>

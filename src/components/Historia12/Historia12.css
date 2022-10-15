@@ -1,8 +1,4 @@
-.general12{
-    height: 889px;
-    background-color: rgb(52, 63, 75);
-    
-}
+
 #fuente12{
     font-size: 35px;
     position: absolute;
@@ -256,4 +252,18 @@
         margin-top: 70px;
         position: absolute;
         
+}
+
+.cont_layout{
+    background-color: rgb(52, 63, 75);
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100wh;
+    margin-right : 0 !important;
+    margin-left : 0 !important;
+    padding-right : 0 !important;
+    padding-left : 0 !important;
+    padding-bottom: 0 !important;
+
 }

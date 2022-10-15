@@ -44,7 +44,7 @@ input{
     font-size: 20px;
     border: 1px solid white;
     transition: all .7s ease;
-    margin-left: -50px;
+    margin-left: -70px;
 }
 .bote{
     position: absolute;
@@ -72,6 +72,9 @@ input{
 
 .madre:hover i {
     transform: rotate(-360deg);
+}
+.madre{
+    margin-left: -30px;
 }
 
 

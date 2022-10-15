@@ -13,26 +13,26 @@ import {faCartShopping} from "@fortawesome/free-solid-svg-icons"
 const Header1 = () => {
 return (
     <Container fluid className='header'>
-        <Row fluid xs={1}>
-            <Col fluid xs={1} md={3} className="justify-content-start">
+        <Row xs={1}>
+            <Col xs={1} md={3} className="justify-content-start">
                 <Image src={logo} id="logo_header"/>
             </Col >
-            <Col fluid xs={1} md={6} className="justify-content-center">
+            <Col xs={1} md={6} className="justify-content-center">
             <Nav>
                 <Nav.Item>
                     <Nav.Link href="/historia3" id="menu">Home</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="" id="menu">About</Nav.Link>
+                    <Nav.Link href="/historia15" id="menu">About</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="" id="menu">Support</Nav.Link>
+                    <Nav.Link href="/historia16" id="menu">Support</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="" id="menu">Reviews</Nav.Link>
+                    <Nav.Link href="/historia20" id="menu">Reviews</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="" id="menu">Ranking</Nav.Link>
+                    <Nav.Link href="/historia23" id="menu">Ranking</Nav.Link>
                 </Nav.Item>
                 </Nav>
             </Col >

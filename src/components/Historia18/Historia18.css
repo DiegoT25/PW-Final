@@ -1,0 +1,32 @@
+.Contenedor{
+    background-color: rgb(52, 63, 75);
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100wh;
+    margin-right : 0 !important;
+    margin-left : 0 !important;
+    padding-right : 0 !important;
+    padding-left : 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.boton2{
+    background-color: rgb(92, 94, 96);
+    height: 50px;
+    width: 700px;
+    border: none;
+    border-radius: 0%;
+    margin-left: 100px;
+    margin-right: 470px;
+    display: block;
+    margin-top: 10px;
+    text-align: start;
+    
+    
+}
+.fila_h18 h1{
+    color: white;
+    text-decoration: none;
+    margin-left: 100px;
+}

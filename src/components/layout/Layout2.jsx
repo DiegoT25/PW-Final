@@ -8,13 +8,13 @@ import Header2 from './Header2'
 const Layout2 = (props) => {
 
     return (<Container fluid className="cont_layout">
-        <Row fluid xs={1}>
-            <Col fluid >
+        <Row xs={1}>
+            <Col >
                 <Header2></Header2>
             </Col>
         </Row>
-        <Row fluid xs={1}>
-            <Col fluid>
+        <Row xs={1}>
+            <Col >
                 {props.main}
             </Col>
         </Row>

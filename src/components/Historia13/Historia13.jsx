@@ -100,10 +100,12 @@ const Historia13 =() =>{
                 </Col>
                 
                 <Col  className='derecha'>
-                    <p></p>
+                    <Row>
+                    <Col className='text-center'>
                     <Cart>
-
                     </Cart>
+                    </Col>
+                    </Row>
                     <Row>
                         <Col>
                         <input className='ingreso13b'></input>

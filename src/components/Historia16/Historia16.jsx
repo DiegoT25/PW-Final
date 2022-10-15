@@ -11,7 +11,7 @@ import { AiFillFileUnknown } from "react-icons/ai";
 
 const Historia16 =() =>{
     return(
-        <Container className="Contenedor">
+        <Container fluid className="Contenedor">
                 <Row className="fila">
                     <h1>Support Hub</h1>
                     <Col><Nav.Link href="/Historia17"><Button className="boton4" id="botonh16"><AiOutlineContainer /><br></br>GUIDES</Button></Nav.Link></Col>

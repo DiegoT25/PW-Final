@@ -14,16 +14,13 @@
     "bootstrap": "^5.2.2",
     "bootstrap-icons": "^1.9.1",
     "cdbreact": "^1.5.3",
-    "gh-pages": "^4.0.0",
     "holderjs": "^2.9.9",
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
-    "react-lazy": "^1.1.0",
     "react-native-fieldset": "^1.0.3",
     "react-native-web": "^0.18.9",
-    "react-player": "^2.11.0",
     "react-router-dom": "^6.4.2",
     "react-scripts": "5.0.1",
     "react-select": "^5.5.0",
@@ -57,5 +54,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }

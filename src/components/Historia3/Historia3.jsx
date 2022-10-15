@@ -29,7 +29,7 @@ const Historia3 =() =>{
                                 <Nav.Link href="/historia10"><Button id="Boton_h3">Build for begginers</Button></Nav.Link>
                             </Col>
                             <Col  className="button_h2">
-                                <Nav.Link href=""><Button id="Boton_h3">Advanced building</Button></Nav.Link>
+                                <Nav.Link href="historia12"><Button id="Boton_h3">Advanced building</Button></Nav.Link>
                             </Col>
                         </Col>
                     </Col>

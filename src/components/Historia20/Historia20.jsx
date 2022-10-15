@@ -1,6 +1,11 @@
 import "./Historia20.css";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import Button from 'react-bootstrap/Button';
+import Nav from 'react-bootstrap/Nav';
+
+
+
 import { GrStar } from "react-icons/gr";
 
 const Historia20 =() =>{
@@ -27,8 +32,12 @@ const Historia20 =() =>{
                 <h3>Carl Johnson<GrStar /><GrStar /><GrStar /><GrStar /><GrStar /></h3><br></br>
                 <p>Pc well builded and nice case quality</p>
             </Row>
+            <Row>
+                <Nav.Link href="/Historia21"><Button className="botonInflu">Influencers</Button></Nav.Link>
+            </Row>
         </Container>
-    )
-}
+        )   
+    }
+
 
 export default Historia20;

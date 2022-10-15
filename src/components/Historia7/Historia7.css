@@ -99,6 +99,9 @@ h3 {
  .mini{
     color: rgb(187, 31, 187);
  }
+ .check{
+    color: white;
+ }
  
 @media (max-width: 512px){
     .contenedor1{

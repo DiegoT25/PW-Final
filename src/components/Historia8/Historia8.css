@@ -78,6 +78,7 @@
 
 .texto{
     flex: 3;
+    color: black;
 }
 
 .precio{
@@ -114,6 +115,9 @@
     width: 170px;
     height: 40px;
     margin-left: -168px;
+}
+h4{
+    color: black;
 }
 
 @media (max-width: 512px){
@@ -228,4 +232,5 @@
         margin-left: 20px;
         margin-top: 10px;
     }
+   
 }

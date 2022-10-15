@@ -24,7 +24,7 @@ const Historia8 =() =>{
                     <h1>Shopping car items</h1>
                 </Col>
                 <Col className="boton_checkout">
-                    <Nav.Link href=""><Button id="botoni"><FontAwesomeIcon icon={faCartShopping} /> &nbsp;&nbsp;Checkout</Button></Nav.Link>
+                    <Nav.Link href="/historia13"><Button id="botoni"><FontAwesomeIcon icon={faCartShopping} /> &nbsp;&nbsp;Checkout</Button></Nav.Link>
                 </Col>
                 <Row className="productos">
                     <Row className="lista">

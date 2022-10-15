@@ -10,14 +10,14 @@ const Historia10 = () => {
     <Container fluid className="cont">
         
         <Row className="fila">
-            <Col fluid className="columnas"><Nav.Link className="boton" href="/gaming"><Button className="boton"><BsController className="icono"/>Gaming</Button></Nav.Link></Col>
-            <Col fluid className="columnas"><Nav.Link className="boton" href="/gaming"><Button className="boton"><BsController className="icono"/>Design</Button></Nav.Link></Col>
-            <Col fluid className="columnas"><Nav.Link className="boton" href="/gaming"><Button className="boton"><BsController className="icono"/>Coding</Button></Nav.Link></Col>
+            <Col  className="columnas"><Nav.Link className="boton" href="/gaming"><Button className="boton"><BsController className="icono"/>Gaming</Button></Nav.Link></Col>
+            <Col  className="columnas"><Nav.Link className="boton" href="/gaming"><Button className="boton"><BsController className="icono"/>Design</Button></Nav.Link></Col>
+            <Col  className="columnas"><Nav.Link className="boton" href="/gaming"><Button className="boton"><BsController className="icono"/>Coding</Button></Nav.Link></Col>
         </Row>
 
         <Row className="fila">
-            <Col fluid className="columnas"><Nav.Link className="boton" href="/gaming"><Button className="boton"><BsController className="icono"/>Rendering</Button></Nav.Link></Col>
-            <Col fluid className="columnas"><Nav.Link className="boton" href="/gaming"><Button className="boton"><BsController className="icono"/>Office</Button></Nav.Link></Col>
+            <Col  className="columnas"><Nav.Link className="boton" href="/gaming"><Button className="boton"><BsController className="icono"/>Rendering</Button></Nav.Link></Col>
+            <Col  className="columnas"><Nav.Link className="boton" href="/gaming"><Button className="boton"><BsController className="icono"/>Office</Button></Nav.Link></Col>
             <Col className="columnas"><Nav.Link className="boton" href="/gaming"><Button className="boton"><BsController className="icono"/>Other</Button></Nav.Link></Col>
             </Row>
     </Container>

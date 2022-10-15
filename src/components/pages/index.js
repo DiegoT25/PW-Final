@@ -15,7 +15,6 @@ export {default as Historia18Page} from './Historia18Page'
 export {default as Historia19Page} from './Historia19Page'
 export {default as Historia20Page} from './Historia20Page'
 export {default as Historia21Page} from './Historia21Page'
-export {default as Historia22Page} from './Historia22Page'
 export {default as Historia23Page} from './Historia23Page'
 export {default as Historia24Page} from './Historia24Page'
 export {default as HistoriaExtraPage} from "./HistoriaExtraPage"

@@ -1,6 +1,6 @@
 import { LoginPage, Historia2Page, Historia3Page, Historia5Page, Historia7Page, Historia8Page,
    Historia10Page,Historia12Page, Historia13Page, Historia14Page, HistoriaExtraPage,Historia15Page,Historia16Page, Historia17Page, Historia18Page,
-    Historia20Page, Historia19Page,GamePage, Historia23Page, Historia21Page, Historia24Page,Historia22Page } from './components/pages'
+    Historia20Page, Historia19Page,GamePage, Historia23Page, Historia21Page, Historia24Page,} from './components/pages'
 import { HashRouter,BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css'
 
@@ -31,7 +31,6 @@ function App() {
             <Route path="/historia24" element={<Historia24Page />}/>
             <Route path="/historia21" element={<Historia21Page />}/>
             <Route path="/historia23" element={<Historia23Page />}/>
-            <Route path="/historia22" element={<Historia22Page />}/>
 
 
         </Routes>

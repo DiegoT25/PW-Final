@@ -1,6 +1,7 @@
-import { LoginPage, Historia2Page, Historia3Page, Historia5Page, Historia7Page, Historia8Page, Historia10Page, Historia14Page, HistoriaExtraPage,Historia15Page,Historia16Page, Historia17Page, Historia18Page, Historia20Page, Historia19Page, Historia13Page,Historia12Page, GamePage, Historia21Page, Historia23Page } from './components/pages'
+import { LoginPage, Historia2Page, Historia3Page, Historia5Page, Historia7Page, Historia8Page, Historia10Page, Historia14Page, HistoriaExtraPage,Historia15Page,Historia16Page, Historia17Page, Historia18Page, Historia20Page, Historia19Page, Historia13Page,Historia12Page, GamePage, Historia21Page, Historia23Page, Historia24Page } from './components/pages'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css'
+import Historia24 from './components/Historia24';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             <Route path="/historia12" element={<Historia12Page />}/>
             <Route path='/historia21' element={<Historia21Page />}/>
             <Route path='/historia23' element={<Historia23Page />}/>
+            <Route path="/historia24" element={<Historia24Page />}/>
         </Routes>
       </BrowserRouter>
     </>

@@ -1,6 +1,6 @@
 #Grafico{
-    width: 500px;
-    height: 500px;
+    width: 100%;
+    height: 80%;
 }
 
 .cont_layout1{
@@ -18,7 +18,7 @@
     
 }
 
-.lista  {
+.lista11{
     background-color: rgb(24, 24, 86);
     color: white;
     border-color: black;
@@ -27,6 +27,7 @@
     width: 99%;
     padding: 0px;
     margin-left: 0px;
+    
 }
 
 
@@ -42,14 +43,27 @@
     border-color: transparent;
     width: 170px;
     height: 40px;
-    margin-left: -168px;
+    margin-left: -168px;
 }
 .products11a{
     margin-left: 0px;
+    margin-right: 40px;
+    justify-content: center;
 }
 .products11b{
     margin-right: 40px;
+    justify-content: center;
 }
 .fila11a1{
     height: 150px;
+}
+.justify-content-end{
+    margin-right: 0px;
+}
+#icono11{
+    width: 40px;
+    height: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 2px;
 }

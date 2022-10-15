@@ -1,7 +1,15 @@
 .Contenedor{
     background-color: rgb(52, 63, 75);
-    height: 800px;
-    width: 1295px;
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100wh;
+    margin-right : 0 !important;
+    margin-left : 0 !important;
+    margin-bottom: 0 !important;
+    padding-right : 0 !important;
+    padding-left : 0 !important;
+    padding-bottom: 0 !important;
 }
 .form{
     background-color: aliceblue;
@@ -9,6 +17,7 @@
     margin: 55px;
     padding: 25px;
 }
-.titulo{
+.titulo_h19{
     color: white;
+    margin-left: 40px;
 }

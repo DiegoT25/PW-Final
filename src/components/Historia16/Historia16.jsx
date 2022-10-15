@@ -11,11 +11,12 @@ import { AiFillFileUnknown } from "react-icons/ai";
 
 const Historia16 =() =>{
     return(
-        <Container className="Contenedor">
-                <Row className="fila"><h1 className='h1'>Support Hub</h1>
-                    <Col><Nav.Link href="/Historia17"><Button className="boton4"><AiOutlineContainer /><br></br>GUIDES</Button></Nav.Link></Col>
-                    <Col><Nav.Link href="/Historia18"><Button className="boton4"><AiFillFileUnknown /><br></br>FAQ</Button></Nav.Link></Col>
-                    <Col><Nav.Link href="/Historia19"><Button className="boton4"><AiFillTag /><br></br>SUBMIT A TICKET</Button></Nav.Link></Col>
+        <Container fluid className="Contenedor">
+                <Row className="fila">
+                    <h1>Support Hub</h1>
+                    <Col><Nav.Link href="/Historia17"><Button className="boton4" id="botonh16"><AiOutlineContainer /><br></br>GUIDES</Button></Nav.Link></Col>
+                    <Col><Nav.Link href="/Historia18"><Button className="boton4" id="botonh16"><AiFillFileUnknown /><br></br>FAQ</Button></Nav.Link></Col>
+                    <Col><Nav.Link href="/Historia19"><Button className="boton4" id="botonh16"><AiFillTag /><br></br>SUBMIT A TICKET</Button></Nav.Link></Col>
                 </Row>
         </Container>
     )

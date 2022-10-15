@@ -26,13 +26,13 @@ return (
                     <Nav.Link href="/historia15" id="menu">About</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="" id="menu">Support</Nav.Link>
+                    <Nav.Link href="/historia16" id="menu">Support</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="" id="menu">Reviews</Nav.Link>
+                    <Nav.Link href="/historia20" id="menu">Reviews</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="" id="menu">Ranking</Nav.Link>
+                    <Nav.Link href="/historia23" id="menu">Ranking</Nav.Link>
                 </Nav.Item>
                 </Nav>
             </Col >

@@ -11,16 +11,25 @@ import {faCartShopping} from "@fortawesome/free-solid-svg-icons"
 const Game = () => {
     return (
         <Container fluid className="cont_layout1">
-            <Col className="boton_checkout">
-                    <Nav.Link href=""><Button id="botoni"><FontAwesomeIcon icon={faCartShopping} /> &nbsp;&nbsp;Checkout</Button></Nav.Link>
-               </Col>
+            <Row className='fila11a1'>
+                <Col>
+                <p>Your optimized build!</p>
+                </Col>
+                <Col>
+                <Col className="boton_checkout">
+                    <Nav.Link href="/historia13"><Button id="botoni"><FontAwesomeIcon icon={faCartShopping} /> &nbsp;&nbsp;Checkout</Button></Nav.Link>
+                </Col>
+
+                </Col>
+            </Row>
             <Row>
-            <Col>
+            <Col sm={4} >
                 <Image src={pcGamer} id="Grafico"/>
             </Col>
             
-            <Col className="products" id="1">
-                
+            <Col>
+                <Row>
+                <Col className="products11a">
                     <Row className="lista">
                         <Col className="text">Imagen</Col>
                         <Col className="text"> INTEL CORE I7-12700F 12-CORE </Col>
@@ -66,13 +75,13 @@ const Game = () => {
                     <Col className="text"> WINDOWS 11 HOME + USB RECOVERY </Col>
                     <Col className="text"> $359 </Col>
                 </Row>
-                
-
-            </Col>
+                </Col>
 
 
-            <Col className="products" id="2">
 
+
+            
+                <Col className="products11b" >
                 <Row className="lista">
                     <Col className="text">Imagen</Col>
                     <Col className="text"> NVIDIA GEFORCE RTX 3070 8GB (VR READY) </Col>
@@ -116,8 +125,8 @@ const Game = () => {
                     <Col className="text"> BUILD + SETUP + TESTING + WARRANTY </Col>
                     <Col className="text"> $99 </Col>
                 </Row>
-                
-
+                </Col>
+                </Row>
             </Col>
             </Row>
         </Container>

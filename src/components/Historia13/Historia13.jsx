@@ -9,9 +9,8 @@ import imagen13shop from "../Images/googleplay.png";
 import imagen14shop from "../Images/paypal.png";
 import imagen15shop from "../Images/shopay.png";
 import imagen16shop from "../Images/loginimagen.png";
-import Select from 'react-select';
 import Countries from "./Country-list";
-
+import Cart from '../Historia12/Cart';
 
 const Historia13 =() =>{
     return(
@@ -87,6 +86,7 @@ const Historia13 =() =>{
                         <p id='letra5A'>Phone:  </p>
                         <input className='ingreso13a'></input>
                         <p></p>
+
                         <Row>
                             <Col>
                                 <p id="letra1" >{'<'}Return to cart</p>
@@ -101,6 +101,9 @@ const Historia13 =() =>{
                 
                 <Col  className='derecha'>
                     <p></p>
+                    <Cart>
+
+                    </Cart>
                     <Row>
                         <Col>
                         <input className='ingreso13b'></input>

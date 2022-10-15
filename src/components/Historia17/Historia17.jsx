@@ -14,9 +14,9 @@ import { BsHddNetworkFill } from "react-icons/bs";
 
 const Historia17 =() =>{
     return(
-        <Container>
-                <Row className="Contenedor">
-                    <h1 className='h1'>Support Guides</h1>
+        <Container fluid className="Contenedor">
+                <Row className="pagina_h17">
+                    <h1>Support Guides</h1>
                     <Col className="columnas"><Nav.Link href="/Historia17"><Button className="boton1"><BsJournalBookmarkFill />Build Redux Quick Start Guide</Button></Nav.Link></Col>
                     <Col className="columnas"><Nav.Link href=""><Button className="boton1"><BsFillCpuFill />System Overview</Button></Nav.Link></Col>
                     <Col className="columnas"><Nav.Link href=""><Button className="boton1"><BsEjectFill />Troubleshooting - Display</Button></Nav.Link></Col>

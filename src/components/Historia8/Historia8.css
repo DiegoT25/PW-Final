@@ -20,8 +20,15 @@
     flex: 1;
     margin-left: 90px;
     width: 200px;
+    height: 70px;
 }
-.boton_checkout{
+.encabezadol h1{
+    color:white;
+    text-decoration: none;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.boton_checkout_h8{
     display: inline-block;
 }
 
@@ -55,7 +62,7 @@
     margin-top: 10px;
     height: 70px;
 }
-.lista {
+.lista_h8 {
     display: flex;
     background-color: white;
     margin-left: 105px;
@@ -94,7 +101,7 @@
     color: black;
     border-color: white;
 }
-#botoni{
+#botoni_h8{
     color: white;
     background-color:  rgb(194, 91, 233);
     text-decoration: none;
@@ -120,8 +127,10 @@
 
     .encabezadol h1{
         font-size: 30px;
+        color:white;
+        text-decoration: none;
     }
-    .boton_checkout{
+    .boton_checkout_h8{
         display: inline-block;
     }
     
@@ -162,7 +171,7 @@
         height: 70px;
         margin-left: -90px;
     }
-    .lista {
+    .lista_h8 {
         display: flex;
         background-color: white;
         margin-left: 105px;
@@ -204,7 +213,7 @@
         color: black;
         border-color: white;
     }
-    #botoni{
+    #botoni_h8{
         color: white;
         background-color:  rgb(194, 91, 233);
         text-decoration: none;

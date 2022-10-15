@@ -24,6 +24,9 @@
 
 .title_login p{
     font-size: 30px;
+    color:white;
+    margin-left: 0px;
+    margin-top: 10px;
 }
 
 .create_login {

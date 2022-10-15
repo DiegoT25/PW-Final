@@ -7,9 +7,9 @@ import Row from 'react-bootstrap/Row';
 
 const Historia19 =() =>{
   return (
-    <Container className="Contenedor">
-        <Row>
-            <h1 className="titulo">Submit a Ticket</h1>
+    <Container fluid className="Contenedor">
+        <Row className="titulo_h19">
+            <h1>Submit a Ticket</h1>
         </Row>
         <Form className="form">
         <Form.Group className="mb-3" controlId="formBasicEmail">

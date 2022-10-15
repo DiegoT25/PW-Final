@@ -68,13 +68,13 @@
     flex: 0.5;
 }
 
-.tablita,td {
+.tablita_gian, .giancito {
 	border: 1px solid white;
     color: white;
     height: 35px;
     
 }
-.tablita {
+.tablita_gian {
     margin-left: 10px;
     margin-bottom: 10px;
 }
@@ -91,6 +91,7 @@
 }
 .precio{
     font-size: 20px;
+    color: white;
 }
 
  .mini{
@@ -172,13 +173,13 @@
         flex: 0.5;
     }
     
-    table,td {
+    .tablita_gian, .giancito {
         border: 1px solid white;
         color: white;
         height: 35px;
         
     }
-    table {
+    .tablita_gian {
         margin-left: 10px;
         margin-bottom: 10px;
         
@@ -189,7 +190,7 @@
         height: 150px;
     }
     
-    h3 {
+    .precio {
         margin-left: 2px;
         color: white;
         font-size: 20px;
@@ -197,7 +198,7 @@
     .precio{
         font-size: 15px;
     }
-     h4 {
+     .check {
         margin-left: 2px;
         color: white;
      }  

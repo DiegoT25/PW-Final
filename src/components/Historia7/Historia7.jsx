@@ -28,45 +28,45 @@ const Historia7 =() => {
                             <h4 className="check"><b className="mini">Shipping</b> calculated at checkout</h4>
                         </Row>
                         <Row className="tableta">
-                        <table className="tablita">
+                        <table className="tablita_gian">
                             <tr>
-                                <td>
+                                <td className="giancito">
                                     Chipset
                                     manufacturer
                                 </td>
-                                <td>
+                                <td className="giancito">
                                     NVIDIA
                                 </td>
                             </tr>
                             <tr>
-                                <td>
+                                <td className="giancito">
                                     GPU
                                 </td>
-                                <td>
+                                <td className="giancito">
                                     GeForce GTX 1650
                                 </td>
                             </tr>
                             <tr>
-                                <td>
+                                <td className="giancito">
                                     CORE CLOCK
                                 </td>
-                                <td>
+                                <td className="giancito">
                                     1530 MHz
                                 </td>
                             </tr>
                             <tr>
-                                <td>
+                                <td className="giancito">
                                     BOOST CLOCK
                                 </td>
-                                <td>
+                                <td className="giancito">
                                     OC Mode: 1800 Mhz
                                 </td>
                             </tr>
                             <tr>
-                                <td>
+                                <td className="giancito">
                                     CUDA CORES
                                 </td>
-                                <td>
+                                <td className="giancito">
                                     1280
                                 </td>
                             </tr>

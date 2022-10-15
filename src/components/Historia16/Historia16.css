@@ -26,9 +26,10 @@
     margin-top: 50px;
     padding-top: 50px;
     margin-left: 45px;
-    width: 100wh;
+    width: 100%;
+    height: 100%;
 }
-#boton4{
+.boton4{
     background-color: rgb(92, 94, 96);
     height: 250px;
     width: 250px;
@@ -38,10 +39,7 @@
     margin-right: auto;
     display: block;
 }
-.icono{
-    height: 150px;
-    width: 150px;
-}
+
 @media(max-width: 512px){
     .Contenedor{
         background-color: rgb(52, 63, 75);

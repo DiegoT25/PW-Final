@@ -5,25 +5,25 @@ import { GrStar } from "react-icons/gr";
 
 const Historia20 =() =>{
     return (
-        <Container>
-            <Row>
+        <Container fluid >
+            <Row className="text_h20">
                 <h1>User Reviews</h1>
             </Row>
-            <Row>
+            <Row className="text_h20">
                 <h2>Global Rating <GrStar /><GrStar /><GrStar /><GrStar /><GrStar /></h2>
             </Row>
             <hr></hr>
-            <Row>
+            <Row className="text_h20">
                 <h3>Juan Lopez<GrStar /><GrStar /><GrStar /><GrStar /></h3><br></br>
                 <p>I completely recomend this service</p>
-            </Row>
+            </Row >
             <hr></hr>
-            <Row>
+            <Row className="text_h20">
                 <h3>Jhon Doe<GrStar /><GrStar /><GrStar /></h3><br></br>
                 <p>Great service</p>
             </Row>
             <hr></hr>
-            <Row>
+            <Row className="text_h20">
                 <h3>Carl Johnson<GrStar /><GrStar /><GrStar /><GrStar /><GrStar /></h3><br></br>
                 <p>Pc well builded and nice case quality</p>
             </Row>

@@ -18,16 +18,16 @@ import { BsCartPlus } from "react-icons/bs";
 
 const Historia18 =() =>{
     return(
-        <Container>
-                <Row className="Contenedor">
-                    <h1 className='h1'>Common Questions</h1>
+        <Container fluid className="Contenedor">
+                <Row className="fila_h18">
+                    <h1 >Common Questions</h1>
                     <Col className="columnas"><Nav.Link href="/Historia17"><Button className="boton2"><BsCartPlus />Refund Policy</Button></Nav.Link></Col>
                     <Col className="columnas"><Nav.Link href=""><Button className="boton2"><BsBackspaceReverseFill />Cancellation Policy</Button></Nav.Link></Col>
                     <Col className="columnas"><Nav.Link href=""><Button className="boton2"><BsShieldShaded />Warranty Services</Button></Nav.Link></Col>
                     <Col className="columnas"><Nav.Link href=""><Button className="boton2"><BsCashCoin />Financing</Button></Nav.Link></Col>
                     <Col className="columnas"><Nav.Link href=""><Button className="boton2"><BsBagCheckFill />How long will it take for my PC to arrive?</Button></Nav.Link></Col>
                     <Col className="columnas"><Nav.Link href=""><Button className="boton2"><BsTruck />Do you ship internationally?</Button></Nav.Link></Col>
-                    <Col className="columnas"><Nav.Link href=""><Button className="boton2"><BsTvFill />do you setup and install Windows, drivers,etc?</Button></Nav.Link></Col>
+                    <Col className="columnas"><Nav.Link href=""><Button className="boton2"><BsTvFill />Do you setup and install Windows, drivers,etc?</Button></Nav.Link></Col>
                 </Row>
         </Container>
     )

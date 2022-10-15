@@ -23,11 +23,11 @@ const Historia8 =() =>{
                 <Col className="encabezadol">
                     <h1>Shopping car items</h1>
                 </Col>
-                <Col className="boton_checkout">
-                    <Nav.Link href="/historia13"><Button id="botoni"><FontAwesomeIcon icon={faCartShopping} /> &nbsp;&nbsp;Checkout</Button></Nav.Link>
+                <Col className="boton_checkout_h8">
+                    <Nav.Link href="/historia13"><Button id="botoni_h8"><FontAwesomeIcon icon={faCartShopping} /> &nbsp;&nbsp;Checkout</Button></Nav.Link>
                 </Col>
                 <Row className="productos">
-                    <Row className="lista">
+                    <Row className="lista_h8">
                         <Col className="foto2"> <Image src={produ1} id="produ1"/> </Col>
                         <Col  className="texto"><h4>Keyboard & mouse bundle</h4> </Col>
                         <Col  className="precio"> <h4>$39</h4></Col>
@@ -35,7 +35,7 @@ const Historia8 =() =>{
                     </Row>
                 </Row>
                 <Row  className="productos2">
-                    <Row  className="lista">
+                    <Row  className="lista_h8">
                         <Col  className="foto2"> <Image src={produ2} id="produ2"/> </Col>
                         <Col  className="texto"><h4>INTEL CORE I7 - 12700F 12-CORE</h4> </Col>
                         <Col  className="precio"> <h4>$359</h4></Col>
@@ -43,7 +43,7 @@ const Historia8 =() =>{
                     </Row>
                 </Row>
                 <Row  className="productos3">
-                    <Row  className="lista">
+                    <Row  className="lista_h8">
                         <Col  className="foto2"> <Image src={produ3} id="produ3"/> </Col>
                         <Col  className="texto"><h4>NVIDI GEFORCE RTX 3070 8GB</h4> </Col>
                         <Col  className="precio"> <h4>$679</h4></Col>
@@ -51,7 +51,7 @@ const Historia8 =() =>{
                     </Row>
                 </Row>
                 <Row  className="productos4">
-                    <Row  className="lista">
+                    <Row  className="lista_h8">
                         <Col  className="foto2"> <Image src={produ4} id="produ4"/> </Col>
                         <Col  className="texto"><h4>1TB NVME M.2</h4> </Col>
                         <Col  className="precio"> <h4>$99</h4></Col>
@@ -59,7 +59,7 @@ const Historia8 =() =>{
                     </Row>
                 </Row>
                 <Row  className="productos5">
-                    <Row  className="lista">
+                    <Row  className="lista_h8">
                         <Col  className="foto2"> <Image src={produ5} id="produ5"/> </Col>
                         <Col  className="texto"><h4>COOLER MASTER TD500 RGB</h4> </Col>
                         <Col  className="precio"> <h4>$99</h4></Col>
@@ -67,7 +67,7 @@ const Historia8 =() =>{
                     </Row>
                 </Row>
                 <Row  className="productos6">
-                    <Row className="lista">
+                    <Row className="lista_h8">
                         <Col  className="foto2"> <Image src={produ6} id="produ6"/> </Col>
                         <Col  className="texto"><h4>BUILD + SETUP + TESTING</h4> </Col>
                         <Col  className="precio"> <h4>$99</h4></Col>

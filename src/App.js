@@ -22,7 +22,7 @@ function App() {
             <Route path="/historia19" element={<Historia19Page />}/>
             <Route path="/historia20" element={<Historia20Page />}/>
             <Route path="/historiaExtra" element={<HistoriaExtraPage />}/>
-            <Route path="/gaming" element={<GamePage />}/>
+            <Route path="/historia11" element={<GamePage />}/>
             <Route path="/historia13" element={<Historia13Page />}/>
             <Route path="/historia12" element={<Historia12Page />}/>
         </Routes>

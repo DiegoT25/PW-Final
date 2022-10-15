@@ -26,22 +26,27 @@ return (
                     <Nav.Link href="/historia15" id="menu">About</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="" id="menu">Support</Nav.Link>
+                    <Nav.Link href="/historia16" id="menu">Support</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="" id="menu">Reviews</Nav.Link>
+                    <Nav.Link href="/historia20" id="menu">Reviews</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="" id="menu">Ranking</Nav.Link>
+                    <Nav.Link href="/historia23" id="menu">Ranking</Nav.Link>
                 </Nav.Item>
                 </Nav>
             </Col >
             
             <Col fluid xs={1} md={3} className="justify-content-end">
-                <Col className="icons_menu">
-                    <Nav.Link href="/historia7" id="icons"><FontAwesomeIcon icon={faMagnifyingGlass} /></Nav.Link>
-                    <Nav.Link href="/historia5" id="icons"><FontAwesomeIcon icon={faUser} /></Nav.Link>
-                    <Nav.Link href="/historia8" id="icons"><FontAwesomeIcon icon={faCartShopping} /></Nav.Link>
+                
+                <Col fluid className="icons_menu">
+                    <Col className='madre'>
+                        <input type="text" placeholder='Buscar' required></input>
+                        <Nav.Link href="/historia7" id="icons"><FontAwesomeIcon icon={faMagnifyingGlass} color="white"/></Nav.Link>
+                        <Nav.Link href="/historia5" id="icons"><FontAwesomeIcon icon={faUser} /></Nav.Link>
+                        <Nav.Link href="/historia8" id="icons"><FontAwesomeIcon icon={faCartShopping} /></Nav.Link>
+                    </Col>
+                    
                 </Col>
             </Col >
         </Row>

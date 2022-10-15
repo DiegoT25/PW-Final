@@ -57,18 +57,11 @@ const Historia12 =() =>{
                     <Button id="Botonh">{'<'}Back</Button>
                     <Nav.Link href="/historia13"><Button id="boton12a10"><FontAwesomeIcon icon={faCartShopping} /> &nbsp;&nbsp;Checkout</Button></Nav.Link>
                 </Row>
-                
                 <Cart>
-                    
                 </Cart>
-                
-                
-                
             </Col>
-            
             </Row>
             </div>
-            
         </Row>
        </Container>
     )

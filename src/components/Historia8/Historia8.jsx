@@ -54,7 +54,7 @@ const Historia8 =() =>{
                     <Row  className="lista_h8">
                         <Col  className="foto2"> <Image src={produ4} id="produ4"/> </Col>
                         <Col  className="texto"><h4>1TB NVME M.2</h4> </Col>
-                        <Col  className="precio"> <h4>$99</h4></Col>
+                        <Col  className="precio" > <h4>$99</h4></Col>
                         <Col  className ="basurita"> <Button id="botono"><FontAwesomeIcon id="iconolo" icon={faTrashCan} /></Button> </Col>
                     </Row>
                 </Row>

@@ -12,7 +12,7 @@ function Historia22() {
 
     return (
 
-        <Container fluid className="container" style={{textAlign:"center",width:"500px",backgroundColor:"grey",}}>
+        <Container fluid className="container22" style={{textAlign:"center",width:"500px",backgroundColor:"grey",}}>
             <h3 style={{marginBottom:"10%"}}>Thanks for your order!</h3>
         
             

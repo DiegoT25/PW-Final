@@ -26,7 +26,7 @@ const Historia7 =() => {
                             <h3 className="precio"><b>$229</b></h3>
                             <h4><b className="mini">Shipping</b> calculated at checkout</h4>
                         </Row>
-                        <Row>
+                        <Row className="tableta">
                         <table>
                             <tr>
                                 <td>

@@ -12,5 +12,3 @@ function Countries() {
 
   return <Select options={options} value={value} onChange={changeHandler} className="select_button" />
 }
-
-export default Countries;

@@ -29,19 +29,17 @@ const Login = () => {
     const createAccount = async () => {
         if (nombre !== "" && apellido !== "" && correo !== "" && contrasenia !== "") {
             navigate("/historia2")
-
-            const data = {
-                nombre : nombre,
-                apellido : apellido,
-                correo : correo,
-                contrasenia: contrasenia
+            
+            let result = await fetch ("https://containers-us-west-109.railway.app/crearCuenta",{
+            method: 'post',
+            body: JSON.stringify({nombre:nombre, apellido:apellido, correo:correo, contrasenia:contrasenia}),
+            headers: {
+                'Content-Type' : 'application/json'
             }
-
-            await fetch('http://containers-us-west-109.railway.app/',{
-                method : 'POST',
-                headers : {"Content-Type" : "application/json"},
-                body : JSON.stringify(data)
-            })
+            });
+            result = await result.json();
+            console.warn(result);
+            localStorage.setItem("usuario", JSON.stringify(result))
         }
     }
     

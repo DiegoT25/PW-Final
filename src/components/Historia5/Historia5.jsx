@@ -65,7 +65,7 @@ const Historia5 =() =>{
             <Col>
                 <Col className="data_profile">
                     <Col className="columna1">
-                        <h6><strong>Default</strong></h6>
+                        <h6><strong>New Changes</strong></h6>
                         <Row className="p1">
                             <p>{nombre}</p>
                             <p>{apellido}</p>

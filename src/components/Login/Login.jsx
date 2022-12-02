@@ -2,10 +2,10 @@ import { useState, useEffect } from 'react'
 import Container from 'react-bootstrap/Container';
 import Col from "react-bootstrap/Col"
 import Row from 'react-bootstrap/Row';
-import {Link} from "react-router-dom";
 import Button from "react-bootstrap/Button"
 import "./Login.css";
 import { useNavigate } from "react-router-dom"
+import usuariosApi from '../../api/usuarios';
 
 
 const Login = () => {
@@ -30,6 +30,16 @@ const Login = () => {
         if (nombre !== "" && apellido !== "" && correo !== "" && contrasenia !== "") {
             navigate("/historia2")
             
+            const result = await usuariosApi.create({nombre:nombre, apellido:apellido, correo:correo, contrasenia:contrasenia});
+            console.log(result);
+
+        }
+    }
+
+    /*const createAccount = async () => {
+        if (nombre !== "" && apellido !== "" && correo !== "" && contrasenia !== "") {
+            navigate("/historia2")
+            
             let result = await fetch ("https://containers-us-west-109.railway.app/crearCuenta",{
             method: 'post',
             body: JSON.stringify({nombre:nombre, apellido:apellido, correo:correo, contrasenia:contrasenia}),
@@ -41,21 +51,7 @@ const Login = () => {
             console.warn(result);
             localStorage.setItem("usuario", JSON.stringify(result))
         }
-    }
-    
-    /*const createAccount = async () => {
-        let result = await fetch ("https://containers-us-west-109.railway.app/register",{
-            method: 'post',
-            body: JSON.stringify({nombre:nombre, apellido:apellido, correo:correo, contrasenia:contrasenia}),
-            headers: {
-                'Content-Type' : 'application/json'
-            }
-        });
-        result = await result.json();
-        console.warn(result);
-        localStorage.setItem("usuario", JSON.stringify(result))
     }*/
-   
    
     return (
         <Container fluid className="Login">

@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from "react-bootstrap/Col"
 import {Link} from "react-router-dom";
+import { useNavigate } from "react-router-dom"
 import Button from "react-bootstrap/Button";
 import "./Historia2.css";
 
@@ -15,6 +16,12 @@ const Historia2 =() =>{
     }, [correo])
     useEffect(()=> {
     }, [contraseña])
+
+    const navigate = useNavigate(); 
+    const signUp = () => {
+        navigate("/")
+
+    }
 
     const loginAccount = async () => {
         let result = await fetch ('http://containers-us-west-109.railway.app/',{
@@ -48,7 +55,7 @@ const Historia2 =() =>{
                         </Row>
                 </Col>
                 <Col>
-                    <Link to="/historia3"><Button type="submit" id="create_boton" aria-describedby="forgotPassword">LOGIN</Button></Link>
+                    <Link to="/historia3"><Button type="submit" id="create_boton" aria-describedby="forgotPassword" onClick={loginAccount}>LOGIN</Button></Link>
                 </Col>
                 <Row  className="text-help1">
                     <small id="text">Forgot your password?</small>
@@ -57,7 +64,7 @@ const Historia2 =() =>{
                     <small id="noAccount"><strong>Don't have an account?</strong></small>
                 </Row>
                 <Col>
-                    <Link to="/"><Button type="submit" id="create_boton">SIGN UP</Button></Link>
+                    <Button type="submit" id="create_boton" onClick={signUp}>SIGN UP</Button>
                 </Col>
            </Col>
         </Row>

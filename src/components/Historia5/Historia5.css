@@ -1,0 +1,264 @@
+.profile{
+    background-color: rgb(52, 63, 75);
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    margin-left: 13vw;
+}
+
+.data_profile{
+    background-color: white;
+    height: 600px;
+    width: 1100px;
+    margin-top: 75px;
+    border-radius: 8px;
+}
+
+.columna1{
+    margin-left: 0px;
+    padding-top: 15px;
+    border:solid;
+    border-color: transparent;
+    width: 200px;
+    border-top-left-radius: 8px;
+    padding-left:20px;
+    display: inline-block;
+}
+
+.p1{
+    margin-top: 15px;
+}
+
+.p1 p{
+    color: rgb(52, 63, 75);
+}
+
+.p2{
+    margin-top:-15px;
+}
+.p2 p{
+    color:rgb(52, 63, 75);
+}
+
+.columna2{
+    border:solid;
+    border-color: rgb(52, 63, 75);
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    height: 605px;
+    margin-left: 200px;
+    margin-top: -140px;
+    padding-left: 35px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+
+}
+.doble{
+    width: 700px;
+    height: 100px;
+}
+.simple{
+    width: 660px;
+    margin-left: 20px;
+    margin-top: -25px;
+}
+.formulario{
+    margin-top: 65px;
+    margin-left: 90px;
+}
+
+.label1, .label2{
+    width: 300px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.address{
+    margin-top: 15px;
+    margin-left: 0px;
+}
+
+.phone{
+    margin-left: 0px;
+}
+
+.label3, .label4{
+    width: 300px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.update_info{
+    margin-top:30px;
+    margin-left: 110px;
+    display:inline-block;
+}
+
+.cancel_button{
+    display:inline-block;
+}
+
+#update_button{
+    color: white;
+    background-color:  rgb(194, 91, 233);
+    text-decoration: none;
+    padding: 5px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    border-radius: 5px;
+    border-color: transparent;
+}
+#cancel_button{
+    color: gray;
+    background-color:  white;
+    text-decoration: none;
+    padding-top: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: left;
+    border-radius: 5px;
+    border-color: transparent;
+}
+.form-control{
+    height: 40px;
+    font-size: 15px;
+    color:black;
+}
+
+@media (max-width: 512px){
+    .data_profile{
+        background-color: white;
+        height: 500px;
+        width: 320px;
+        margin-top: 75px;
+        margin-left: 20px;
+        border-radius: 8px;
+    }
+    .columna1{
+        margin-left: 0px;
+        padding-top: 15px;
+        border:solid;
+        border-color: transparent;
+        width: 10px;
+        border-top-left-radius: 8px;
+        padding-left:10px;
+        display: inline-block;
+    }
+    
+    .p1{
+        margin-top: 15px;
+    }
+    
+    .p1 p{
+        color: rgb(52, 63, 75);
+        font-size: 10px;
+    }
+    
+    .p2{
+        margin-top:-15px;
+        
+    }
+    .p2 p{
+        color:rgb(52, 63, 75);
+        font-size: 10px;
+    }
+    
+    .columna2{
+        border:solid;
+        border-color: rgb(52, 63, 75);
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        height: 605px;
+        margin-left: 80px;
+        margin-top: -160px;
+        padding-left: 0px;
+        border-bottom-right-radius: 8px;
+        border-top-right-radius: 8px;
+    
+    }
+    .doble{
+        width: 130px;
+        height: 0px;
+        display: inline-block;
+    }
+    .simple{
+        width: 50px;
+        margin-left: 20px;
+        margin-top: -25px;
+    }
+    .formulario{
+        margin-top: 35px;
+        margin-left: 0px;
+    }
+
+    .label1, .label2{
+        width: 130px;
+        display: inline-block;
+        margin-left: 14px;
+    }
+
+    .email{
+        margin-top: 25px;
+        margin-left: -10px;
+        width: 130px;
+    }
+    .form-control{
+        height: 20px;
+        font-size: 8px;
+        color:black;
+    }
+    .address{
+        margin-top: 5px;
+        margin-left: -10px;
+        width: 130px;
+    }
+    
+    .phone{
+        margin-left: -10px;
+        margin-top: 30px;
+        width: 130px;
+    }
+    
+    .label3, .label4{
+        width: 130px;
+        display: inline-block;
+        margin-left: 14px;
+        margin-top: 5px;
+    }
+    .update_info{
+        margin-top:5px;
+        margin-left: 10px;
+        display:inline-block;
+    }
+    
+    .cancel_button{
+        display:inline-block;
+        margin-top: 0px;
+    }
+    
+    #update_button{
+        color: white;
+        background-color:  rgb(194, 91, 233);
+        text-decoration: none;
+        padding: 5px 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        text-align: left;
+        border-radius: 5px;
+        border-color: transparent;
+    }
+    #cancel_button{
+        color: gray;
+        background-color:  white;
+        text-decoration: none;
+        padding-top: 6px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        text-align: left;
+        border-radius: 5px;
+        border-color: transparent;
+        height: 5px;
+    }
+}

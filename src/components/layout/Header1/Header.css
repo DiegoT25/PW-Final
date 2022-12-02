@@ -1,0 +1,82 @@
+.header{
+    background-color: rgb(52, 63, 75);
+    margin-right : 0 !important;
+    margin-left : 0 !important;
+    padding-right : 0 !important;
+    padding-left : 0 !important;
+    padding-bottom: 0 !important;
+    width: 100%;
+}
+
+.justify-content-center{
+    padding-left: 190px;
+    padding-top: 10px;
+}
+
+.icons_menu{
+    color:white;
+    font-size: 25px;
+    margin-right: 10px;
+    padding-left: 140px;
+}
+
+#logo_header{
+    width: 80px;
+    height: 80px;
+}
+
+#menu{
+    color:white;
+}
+
+#icons{
+    display:inline-block;
+    margin: 10px;
+}
+
+.busqueda{
+    outline: none;
+    box-sizing: border-box;
+    height: 40px;
+    width: 0;
+    padding: 0 20px;
+    color: white;
+    border-radius: 50px;
+    font-size: 20px;
+    border: 1px solid white;
+    transition: all .7s ease;
+    margin-left: -70px;
+}
+.bote{
+    position: absolute;
+    right: 290px;
+    top: 0;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    line-height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+}   
+.bote i {
+    font-size: 25px;
+    color: white;
+    line-height: 80px;
+    transition: all .7s ease;
+}
+
+.madre:hover input {
+    width: 100px;
+}
+
+.madre:hover i {
+    transform: rotate(-360deg);
+}
+.madre{
+    margin-left: -30px;
+}
+
+
+

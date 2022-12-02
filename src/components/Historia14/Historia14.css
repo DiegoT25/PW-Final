@@ -1,0 +1,171 @@
+.contenedor_14{
+    background-color: rgb(52, 63, 75);
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    margin-left: 13vw;
+}
+
+.productos_h14 {
+    display: flex;
+    margin-top: 10px;
+    height: 70px;
+    background-color: white;
+    width: 1100px
+    
+}
+.productos2_h14 {
+    
+    margin-top: 10px;
+    height: 70px;
+    background-color: white;
+    width: 1100px;
+}
+.productos3_h14 {
+    display: flex;
+    margin-top: 10px;
+    height: 70px;
+    background-color: white;
+    width: 1100px;
+}
+.productos4_h14 {
+    display: flex;
+    margin-top: 10px;
+    height: 70px;
+    background-color: white;
+    width: 1100px;
+}
+.productos5_h14 {
+    display: flex;
+    margin-top: 10px;
+    height: 70px;
+    background-color: white;
+    width: 1100px;
+}
+.productos6_h14 {
+    display: flex;
+    margin-top: 10px;
+    height: 70px;
+    background-color: white;
+    width: 1100px;
+}
+
+.lista{
+    display: flex;
+    margin-left: 105px;
+    padding-top: 8px;
+    height: 70px;
+}
+
+.foto2 {
+    margin-left: 30px;
+    padding-top: 8px;
+}
+
+.texto{
+    flex: 3;
+    color: black;
+}
+
+.precio{
+    flex: 1;
+    margin-left: 20PX;
+}
+
+.fecha{
+    flex: 1;
+    margin-top: 9PX;
+    white-space: nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+@media (max-width: 512px){
+    .contenedor_14{
+        background-color: rgb(52, 63, 75);
+        display:flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+        margin-left: 13vw;
+    }
+    
+    .productos_h14 {
+        display: flex;
+        margin-top: 10px;
+        height: 70px;
+        background-color: white;
+        width: 1100px
+        
+    }
+    .productos2_h14 {
+        display: flex;
+        margin-top: 10px;
+        height: 70px;
+        background-color: white;
+        width: 1100px;
+    }
+    .productos3_h14 {
+        display: flex;
+        margin-top: 10px;
+        height: 70px;
+        background-color: white;
+        width: 1100px;
+    }
+    .productos4_h14 {
+        display: flex;
+        margin-top: 10px;
+        height: 70px;
+        background-color: white;
+        width: 1100px;
+    }
+    .productos5_h14 {
+        display: flex;
+        margin-top: 10px;
+        height: 70px;
+        background-color: white;
+        width: 1100px;
+    }
+    .productos6_h14 {
+        display: flex;
+        margin-top: 10px;
+        height: 70px;
+        background-color: white;
+        width: 1100px;
+    }
+    
+    .lista{
+        display: flex;
+        margin-left: 105px;
+        width: 190px;
+        padding-top: 8px;
+        height: 70px;
+    }
+    
+    .foto2 {
+        margin-left: 14px;
+        padding-top: 8px;
+    }
+    
+    .texto{
+        flex: 3;
+        color: black;
+    }
+    
+    .precio{
+        flex: 1;
+        margin-left: 20PX;
+    }
+    
+    .fecha{
+        flex: 1;
+        margin-top: 9PX;
+        white-space: nowrap;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+}

@@ -3,10 +3,10 @@ import Row from 'react-bootstrap/Row';
 import Button from "react-bootstrap/Button";
 import Image from "react-bootstrap/Image";
 import Nav from "react-bootstrap/Nav"
-import "./Historia15.css";
+import "./OurMission.css";
 import imagen15 from "../Images/historia15imagen.png";
 
-const Historia15 =() =>{
+const OurMission =() =>{
 
     return(
         <Container fluid className="cont_layout">
@@ -42,4 +42,4 @@ const Historia15 =() =>{
 
 }
 
-export default Historia15;
+export default OurMission;

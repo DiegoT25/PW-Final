@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Button from "react-bootstrap/Button"
-import "./Historia18.css";
+import "./CommonQuestions.css";
 import Nav from 'react-bootstrap/Nav';
 import Col from 'react-bootstrap/Col';
 import { BsShieldShaded } from "react-icons/bs";
@@ -16,7 +16,7 @@ import { BsCartPlus } from "react-icons/bs";
 
 
 
-const Historia18 =() =>{
+const CommonQuestions =() =>{
     return(
         <Container fluid className="Contenedor">
                 <Row className="fila_h18">
@@ -33,5 +33,5 @@ const Historia18 =() =>{
     )
 }
 
-export default Historia18;
+export default CommonQuestions;
 

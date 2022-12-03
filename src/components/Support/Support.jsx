@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Button from "react-bootstrap/Button";
-import "./Historia16.css";
+import "./Support.css";
 import Nav from 'react-bootstrap/Nav';
 import Col from 'react-bootstrap/Col';
 import { AiFillTag } from "react-icons/ai";
@@ -9,7 +9,7 @@ import { AiOutlineContainer } from "react-icons/ai";
 import { AiFillFileUnknown } from "react-icons/ai";
 
 
-const Historia16 =() =>{
+const Support =() =>{
     return(
         <Container fluid className="Contenedor">
                 <Row className="fila">
@@ -22,4 +22,4 @@ const Historia16 =() =>{
     )
 }
 
-export default Historia16;
+export default Support;

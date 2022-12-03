@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Button from "react-bootstrap/Button"
-import "./Historia17.css";
+import "./SupportGuia.css";
 import Nav from 'react-bootstrap/Nav';
 import Col from 'react-bootstrap/Col';
 import { BsJournalBookmarkFill } from "react-icons/bs";
@@ -12,7 +12,7 @@ import { BsExclude } from "react-icons/bs";
 import { BsHddNetworkFill } from "react-icons/bs";
 
 
-const Historia17 =() =>{
+const SupportGuia =() =>{
     return(
         <Container fluid className="Contenedor">
                 <Row className="pagina_h17">
@@ -28,5 +28,5 @@ const Historia17 =() =>{
     )
 }
 
-export default Historia17;
+export default SupportGuia;
 

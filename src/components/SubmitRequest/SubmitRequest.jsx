@@ -1,11 +1,11 @@
-import "./Historia19.css";
+import "./SubmitRequest.css";
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
 
-const Historia19 =() =>{
+const SubmitRequest =() =>{
   return (
     <Container fluid className="Contenedor">
         <Row className="titulo_h19">
@@ -39,4 +39,4 @@ const Historia19 =() =>{
   )
 }
 
-export default Historia19;
+export default SubmitRequest;

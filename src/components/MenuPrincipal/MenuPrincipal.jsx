@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
-import "./Historia3.css";
+import "./MenuPrincipal.css";
 import  descuento from "../Images/descuento.png"
 const MenuPrincipal =() =>{
     return(

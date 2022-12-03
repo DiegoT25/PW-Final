@@ -16,7 +16,7 @@ export {default as CommonQuestionsPage} from './CommonQuestionsPage'
 export {default as SubmitRequestPage} from './SubmitRequestPage'
 export {default as ReviewsPage} from './ReviewsPage'
 export {default as InfluencersPage} from './InfluencersPage'
-export {default as Historia23Page} from './Historia23Page'
-export {default as Historia24Page} from './Historia24Page'
+export {default as Historia23Page} from './PerifericosPage'
+export {default as RankingOrdenadoresPage} from './RankingOrdenadores'
 export {default as HistoriaExtraPage} from "./HistoriaExtraPage"
 

@@ -1,8 +1,8 @@
 import React from "react";
 import Accordion from "./Accordion.jsx";
-import './Historia24.css'
+import './RankingOrdenadores.css'
 
-function Historia24() {
+function RankingOrdenadores() {
     return (
         <div className="container" id = "containerBSB">
             <h1 class="h24-titulo">Best seller Builds</h1>
@@ -11,4 +11,4 @@ function Historia24() {
     );
 }
 
-export default Historia24;
+export default RankingOrdenadores;

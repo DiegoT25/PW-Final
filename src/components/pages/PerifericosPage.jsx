@@ -1,15 +1,15 @@
 import Layout1 from '../layout/Layout1';
-import Historia24 from '../Historia24';
+import Perifericos from '../Perifericos';
 
-const Historia24Page =() =>{
+const PerifericosPage =() =>{
     return(
         <>
         <Layout1
-            main={<Historia24 />}>
+            main={<Perifericos />}>
                 
             </Layout1>
         </>
     )
 }
 
-export default Historia24Page;
+export default PerifericosPage;

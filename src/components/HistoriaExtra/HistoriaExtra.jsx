@@ -1,28 +1,56 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
-import Grafico from "../Images/Grafico_historiaExtra.png";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faSackDollar} from "@fortawesome/free-solid-svg-icons"
 
 
 import "./HistoriaExtra.css";
+import { useEffect,useState } from 'react';
 
 
 const Historia15 =() =>{
 
+    const [listajuegos, setListaJuegos] = useState([])
+
+
+    const httpFetch = async () => {
+
+        const resp = await fetch('https://cheapshark-game-deals.p.rapidapi.com/deals?lowerPrice=0&steamRating=0&title=call%20of%20duty&desc=0&output=json&steamworks=0&sortBy=Deal%20Rating&AAA=0&pageSize=60&exact=0&upperPrice=50&pageNumber=0&onSale=0&metacritic=0&storeID%5B0%5D=1%2C2%2C3',{
+            method : 'GET',
+            headers : {
+                "X-RapidAPI-Key": '5e06a71270msh5b39d2bdb2386d0p14703fjsn0bbaa8a0ddf5',
+                "X-RapidAPI-Host": "cheapshark-game-deals.p.rapidapi.com"
+            },
+
+          })
+        const data = await resp.json()
+        setListaJuegos(data)
+        console.log(data)
+
+    }
+    useEffect(() => {        
+         httpFetch()     }, [])
+
     return(
-        <Container fluid className="HistoriaExtra">
-            <Row> 
-                <Col xs={1} md={{ span: 2, offset: 0}} className="Title_Column">
-                    <h1 id="title_historiaExtra">¡CHECK OUR PRICE TREND!</h1>
-                    <FontAwesomeIcon id="icono_historiaExtra" icon={faSackDollar} />
-                </Col>
-                <Col xs={1} md={{ span: 2, offset: 1}}>
-                    <Image src={Grafico} id="Grafico_hExtra"/>
-                </Col>
+
+
+        <Container  classname='HistoriaExtra' centered>
+            <h1 className='mt-4' style={{color:"white"}}>COMPRA UNA PC Y ESCOGE UN JUEGO A PRECIO DE PROMOCIÓN</h1>
+            <Row>
+                {
+                    listajuegos.map((juego)=>{
+                        return <div className="extTag col-3 m-3">
+                            
+                        <img src={juego.thumb} alt="" className='extImg'/>
+                        <h2 className='exTitulo'>{juego.title}</h2>
+                        <h3 className='exPrecio'>${juego.salePrice}</h3>
+                        <p className='exScore'>metacritic: {juego.metacriticScore}</p>    
+                            
+                            
+                        </div>
+                    })
+                }
+                
             </Row>
+            
         </Container>
     )
 

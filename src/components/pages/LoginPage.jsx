@@ -1,8 +1,8 @@
 import Layout1 from '../layout/Layout1';
 import Login from '../Login';
 
-const LoginPage = () => {
-    return (
+const LoginPage =() =>{
+    return(
         <>
         <Layout1
             main={<Login />}>
@@ -10,7 +10,6 @@ const LoginPage = () => {
             </Layout1>
         </>
     )
-
 }
 
 export default LoginPage;

@@ -1,0 +1,88 @@
+.cont{
+    background-color: rgb(52, 63, 75);
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100wh;
+    margin-right : 0 !important;
+    margin-left : 0 !important;
+    margin-bottom: 0 !important;
+    padding-right : 0 !important;
+    padding-left : 0 !important;
+    padding-bottom: 0 !important;
+    
+}
+
+.fila10{
+    display: flex;
+    background-color: rgb(52, 63, 75);
+    width: 90vw;
+    height: 30vh;
+    margin-top: 10vh;
+    margin-left: 5vw;
+    
+}
+.boton{
+    background-color: rgb(92, 94, 96);
+    height: 200px;
+    width: 200px;
+    border: none;
+    border-radius: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 50px;
+    
+}
+#icono{
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: auto;
+}
+@media (max-width: 512px){
+    .cont{
+        background-color: rgb(52, 63, 75);
+        display:flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100wh;
+        margin-right : 0 !important;
+        margin-left : 0 !important;
+        margin-bottom: 0 !important;
+        padding-right : 0 !important;
+        padding-left : 0 !important;
+        padding-bottom: 0 !important;
+        
+    }
+    
+    .fila{
+        display: flex;
+        background-color: rgb(52, 63, 75);
+        width: 90px;
+        height: 30px;
+        margin-top: 10px;
+    }
+    .boton{
+        background-color: rgb(92, 94, 96);
+        height: 100px;
+        width: 100px;
+        border: none;
+        border-radius: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 50px;
+        
+    }
+    #icono{
+        height: 50px;
+        width: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: auto;
+    }
+}

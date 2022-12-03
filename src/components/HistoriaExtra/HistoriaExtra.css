@@ -12,7 +12,38 @@
     margin-top: 0 !important;
     margin-bottom: 0 !important;
 }
-    
+.extTag{
+    background-color: rgb(18, 19, 19);
+    display:flex;
+    flex-direction: column;
+    height: 25vh;
+    width: 100wh;
+    margin-right : 20 !important;
+    margin-left : 0 !important;
+    padding-right : 0 !important;
+    padding-left : 0 !important;
+    padding-bottom: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 10 !important;
+    border-radius: 10px;
+
+}
+.exTitulo{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 5px;
+}
+.exPrecio{
+    color:white;
+    font-size: 25px;
+    margin: 5px;
+}
+.exScore{
+    color:white;
+    font-size: 18px;
+    margin: 5px;
+}
 .Title_Column{
     margin-left: 100px;
 }

@@ -10,7 +10,7 @@ import { GrStar } from "react-icons/gr";
 
 const Historia20 =() =>{
     return (
-        <Container fluid >
+        <Container fluid className="containerH20">
             <Row className="text_h20">
                 <h1>User Reviews</h1>
             </Row>

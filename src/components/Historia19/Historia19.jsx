@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 
 const Historia19 =() =>{
   return (
-    <Container fluid className="Contenedor">
+    <Container fluid className="ContenedorH19">
         <Row className="titulo_h19">
             <h1>Submit a Ticket</h1>
         </Row>

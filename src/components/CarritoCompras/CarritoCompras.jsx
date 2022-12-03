@@ -15,9 +15,12 @@ import produ5 from "./images_produ/Cooler.png"
 import produ6 from "./images_produ/mouse.png"
 import Image from "react-bootstrap/Image";
 
-
+function Button(){
+    document.getElementById("productos").style.opacity="1";
+}
 const CarritoCompras =() =>{
     return(
+        
         <Container fluid className="contenedor">
             <Row>
                 <Col className="encabezadol">
@@ -34,7 +37,7 @@ const CarritoCompras =() =>{
                         <Col  className ="basurita"> <Button id="botono"><FontAwesomeIcon id="iconolo" icon={faTrashCan} /></Button> </Col>
                     </Row>
                 </Row>
-                <Row  className="productos2">
+                <Row  className="productos">
                     <Row  className="lista_h8">
                         <Col  className="foto2"> <Image src={produ2} id="produ2"/> </Col>
                         <Col  className="texto"><h4 className="h4_gian">INTEL CORE I7 - 12700F 12-CORE</h4> </Col>
@@ -42,7 +45,7 @@ const CarritoCompras =() =>{
                         <Col  className ="basurita"> <Button id="botono"><FontAwesomeIcon id="iconolo" icon={faTrashCan} /> </Button></Col>
                     </Row>
                 </Row>
-                <Row  className="productos3">
+                <Row  className="productos">
                     <Row  className="lista_h8">
                         <Col  className="foto2"> <Image src={produ3} id="produ3"/> </Col>
                         <Col  className="texto"><h4 className="h4_gian">NVIDIA GEFORCE RTX 3070 8GB</h4> </Col>
@@ -50,7 +53,7 @@ const CarritoCompras =() =>{
                         <Col  className ="basurita"> <Button id="botono"><FontAwesomeIcon id="iconolo" icon={faTrashCan} /></Button> </Col>
                     </Row>
                 </Row>
-                <Row  className="productos4">
+                <Row  className="productos">
                     <Row  className="lista_h8">
                         <Col  className="foto2"> <Image src={produ4} id="produ4"/> </Col>
                         <Col  className="texto"><h4 className="h4_gian">1TB NVME M.2</h4> </Col>
@@ -58,7 +61,7 @@ const CarritoCompras =() =>{
                         <Col  className ="basurita"> <Button id="botono"><FontAwesomeIcon id="iconolo" icon={faTrashCan} /></Button> </Col>
                     </Row>
                 </Row>
-                <Row  className="productos5">
+                <Row  className="productos">
                     <Row  className="lista_h8">
                         <Col  className="foto2"> <Image src={produ5} id="produ5"/> </Col>
                         <Col  className="texto"><h4 className="h4_gian">COOLER MASTER TD500 RGB</h4> </Col>
@@ -66,7 +69,7 @@ const CarritoCompras =() =>{
                         <Col  className ="basurita"> <Button id="botono"><FontAwesomeIcon id="iconolo" icon={faTrashCan} /></Button>  </Col>
                     </Row>
                 </Row>
-                <Row  className="productos6">
+                <Row  className="productos">
                     <Row className="lista_h8">
                         <Col  className="foto2"> <Image src={produ6} id="produ6"/> </Col>
                         <Col  className="texto"><h4 className="h4_gian">BUILD + SETUP + TESTING</h4> </Col>

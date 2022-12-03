@@ -1,6 +1,6 @@
 import Base from './base'
 
-const endpoint = '/orden_producto';
+const endpoint = '/producto';
 
 const create = async (request) => {
     return await Base.post(endpoint,request);
@@ -27,6 +27,6 @@ const remove = async(id) => {
     return await Base.remove(newEndpoint);
 }
 
-const orden_productoApi = { create, findAll, findOne, update, remove}
+const productoApi = { create, findAll, findOne, update, remove}
 
-export default orden_productoApi;
+export default productoApi;

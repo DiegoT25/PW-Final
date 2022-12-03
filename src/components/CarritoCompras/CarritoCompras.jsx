@@ -14,9 +14,14 @@ import produ4 from "./images_produ/tecladoo.png"
 import produ5 from "./images_produ/Cooler.png"
 import produ6 from "./images_produ/mouse.png"
 import Image from "react-bootstrap/Image";
+import productoApi from "../../api/producto";
 
 function Ocultar(){
     document.getElementById("productos").style.opacity="1";
+}
+const comprar = async () => {
+    const result = await productoApi.create({producto_id:'981ef8b', categoria_id:'teclado' ,nombre:'teclado gamer',precio:'30$' ,descripcion:'teclado color negro'});
+    console.log(result);
 }
 const CarritoCompras =() =>{
     return(
@@ -27,7 +32,7 @@ const CarritoCompras =() =>{
                     <h1>Shopping car items</h1>
                 </Col>
                 <Col className="boton_checkout_h8">
-                    <Nav.Link href="/historia13"><Button id="botoni_h8"><FontAwesomeIcon icon={faCartShopping} /> &nbsp;&nbsp;Checkout</Button></Nav.Link>
+                    <Nav.Link href="/historia13"><Button id="botoni_h8" onclick= {comprar}><FontAwesomeIcon icon={faCartShopping} /> &nbsp;&nbsp;Checkout</Button></Nav.Link>
                 </Col>
                 <Row className="productos">
                     <Row className="lista_h8">

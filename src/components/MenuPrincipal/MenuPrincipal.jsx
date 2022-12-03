@@ -9,9 +9,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
-import "./Historia3.css";
+import "./MenuPrincipal.css";
 
-const Historia3 =() =>{
+const MenuPrincipal =() =>{
     return(
         <Container fluid className="Container">
             <Row className="Contenedor">
@@ -87,4 +87,4 @@ const Historia3 =() =>{
     )
 }
 
-export default Historia3;
+export default MenuPrincipal;

@@ -1,15 +1,15 @@
 import MenuIzquierda from "../MenuIzquierda/MenuIzquierda";
-import Historia5 from '../ProfileInfo';
+import ProfileInfo from '../ProfileInfo';
 
-const Historia5Page =() =>{
+const ProfileInfoPage =() =>{
     return(
         <>
         <MenuIzquierda
-            main={<Historia5 />}>
+            main={<ProfileInfo />}>
                 
             </MenuIzquierda>
         </>
     )
 }
 
-export default Historia5Page;
+export default ProfileInfoPage;

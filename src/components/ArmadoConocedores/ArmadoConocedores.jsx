@@ -11,8 +11,40 @@ import Nav from "react-bootstrap/Nav";
 import ItemCard from "./ItemCard";
 import data from "./data";
 import Cart from './Cart';
+import { useEffect, useState } from 'react';
 
 const ArmadoConocedores =() =>{
+    const [listaComponentes,setlistaComponentes] = useState([])
+    const [componentesSelec, setcomponentesSelec] = useState([])
+
+    const httpFetch = async () => {
+        const resp = await fetch('http://localhost:4000/componentes')
+        const data = resp.json()
+
+        setlistaComponentes(data)
+    }
+
+    useEffect(()=>{
+        httpFetch()
+        cambiarCategoria("Graphics")
+    },[])
+
+    const cambiarCategoria = (categoria) => {
+        let listaComponentesSeleccionados = []
+        listaComponentes.map((componente) => {
+            if (categoria === componente.categoria.nombre) {
+                listaComponentesSeleccionados.push(componente)
+            }
+        })
+        setcomponentesSelec(listaComponentesSeleccionados)
+    }
+{/* <Button id="Botona" onClick={cambiarCategoria("Graphics")}>Graphics</Button>
+                    <Button id="Botonb"onClick={cambiarCategoria("Processor")}>Processor</Button>
+                    <Button id="Botonc" onClick={cambiarCategoria("Memory")}>Memory</Button>
+                    <Button id="Botond" onClick={cambiarCategoria("Storage")}>Storage</Button>
+                    <Button id="Botone" onClick={cambiarCategoria("Cooler")}>Cooler</Button>
+                    <Button id="Botonf" onClick={cambiarCategoria("Windows")}>Windows</Button>
+                    <Button id="Botong" onClick={cambiarCategoria("Power Supply")}>Power Supply</Button> */}
     return(
        <Container fluid className="cont_layout">
         
@@ -28,6 +60,8 @@ const ArmadoConocedores =() =>{
             
             <Col >
                 <Row>
+                
+                    
                     <Button id="Botona" >Graphics</Button>
                     <Button id="Botonb">Processor</Button>
                     <Button id="Botonc">Memory</Button>
@@ -37,6 +71,7 @@ const ArmadoConocedores =() =>{
                     <Button id="Botone">Cooler</Button>
                     <Button id="Botonf">Windows</Button>
                     <Button id="Botong">Power Supply</Button>
+                    
                 </Row>
                 <Col>
                 {data.productData.map((item,index)=>{

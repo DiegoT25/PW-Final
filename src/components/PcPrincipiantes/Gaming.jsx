@@ -17,20 +17,27 @@ import ram from "./imagenes/ram.png";
 import ssd from "./imagenes/ssd.png";
 import wifi from "./imagenes/wifi.png";
 import windows from "./imagenes/windows.png";
-import { useNavigate } from "react-router-dom"
-import prearmadoApi from '../../api/prearmado';
+import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 
-
-
-const purchase = async () => {
-    
-
-        const result = await prearmadoApi.create({pre_armado_id:'981ef8b4-72da-11ed-a1eb-0242ac120002', nombre:'PC Ultra Gamer', descripcion:'Una computadora para jugar a los juegos mas exigentes'});
-        console.log(result);
-}
 
 
 const Game = () => {
+    {/* const params = useParams()
+
+    const [listaComponentes,setlistaComponentes] = useState([])
+
+    const httpFetch = async () => {
+        const resp = await fetch(`http://localhost:4000/prearmado/${params.id}`)
+        const data = resp.json()
+
+        setlistaComponentes(data)
+    }
+
+    useEffect(()=>{
+        httpFetch()
+    },[]) */}
+
     return (
         <Container fluid className="cont_layout1">
            <Row> 
@@ -42,7 +49,7 @@ const Game = () => {
                     <Nav.Link href="/historia10"><Button id="boton_back">{'<'}Back</Button></Nav.Link>
                 </Col>
                 <Col className="boton_checkout_h11">
-                    <Nav.Link href="/historia13"><Button id="botoni_h11" onClick={purchase}><FontAwesomeIcon icon={faCartShopping} /> &nbsp;&nbsp;Checkout</Button></Nav.Link>
+                    <Nav.Link href="/historia13"><Button id="botoni_h11"><FontAwesomeIcon icon={faCartShopping} /> &nbsp;&nbsp;Checkout</Button></Nav.Link>
                 </Col>
             </Row>
         
@@ -50,9 +57,22 @@ const Game = () => {
                 <Image src={pcGamer} id="Grafico"/>
             </Col>
             
-            <Col>
+            <Col sm={8}>
                 <Row>
-                <Col className="products11a">
+                    {/* {
+                        listaComponentes.map((componente) => {
+                            return <Col className="products11a">
+                                <Row className="lista11">
+                                    <Col className="text"><Image src={componente.imagen} id="icono11"/></Col>
+                                    <Col className="text"> {componente.nombre} </Col>
+                                    <Col className="text"> ${componente.precio} </Col>
+                                </Row>  
+                            </Col>
+                        })
+                    } */}
+
+                 <Col className="products11a">
+
                     <Row className="lista11">
                         <Col className="text"><Image src={i7} id="icono11"/></Col>
                         <Col className="text"> INTEL CORE I7-12700F 12-CORE </Col>
@@ -69,35 +89,35 @@ const Game = () => {
                 
 
             
-                <Row className="lista11">
-                    <Col className="text"><Image src={cooler} id="icono11"/></Col>
-                    <Col className="text"> CM MASTERLIQUID ML240L </Col>
-                    <Col className="text"> $89 </Col>
-                </Row>
-                
+                    <Row className="lista11">
+                        <Col className="text"><Image src={cooler} id="icono11"/></Col>
+                        <Col className="text"> CM MASTERLIQUID ML240L </Col>
+                        <Col className="text"> $89 </Col>
+                    </Row>
+                    
 
-            
-                <Row className="lista11">
-                    <Col className="text"><Image src={pcGamer} id="icono11"/></Col>
-                    <Col className="text"> COOLER MASTER TD500 RGB </Col>
-                    <Col className="text"> $99 </Col>
-                </Row>
                 
+                    <Row className="lista11">
+                        <Col className="text"><Image src={pcGamer} id="icono11"/></Col>
+                        <Col className="text"> COOLER MASTER TD500 RGB </Col>
+                        <Col className="text"> $99 </Col>
+                    </Row>
+                    
 
-            
-                <Row className="lista11">
-                    <Col className="text"><Image src={motherboard} id="icono11"/></Col>
-                    <Col className="text"> ASUS PRIME B660M-A | INTEL </Col>
-                    <Col className="text"> $149 </Col>
-                </Row>
                 
+                    <Row className="lista11">
+                        <Col className="text"><Image src={motherboard} id="icono11"/></Col>
+                        <Col className="text"> ASUS PRIME B660M-A | INTEL </Col>
+                        <Col className="text"> $149 </Col>
+                    </Row>
+                    
 
-            
-                <Row className="lista11">
-                    <Col className="text"><Image src={windows} id="icono11"/></Col>
-                    <Col className="text"> WINDOWS 11 HOME + USB RECOVERY </Col>
-                    <Col className="text"> $359 </Col>
-                </Row>
+                
+                    <Row className="lista11">
+                        <Col className="text"><Image src={windows} id="icono11"/></Col>
+                        <Col className="text"> WINDOWS 11 HOME + USB RECOVERY </Col>
+                        <Col className="text"> $359 </Col>
+                    </Row>
                 </Col>
 
 
@@ -148,7 +168,7 @@ const Game = () => {
                     <Col className="text"> BUILD + SETUP + TESTING + WARRANTY </Col>
                     <Col className="text"> $99 </Col>
                 </Row>
-                </Col>
+                </Col> 
                 </Row>
             </Col>
             </Row>

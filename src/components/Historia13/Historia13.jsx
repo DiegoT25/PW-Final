@@ -10,7 +10,7 @@ import imagen14shop from "../Images/paypal.png";
 import imagen15shop from "../Images/shopay.png";
 import imagen16shop from "../Images/loginimagen.png";
 import Countries from "./Country-list";
-import Cart from '../Historia12/Cart';
+import Cart from '../ArmadoConocedores/Cart';
 import build1 from "../Images/build1.png";
 import build2 from "../Images/build2.png";
 import build3 from "../Images/build3.png";

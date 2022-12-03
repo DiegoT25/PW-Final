@@ -1,14 +1,14 @@
 import Layout1 from '../layout/Layout1';
-import Historia12 from '../Historia12';
+import ArmadoConocedores from '../ArmadoConocedores';
 import {CartProvider} from 'react-use-cart';
 
-const Historia12Page =() =>{
+const ArmadoConocedoresPage =() =>{
     return(
         <>
         <Layout1
             main={
             <CartProvider>
-            <Historia12 />
+            <ArmadoConocedores />
             </CartProvider>
             }>
                 
@@ -17,4 +17,4 @@ const Historia12Page =() =>{
     )
 }
 
-export default Historia12Page;
+export default ArmadoConocedoresPage;

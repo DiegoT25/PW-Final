@@ -10,30 +10,34 @@ import "./Historia2.css";
 const Historia2 =() =>{
 
     const [correo, setCorreo] = useState('');
-    const [contraseña, setContraseña] = useState('');
+    const [contrasenia, setContrasenia] = useState('');
 
     useEffect(()=> {
     }, [correo])
     useEffect(()=> {
-    }, [contraseña])
+    }, [contrasenia])
 
     const navigate = useNavigate(); 
+
     const signUp = () => {
         navigate("/")
-
     }
 
     const loginAccount = async () => {
-        let result = await fetch ('http://containers-us-west-109.railway.app/',{
-            method: 'post',
-            body: JSON.stringify({correo, contraseña}),
-            headers: {
-                'Content-Type' : 'application/json'
+        if(correo !== "" && contrasenia !== ""){
+
+            try{
+                const result1 = await usuariosApi.findCorreo({correo:correo});
+                const result2 = await usuariosApi.findContrasenia({contrasenia:contrasenia});
+                
+            } catch {
+                res.send("notfound")
             }
-        });
-        result = await result.json();
-        console.warn(result);
-        localStorage.setItem("usuario", JSON.stringify(result))
+
+            if(result1 !== "notfound" && result2 !== "notfound"){
+                navigate("/historia3")
+            }
+        }
     }
 
     return(
@@ -51,7 +55,7 @@ const Historia2 =() =>{
                             <input type="text" className="form-control" name="correo" id="login" placeholder="Email" onChange={(e) => setCorreo(e.target.value)} value={correo} />
                         </Row>
                         <Row>
-                            <input type="password" className="form-control" name="contraseña" id="login" placeholder="Password" onChange={(e) => setContraseña(e.target.value)} value={contraseña} />
+                            <input type="password" className="form-control" name="contrasenia" id="login" placeholder="Password" onChange={(e) => setContrasenia(e.target.value)} value={contrasenia} />
                         </Row>
                 </Col>
                 <Col>

@@ -40,7 +40,6 @@ const Historia5 =() =>{
 
     const nuevaData  = async () => {
         const data = {
-            usuario_id : usuario.usuario_id,
             nombre : nombre,
             apellido : apellido,
             correo : correo,

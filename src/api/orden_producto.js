@@ -27,6 +27,6 @@ const remove = async(id) => {
     return await Base.remove(newEndpoint);
 }
 
-const usuariosApi = { create, findAll, findOne, update, remove}
+const orden_productoApi = { create, findAll, findOne, update, remove}
 
 export default orden_productoApi;

@@ -1,13 +1,13 @@
-import Historia4 from "../Historia4/Historia4";
-import Historia5 from '../Historia5';
+import MenuIzquierda from "../MenuIzquierda/MenuIzquierda";
+import Historia5 from '../ProfileInfo';
 
 const Historia5Page =() =>{
     return(
         <>
-        <Historia4
+        <MenuIzquierda
             main={<Historia5 />}>
                 
-            </Historia4>
+            </MenuIzquierda>
         </>
     )
 }

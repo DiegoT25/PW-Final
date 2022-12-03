@@ -1,13 +1,13 @@
-import Historia4 from "../Historia4/Historia4";
+import MenuIzquierda from "../MenuIzquierda/MenuIzquierda";
 import Historia14 from '../Historia14';
 
 const Historia14Page =() =>{
     return(
         <>
-        <Historia4
+        <MenuIzquierda
             main={<Historia14 />}>
                 
-            </Historia4>
+            </MenuIzquierda>
         </>
     )
 }

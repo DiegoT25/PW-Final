@@ -6,6 +6,7 @@ import {Link} from "react-router-dom";
 import { useNavigate } from "react-router-dom"
 import Button from "react-bootstrap/Button";
 import "./Historia2.css";
+import usuariosApi from '../../api/usuarios';
 
 const Historia2 =() =>{
 
@@ -25,16 +26,20 @@ const Historia2 =() =>{
 
     const loginAccount = async () => {
         if(correo !== "" && contrasenia !== ""){
-
             try{
-                const result1 = await usuariosApi.findCorreo({correo:correo});
-                const result2 = await usuariosApi.findContrasenia({contrasenia:contrasenia});
+                const loginUser = await usuariosApi.findOne({
+                    where: {
+                        correo : correo,
+                        contrasenia : contrasenia
+                    }
+                })
+                console.log(loginUser)
                 
             } catch {
-                res.send("notfound")
+                console.log("notfound")
             }
 
-            if(result1 !== "notfound" && result2 !== "notfound"){
+            if(console.log() !== "notfound" && console.log() !== "notfound"){
                 navigate("/historia3")
             }
         }

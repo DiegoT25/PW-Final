@@ -15,9 +15,7 @@ import produ5 from "./images_produ/Cooler.png"
 import produ6 from "./images_produ/mouse.png"
 import Image from "react-bootstrap/Image";
 
-function Button(){
-    document.getElementById("productos").style.opacity="1";
-}
+
 const CarritoCompras =() =>{
     return(
         

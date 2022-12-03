@@ -17,6 +17,17 @@ import ram from "./imagenes/ram.png";
 import ssd from "./imagenes/ssd.png";
 import wifi from "./imagenes/wifi.png";
 import windows from "./imagenes/windows.png";
+import { useNavigate } from "react-router-dom"
+import prearmadoApi from '../../api/prearmado';
+
+
+
+const purchase = async () => {
+    
+
+        const result = await prearmadoApi.create({pre_armado_id:'981ef8b4-72da-11ed-a1eb-0242ac120002', nombre:'PC Ultra Gamer', descripcion:'Una computadora para jugar a los juegos mas exigentes'});
+        console.log(result);
+}
 
 
 const Game = () => {
@@ -31,7 +42,7 @@ const Game = () => {
                     <Nav.Link href="/historia10"><Button id="boton_back">{'<'}Back</Button></Nav.Link>
                 </Col>
                 <Col className="boton_checkout_h11">
-                    <Nav.Link href="/historia13"><Button id="botoni_h11"><FontAwesomeIcon icon={faCartShopping} /> &nbsp;&nbsp;Checkout</Button></Nav.Link>
+                    <Nav.Link href="/historia13"><Button id="botoni_h11" onClick={purchase}><FontAwesomeIcon icon={faCartShopping} /> &nbsp;&nbsp;Checkout</Button></Nav.Link>
                 </Col>
             </Row>
         

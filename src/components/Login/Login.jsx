@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from "react-bootstrap/Col"
-import {Link} from "react-router-dom";
 import { useNavigate } from "react-router-dom"
 import Button from "react-bootstrap/Button";
 import "./Login.css";
@@ -64,7 +63,7 @@ const Login =() =>{
                         </Row>
                 </Col>
                 <Col>
-                    <Link to="/historia3"><Button type="submit" id="create_boton" aria-describedby="forgotPassword" onClick={loginAccount}>LOGIN</Button></Link>
+                    <Button type="submit" id="create_boton" aria-describedby="forgotPassword" onClick={loginAccount}>LOGIN</Button>
                 </Col>
                 <Row  className="text-help1">
                     <small id="text">Forgot your password?</small>

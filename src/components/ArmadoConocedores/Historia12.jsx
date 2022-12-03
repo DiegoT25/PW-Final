@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Button from "react-bootstrap/Button";
-import "./ArmadoConocedores.css";
+import "./Historia12.css";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import imagen17shop from "../Images/pcgamer.png";
@@ -13,7 +13,9 @@ import data from "./data";
 import Cart from './Cart';
 import { useEffect, useState } from 'react';
 
-const ArmadoConocedores =() =>{
+let carrito = localStorage.getItem('orden', '[]')
+
+const Historia12 =() =>{
     const [listaComponentes,setlistaComponentes] = useState([])
     const [componentesSelec, setcomponentesSelec] = useState([])
 
@@ -38,13 +40,7 @@ const ArmadoConocedores =() =>{
         })
         setcomponentesSelec(listaComponentesSeleccionados)
     }
-{/* <Button id="Botona" onClick={cambiarCategoria("Graphics")}>Graphics</Button>
-                    <Button id="Botonb"onClick={cambiarCategoria("Processor")}>Processor</Button>
-                    <Button id="Botonc" onClick={cambiarCategoria("Memory")}>Memory</Button>
-                    <Button id="Botond" onClick={cambiarCategoria("Storage")}>Storage</Button>
-                    <Button id="Botone" onClick={cambiarCategoria("Cooler")}>Cooler</Button>
-                    <Button id="Botonf" onClick={cambiarCategoria("Windows")}>Windows</Button>
-                    <Button id="Botong" onClick={cambiarCategoria("Power Supply")}>Power Supply</Button> */}
+
     return(
        <Container fluid className="cont_layout">
         
@@ -60,26 +56,23 @@ const ArmadoConocedores =() =>{
             
             <Col >
                 <Row>
-                
-                    
-                    <Button id="Botona" >Graphics</Button>
-                    <Button id="Botonb">Processor</Button>
-                    <Button id="Botonc">Memory</Button>
-                    <Button id="Botond">Storage</Button>
+                    <Button id="Botona" onClick={cambiarCategoria("Graphics")}>Graphics</Button>
+                    <Button id="Botonb"onClick={cambiarCategoria("Processor")}>Processor</Button>
+                    <Button id="Botonc" onClick={cambiarCategoria("Memory")}>Memory</Button>
+                    <Button id="Botond" onClick={cambiarCategoria("Storage")}>Storage</Button>
                 </Row>
                 <Row>
-                    <Button id="Botone">Cooler</Button>
-                    <Button id="Botonf">Windows</Button>
-                    <Button id="Botong">Power Supply</Button>
-                    
+                    <Button id="Botone" onClick={cambiarCategoria("Cooler")}>Cooler</Button>
+                    <Button id="Botonf" onClick={cambiarCategoria("Windows")}>Windows</Button>
+                    <Button id="Botong" onClick={cambiarCategoria("Power Supply")}>Power Supply</Button>
                 </Row>
                 <Col>
-                {data.productData.map((item,index)=>{
+                {componentesSelec.map((item,index)=>{
                     return(
                         <ItemCard 
-                        img={item.img} 
-                        title={item.title} 
-                        price={item.price}
+                        img={item.imagen} 
+                        title={item.nombre} 
+                        price={item.precio}
                         item={item} 
                         key={index}>
                         </ItemCard>
@@ -104,4 +97,4 @@ const ArmadoConocedores =() =>{
 
 }
 
-export default ArmadoConocedores;
+export default Historia12;

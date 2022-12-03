@@ -39,6 +39,8 @@ const ProfileInfo =() =>{
     useEffect(()=> {
     }, [telefono])
 
+    
+
     const nuevaData  = async () => {
         
         if(nombre !== "" && apellido !== "" && correo !== "" && direccion !== "" && departamento !== "" && ciudad !== "" && codigo_postal !== "" && telefono !== "") {
@@ -46,19 +48,14 @@ const ProfileInfo =() =>{
             try{
 
                 const updateInfo = await usuariosApi.update({
-                    nombre : nombre,
-                    apellido : apellido,
-                    direccion : direccion,
-                    departamento : departamento,
-                    ciudad : ciudad,
-                    codigo_postal : codigo_postal,
-                    telefono : telefono
+                    nombre : usuario.nombre,
+                    apellido : usuario.apellido,
+                    direccion : usuario.direccion,
+                    departamento : usuario.departamento,
+                    ciudad : usuario.ciudad,
+                    codigo_postal : usuario.codigo_postal,
+                    telefono : usuario.telefono
                 },
-                {
-                    where : {
-                        correo: correo,
-                    }
-                }
                 )
                 console.log(updateInfo)
                 

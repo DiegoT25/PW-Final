@@ -1,3 +1,3 @@
-import Historia23 from "./Historia23"
+import Historia23 from "./Perifericos"
 
 export default Historia23;

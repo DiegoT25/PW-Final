@@ -1,5 +1,5 @@
 import Layout1 from '../layout/Layout1';
-import Historia23 from '../Historia23';
+import Historia23 from '../Perifericos';
 
 const Historia23Page =() =>{
     return(

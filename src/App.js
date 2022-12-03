@@ -1,7 +1,7 @@
 import { CreateAccountPage, LoginPage, MenuPrincipalPage, ProfileInfoPage, ProductoBusquedaPage, CarritoComprasPage,
   ArmadoPrincipiantesPage,ArmadoConocedoresPage, PaginaCompraPage, ComponentesCompradosPage, HistoriaExtraPage,OurMissionPage,SupportPage, 
   SupportGuiaPage, CommonQuestionsPage,
-  ReviewsPage, SubmitRequestPage,GamePage, Historia23Page, Historia21Page, Historia24Page,} from './components/pages'
+  ReviewsPage, SubmitRequestPage,GamePage, Historia23Page, InfluencersPage, Historia24Page,} from './components/pages'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css'
 
@@ -30,7 +30,7 @@ function App() {
             <Route path="/historia13" element={<PaginaCompraPage />}/>
             <Route path="/historia12" element={<ArmadoConocedoresPage />}/>        
             <Route path="/historia24" element={<Historia24Page />}/>
-            <Route path="/historia21" element={<Historia21Page />}/>
+            <Route path="/historia21" element={<InfluencersPage />}/>
             <Route path="/historia23" element={<Historia23Page />}/>
 
 

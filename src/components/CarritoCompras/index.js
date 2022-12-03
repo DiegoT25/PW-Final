@@ -1,3 +1,3 @@
-import Historia8 from "./Historia8"
+import CarritoCompras from "./CarritoCompras"
 
-export default Historia8;
+export default CarritoCompras;

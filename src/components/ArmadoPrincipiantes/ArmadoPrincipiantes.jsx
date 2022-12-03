@@ -2,10 +2,10 @@ import  Container from "react-bootstrap/Container"
 import Button from 'react-bootstrap/Button'
 import Col from "react-bootstrap/Col"
 import Row from "react-bootstrap/Row"
-import './Historia10.css';
+import './ArmadoPrincipiantes.css';
 import { BsController, BsBezier,BsCodeSquare, BsBadge4K, BsBuilding, BsShuffle } from "react-icons/bs";
 import { Nav } from "react-bootstrap";
-const Historia10 = () => {
+const ArmadoPrincipiantes = () => {
     return (
     <Container fluid className="cont">
         
@@ -24,4 +24,4 @@ const Historia10 = () => {
     )
 }
 
-export default Historia10
+export default ArmadoPrincipiantes

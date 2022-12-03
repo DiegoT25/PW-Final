@@ -1,5 +1,5 @@
 import Layout1 from '../layout/Layout1';
-import Gaming from '../Historia11';
+import Gaming from '../PcPrincipiantes';
 
 const GamePage =() =>{
     return(

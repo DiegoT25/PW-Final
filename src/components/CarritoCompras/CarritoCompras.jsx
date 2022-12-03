@@ -39,7 +39,7 @@ const CarritoCompras =() =>{
                         <Col className="foto2"> <Image src={produ1} id="produ1"/> </Col>
                         <Col  className="texto"><h4 className="h4_gian">Keyboard & mouse bundle</h4> </Col>
                         <Col  className="precio"> <h4 className="h4_gian">$39</h4></Col>
-                        <Col  className ="basurita"> <Button id="botono" onclick="Ocultar()"><FontAwesomeIcon id="iconolo" icon={faTrashCan} /></Button> </Col>
+                        <Col  className ="basurita"> <Button id="botono" onclick= {Ocultar}><FontAwesomeIcon id="iconolo" icon={faTrashCan} /></Button> </Col>
                     </Row>
                 </Row>
                 <Row  className="productos">
@@ -47,7 +47,7 @@ const CarritoCompras =() =>{
                         <Col  className="foto2"> <Image src={produ2} id="produ2"/> </Col>
                         <Col  className="texto"><h4 className="h4_gian">INTEL CORE I7 - 12700F 12-CORE</h4> </Col>
                         <Col  className="precio"> <h4 className="h4_gian">$359</h4></Col>
-                        <Col  className ="basurita"> <Button id="botono" onclick="Ocultar()"><FontAwesomeIcon id="iconolo" icon={faTrashCan} /> </Button></Col>
+                        <Col  className ="basurita"> <Button id="botono" onclick= {Ocultar}><FontAwesomeIcon id="iconolo" icon={faTrashCan} /> </Button></Col>
                     </Row>
                 </Row>
                 <Row  className="productos">
@@ -55,7 +55,7 @@ const CarritoCompras =() =>{
                         <Col  className="foto2"> <Image src={produ3} id="produ3"/> </Col>
                         <Col  className="texto"><h4 className="h4_gian">NVIDIA GEFORCE RTX 3070 8GB</h4> </Col>
                         <Col  className="precio"> <h4 className="h4_gian">$679</h4></Col>
-                        <Col  className ="basurita"> <Button id="botono" onclick="Ocultar()"><FontAwesomeIcon id="iconolo" icon={faTrashCan} /></Button> </Col>
+                        <Col  className ="basurita"> <Button id="botono" onclick= {Ocultar}><FontAwesomeIcon id="iconolo" icon={faTrashCan} /></Button> </Col>
                     </Row>
                 </Row>
                 <Row  className="productos">
@@ -63,7 +63,7 @@ const CarritoCompras =() =>{
                         <Col  className="foto2"> <Image src={produ4} id="produ4"/> </Col>
                         <Col  className="texto"><h4 className="h4_gian">1TB NVME M.2</h4> </Col>
                         <Col  className="precio" > <h4 className="h4_gian">$99</h4></Col>
-                        <Col  className ="basurita"> <Button id="botono" onclick="Ocultar()"><FontAwesomeIcon id="iconolo" icon={faTrashCan} /></Button> </Col>
+                        <Col  className ="basurita"> <Button id="botono" onclick= {Ocultar}><FontAwesomeIcon id="iconolo" icon={faTrashCan} /></Button> </Col>
                     </Row>
                 </Row>
                 <Row  className="productos">
@@ -71,7 +71,7 @@ const CarritoCompras =() =>{
                         <Col  className="foto2"> <Image src={produ5} id="produ5"/> </Col>
                         <Col  className="texto"><h4 className="h4_gian">COOLER MASTER TD500 RGB</h4> </Col>
                         <Col  className="precio"> <h4 className="h4_gian">$99</h4></Col>
-                        <Col  className ="basurita"> <Button id="botono" onclick="Ocultar()"><FontAwesomeIcon id="iconolo" icon={faTrashCan} /></Button>  </Col>
+                        <Col  className ="basurita"> <Button id="botono" onclick= {Ocultar}><FontAwesomeIcon id="iconolo" icon={faTrashCan} /></Button>  </Col>
                     </Row>
                 </Row>
                 <Row  className="productos">
@@ -79,7 +79,7 @@ const CarritoCompras =() =>{
                         <Col  className="foto2"> <Image src={produ6} id="produ6"/> </Col>
                         <Col  className="texto"><h4 className="h4_gian">BUILD + SETUP + TESTING</h4> </Col>
                         <Col  className="precio"> <h4 className="h4_gian">$99</h4></Col>
-                        <Col  className ="basurita"> <Button id="botono" onclick="Ocultar()"><FontAwesomeIcon id="iconolo" icon={faTrashCan} /></Button> </Col>
+                        <Col  className ="basurita"> <Button id="botono" onclick= {Ocultar}><FontAwesomeIcon id="iconolo" icon={faTrashCan} /></Button> </Col>
                     </Row>
                 </Row>
             </Row>

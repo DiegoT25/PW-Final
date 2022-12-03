@@ -37,7 +37,7 @@ const Historia15 =() =>{
             <Row>
                 {
                     listajuegos.map((juego)=>{
-                        return <div className="col-3 m-3">
+                        return <div className="extTag col-3 m-3">
                             
                         <img src={juego.thumb} alt="" className='extImg'/>
                         <h2 className='exTitulo'>{juego.title}</h2>

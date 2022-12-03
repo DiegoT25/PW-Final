@@ -3,7 +3,7 @@ import Col from "react-bootstrap/Col";
 import Row from 'react-bootstrap/Row';
 import Button from "react-bootstrap/Button";
 import Nav from "react-bootstrap/Nav";
-import "./Historia8.css";
+import "./CarritoCompras.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faTrashCan} from '@fortawesome/free-solid-svg-icons';
 import {faCartShopping} from "@fortawesome/free-solid-svg-icons"
@@ -16,7 +16,7 @@ import produ6 from "./images_produ/mouse.png"
 import Image from "react-bootstrap/Image";
 
 
-const Historia8 =() =>{
+const CarritoCompras =() =>{
     return(
         <Container fluid className="contenedor">
             <Row>
@@ -79,4 +79,4 @@ const Historia8 =() =>{
     )
 }
 
-export default Historia8;
+export default CarritoCompras;

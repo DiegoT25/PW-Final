@@ -5,9 +5,9 @@ import Image from "react-bootstrap/Image";
 import producto1 from "./images_producto/rtx.png";
 import Button from "react-bootstrap/Button";
 import Nav from "react-bootstrap/Nav";
-import "./Historia7.css";
+import "./ProductoBusqueda.css";
 
-const Historia7 =() => {
+const ProductoBusqueda =() => {
     return (
         <Container fluid className="contenedor1">
             <Row >
@@ -18,7 +18,6 @@ const Historia7 =() => {
                         </Col>
                         <Col  className="botoncito">
                             <Nav.Link href="/historia8"><Button id="Botone1">Add to the car</Button></Nav.Link>
-                            <Nav.Link href="/historiaExtra"><Button id="Botone2">Check the price trend</Button></Nav.Link>
                         </Col>
                     </Row>
                     <Row fluid className="right">
@@ -82,4 +81,4 @@ const Historia7 =() => {
     )
 }
 
-export default Historia7;
+export default ProductoBusqueda;

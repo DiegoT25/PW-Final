@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Button from "react-bootstrap/Button";
-import "./Historia12.css";
+import "./ArmadoConocedores.css";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import imagen17shop from "../Images/pcgamer.png";

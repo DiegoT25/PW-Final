@@ -9,14 +9,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
-import "./MenuPrincipal.css";
-
+import "./Historia3.css";
+import  descuento from "../Images/descuento.png"
 const MenuPrincipal =() =>{
     return(
         <Container fluid className="Container">
             <Row className="Contenedor">
                 <Row>
-                    <Col xs={5}>
+                    <Col xs={8}>
                         <Image src={logo} id="logo"/>
                         <Row  className="Title_h2">
                             <h1>Build your PC!</h1>
@@ -31,10 +31,17 @@ const MenuPrincipal =() =>{
                             <Col  className="button_h2">
                                 <Nav.Link href="historia12"><Button id="Boton_h3">Advanced building</Button></Nav.Link>
                             </Col>
-                        </Col>
+                        </Col>  
                     </Col>
-                    
+                    <Col xs={4} >  
+                        <div>
+                            <img style={{height:'200px',marginTop:'100px'}} src={descuento}
+                             alt="" />
+                            <Button href="/HistoriaExtra" id="Boton_h3">VER PROMOCIONES</Button>
+                        </div>
+                    </Col>
                 </Row>
+                
             </Row>
             <Row  className="Footer">
                 <Row>

@@ -12,6 +12,7 @@ const Influencers = () => {
         const resp = await fetch('http://localhost:4000/resenainfluencer')
         const data = await resp.json()
         let listaResenas = []
+        // eslint-disable-next-line
         data.map((resena) => {
             console.log(resena.tipo_resena.descripcion)
             if(resena.tipo_resena.descripcion === "influencer"){

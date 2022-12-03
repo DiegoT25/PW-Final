@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Image from "react-bootstrap/Image";
-import "./Historia12.css";
+import "./ArmadoConocedores.css";
 import {useCart} from 'react-use-cart';
 
 const ItemCard = (props) =>{

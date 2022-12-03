@@ -1,5 +1,5 @@
 import { CreateAccountPage, LoginPage, MenuPrincipalPage, ProfileInfoPage, ProductoBusquedaPage, CarritoComprasPage,
-  ArmadoPrincipiantesPage,ArmadoConocedoresPage, Historia13Page, Historia14Page, HistoriaExtraPage,Historia15Page,Historia16Page, Historia17Page, Historia18Page,
+  ArmadoPrincipiantesPage,ArmadoConocedoresPage, PaginaCompraPage, ComponentesCompradosPage, HistoriaExtraPage,Historia15Page,Historia16Page, Historia17Page, Historia18Page,
     Historia20Page, Historia19Page,GamePage, Historia23Page, Historia21Page, Historia24Page,} from './components/pages'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css'
@@ -15,7 +15,7 @@ function App() {
             <Route path="/historia3" element={<MenuPrincipalPage />}/>
             <Route path="/historia5" element={<ProfileInfoPage />}/>
             <Route path="/historia10" element={<ArmadoPrincipiantesPage />}/>
-            <Route path="/historia14" element={<Historia14Page />}/>
+            <Route path="/historia14" element={<ComponentesCompradosPage />}/>
             <Route path="/historia7" element={<ProductoBusquedaPage />}/>
             <Route path="/historia8" element={<CarritoComprasPage />}/>
             <Route path="/historia15" element={<Historia15Page />}/>
@@ -26,7 +26,7 @@ function App() {
             <Route path="/historia20" element={<Historia20Page />}/>
             <Route path="/historiaExtra" element={<HistoriaExtraPage />}/>
             <Route path="/historia11" element={<GamePage />}/>
-            <Route path="/historia13" element={<Historia13Page />}/>
+            <Route path="/historia13" element={<PaginaCompraPage />}/>
             <Route path="/historia12" element={<ArmadoConocedoresPage />}/>        
             <Route path="/historia24" element={<Historia24Page />}/>
             <Route path="/historia21" element={<Historia21Page />}/>

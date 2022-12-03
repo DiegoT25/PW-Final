@@ -1,3 +1,3 @@
-import MenuLateral from "../MenuLateral/MenuLateral"
+import MenuLateral from "./MenuLateral"
 
 export default MenuLateral;

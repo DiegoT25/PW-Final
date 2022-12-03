@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Button from "react-bootstrap/Button";
-import "./Historia12.css";
+import "./ArmadoConocedores.css";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import imagen17shop from "../Images/pcgamer.png";
@@ -12,7 +12,7 @@ import ItemCard from "./ItemCard";
 import data from "./data";
 import Cart from './Cart';
 
-const Historia12 =() =>{
+const ArmadoConocedores =() =>{
     return(
        <Container fluid className="cont_layout">
         
@@ -69,4 +69,4 @@ const Historia12 =() =>{
 
 }
 
-export default Historia12;
+export default ArmadoConocedores;

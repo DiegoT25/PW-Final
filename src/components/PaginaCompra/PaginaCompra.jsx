@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import {Link} from "react-router-dom";
 import Button from "react-bootstrap/Button";
-import "./Historia13.css";
+import "./PaginaCompra.css";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import imagen13shop from "../Images/googleplay.png";
@@ -20,7 +20,7 @@ import build6 from "../Images/build6.png";
 import build7 from "../Images/build7.png";
 import build8 from "../Images/build8.png";
 import build9 from "../Images/build9.png";
-const Historia13 =() =>{
+const PaginaCompra =() =>{
     return(
         <Container fluid className="cont_layoutax">
             <Row>
@@ -197,4 +197,4 @@ const Historia13 =() =>{
 
 }
 
-export default Historia13;
+export default PaginaCompra;

@@ -1,7 +1,7 @@
 import { Container } from "react-bootstrap";
 import {Col} from "react-bootstrap";
 import {Row} from "react-bootstrap";
-import './Historia14.css';
+import './ComponentesComprados.css';
 import produ1 from "./images_produ/laptop.jpg"
 import produ2 from "./images_produ/corei7.png"
 import produ3 from "./images_produ/geforce.png"

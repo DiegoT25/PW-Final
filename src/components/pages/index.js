@@ -5,6 +5,7 @@ export {default as ProfileInfoPage} from './ProfileInfoPage'
 export {default as ProductoBusquedaPage} from './ProductoBusquedaPage'
 export {default as CarritoComprasPage} from './CarritoComprasPage'
 export {default as ArmadoPrincipiantesPage} from './ArmadoPrincipiantesPage'
+export {default as GamePage} from "./GamePage"
 export {default as Historia12Page} from './Historia12Page'
 export {default as Historia13Page} from './Historia13Page'
 export {default as Historia14Page} from './Historia14Page'
@@ -18,4 +19,4 @@ export {default as Historia21Page} from './Historia21Page'
 export {default as Historia23Page} from './Historia23Page'
 export {default as Historia24Page} from './Historia24Page'
 export {default as HistoriaExtraPage} from "./HistoriaExtraPage"
-export {default as GamePage} from "./GamePage"
+

@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const URI = process.env.REACT_APP_BACKENDURI || 'https://containers-us-west-109.railway.app';
+const URI = process.env.REACT_APP_BACKENDURI || 'http://localhost:4000';
 
 const get = async (endpoint) => {
 

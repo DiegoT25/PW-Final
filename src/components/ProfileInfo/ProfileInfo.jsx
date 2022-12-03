@@ -6,11 +6,11 @@ import Button from "react-bootstrap/Button";
 import Nav from "react-bootstrap/Nav";
 import Countries from "./Country-list";
 import usuariosApi from '../../api/usuarios';
-import "./Historia5.css";
+import "./ProfileInfo.css";
 
 let usuario = JSON.parse(localStorage.getItem('usuario') || "[]")
 
-const Historia5 =() =>{
+const ProfileInfo =() =>{
 
     const [nombre,setNombre] = useState(usuario.nombre);
     const [apellido,setApellido] = useState(usuario.apellido);
@@ -150,4 +150,4 @@ const Historia5 =() =>{
     )
 }
 
-export default Historia5;
+export default ProfileInfo;

@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col';
 import MenuLateral from "./MenuLateral";
 import Header1 from '../layout/Header1';
 
-const Historia4 = (props) => {
+const MenuIzquierda = (props) => {
 
     return (
     <Container fluid className="cont_layout">
@@ -24,4 +24,4 @@ const Historia4 = (props) => {
     </Container>)
 }
 
-export default Historia4
+export default MenuIzquierda

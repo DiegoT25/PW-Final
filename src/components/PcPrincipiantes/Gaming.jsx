@@ -17,8 +17,6 @@ import ram from "./imagenes/ram.png";
 import ssd from "./imagenes/ssd.png";
 import wifi from "./imagenes/wifi.png";
 import windows from "./imagenes/windows.png";
-import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
 
 
 

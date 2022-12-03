@@ -10,8 +10,10 @@ import {faTrashCan} from '@fortawesome/free-solid-svg-icons';
 const Cart = () => {
     const {
         isEmpty,
+        //eslint-disable-next-line
         totalUniqueItems,
         items,
+        //eslint-disable-next-line
         totalItems,
         cartTotal,
         updateItemQuantity,

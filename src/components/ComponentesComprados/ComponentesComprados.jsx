@@ -9,8 +9,6 @@ import produ4 from "./images_produ/tecladoo.png"
 import produ5 from "./images_produ/Cooler.png"
 import produ6 from "./images_produ/mouse.png"
 import Image from "react-bootstrap/Image";
-import { useState, useEffect } from 'react'
-
 const Historia14 = () => {
     return (
         <Container xs={1} md={1} fluid className="contenedor_14">

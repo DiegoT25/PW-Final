@@ -21,7 +21,7 @@ import windows from "./imagenes/windows.png";
 
 
 const Game = () => {
-    {/* const params = useParams()
+    /* const params = useParams()
 
     const [listaComponentes,setlistaComponentes] = useState([])
 
@@ -34,7 +34,7 @@ const Game = () => {
 
     useEffect(()=>{
         httpFetch()
-    },[]) */}
+    },[]) */
 
     return (
         <Container fluid className="cont_layout1">

@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
 import Content from "./Content.jsx";
-import Image from "react-bootstrap/Image";
 import { Container } from 'react-bootstrap'
 
 function Accordion() {

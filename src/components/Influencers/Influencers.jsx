@@ -1,12 +1,12 @@
 import ReactPlayer from 'react-player/lazy'
 import React from 'react'
-import "./Historia21.css";
+import "./Influencers.css";
 import Image from "react-bootstrap/Image";
 import imagen21A from "../Images/MrTop5.jpg";
 import imagen21B from "../Images/ShortCircuit.jpg";
 import { Container } from 'react-bootstrap'
 
-const Historia21 = () => {
+const Influencers = () => {
     return <Container fluid className="bg-light">
         <div className="row container" >
 
@@ -89,4 +89,4 @@ const Historia21 = () => {
         </Container>
 }
 
-export default Historia21
+export default Influencers

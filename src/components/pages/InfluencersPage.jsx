@@ -1,15 +1,15 @@
 import Layout1 from '../layout/Layout1';
-import Historia21 from '../Historia21';
+import Influencers from '../Influencers';
 
-const Historia21Page =() =>{
+const InfluencersPage =() =>{
     return(
         <>
         <Layout1
-            main={<Historia21 />}>
+            main={<Influencers />}>
                 
             </Layout1>
         </>
     )
 }
 
-export default Historia21Page;
+export default InfluencersPage;

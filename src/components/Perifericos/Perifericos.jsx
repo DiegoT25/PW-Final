@@ -1,10 +1,10 @@
 import React from "react";
-import "./Historia23.css";
+import "./Perifericos.css";
 import Top_sellers from "./Topsellers.jsx";
 import { Container } from "react-bootstrap";
 import {Link} from "react-router-dom";
 
-function Historia23(){
+function Perifericos(){
     return(
         <Container fluid className="container">
             <h1 id="h1M23" >Ranking best sellers periferics</h1>
@@ -60,4 +60,4 @@ function Historia23(){
     
 }
 
-export default Historia23;
+export default Perifericos;

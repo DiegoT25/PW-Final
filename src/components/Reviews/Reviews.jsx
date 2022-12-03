@@ -1,4 +1,4 @@
-import "./Historia20.css";
+import "./Reviews.css";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
@@ -8,7 +8,7 @@ import Nav from 'react-bootstrap/Nav';
 
 import { GrStar } from "react-icons/gr";
 
-const Historia20 =() =>{
+const Reviews =() =>{
     return (
         <Container fluid className="contenedor20">
             <Row className="text_h20">
@@ -40,4 +40,4 @@ const Historia20 =() =>{
     }
 
 
-export default Historia20;
+export default Reviews;

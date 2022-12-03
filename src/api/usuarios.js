@@ -16,17 +16,6 @@ const findOne = async(id) => {
     return await Base.get(newEndpoint);
 }
 
-const findCorreo = async(correo) => {
-    const newEndpoint = endpoint.concat('/',correo);
-
-    return await Base.get(newEndpoint);
-}
-
-const findContrasenia = async(contrasenia) => {
-    const newEndpoint = endpoint.concat('/',contrasenia);
-
-    return await Base.get(newEndpoint);
-}
 
 const update = async(request) => {
     return await Base.put(endpoint,request);
@@ -38,6 +27,6 @@ const remove = async(id) => {
     return await Base.remove(newEndpoint);
 }
 
-const usuariosApi = { create, findAll, findOne, update, remove, findCorreo, findContrasenia }
+const usuariosApi = { create, findAll, findOne, update, remove}
 
 export default usuariosApi;

@@ -5,6 +5,7 @@ import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
 import Nav from "react-bootstrap/Nav";
 import Countries from "./Country-list";
+import usuariosApi from '../../api/usuarios';
 import "./Historia5.css";
 
 let usuario = JSON.parse(localStorage.getItem('usuario') || "[]")
@@ -39,24 +40,32 @@ const Historia5 =() =>{
     }, [telefono])
 
     const nuevaData  = async () => {
-        const data = {
-            nombre : nombre,
-            apellido : apellido,
-            correo : correo,
-            direccion : direccion,
-            departamento : departamento,
-            ciudad : ciudad,
-            codigo_postal : codigo_postal,
-            telefono : telefono
+        
+        if(nombre !== "" && apellido !== "" && correo !== "" && direccion !== "" && departamento !== "" && ciudad !== "" && codigo_postal !== "" && telefono !== "") {
+
+            try{
+
+                const updateInfo = await usuariosApi.update({
+                    nombre : nombre,
+                    apellido : apellido,
+                    direccion : direccion,
+                    departamento : departamento,
+                    ciudad : ciudad,
+                    codigo_postal : codigo_postal,
+                    telefono : telefono
+                },
+                {
+                    where : {
+                        correo: correo,
+                    }
+                }
+                )
+                console.log(updateInfo)
+                
+            } catch {
+                console.log("No se realizo la actualizacion de datos")
+            }
         }
-
-        localStorage.setItem('usuario',JSON.stringify(data))
-
-        await fetch('http://containers-us-west-109.railway.app/nuevaData',{
-            method : 'POST',
-            headers : {"Content-Type" : "application/json"},
-            body : JSON.stringify(data)
-        })
     }
     return(
 
